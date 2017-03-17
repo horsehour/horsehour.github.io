@@ -1,59 +1,14 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>HORSEHOUR</title>
+---
+bg: "rails.jpg"
+layout: default
+crawlertitle: "HorseHour - Chunheng Jiang"
+title: "HorseHour"
+summary:
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <link rel="shortcut icon" href="/images/horse.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>HORSEHOUR</h1>
-      </header>
-      <section>
-        <ol>
-<li>Computational Social Choice Theory
-<ul>
-<li><a target="_blank" href="http://www.cs.rpi.edu/~xial/Files/XiaAAMAS13.pdf">Designing Social Choice Mechanisms Using Machine Learning</a>
-</li>
-<li><a target="_blank" href="https://www.coursetalk.com/providers/coursera/courses/making-better-group-decisions-voting-judgement-aggregation-and-fair-division">Making Better Group Decisions Voting, Judgement Aggregation & Fair Division</a>
-</li>
-<li><a target="_blank" href="http://www.amazon.com/exec/obidos/ISBN%3D0387943919/ericstreasuretroA/">Mathematics and Politics - Strategy, Voting, Power and Proof</a>
-</li>
-<li><a target="_blank" href="http://www.mayagupta.org/publications/PairedComparisonTutorialTsukidaGuptaUWTechReport2011.pdf">How to Analyze Paired Comparison Data</a>
-</li>
-</ul>
-</li>
-<li>
-<p>Machine Learning and Data Mining</p>
-<ul>
-  <li><a target="_blank" href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.pdf">Deep Neural Decision Forests</a></li>
-<li><a target="_blank" href="http://mayagupta.org/publications/gupta14a.pdf">Training Highly Multiclass Classiﬁers</a>
-</li>
-<li><a target="_blank" href="http://mayagupta.org/publications/AroraJMLR2013.pdf">Similarity-based Clustering by Left-Stochastic Matrix Factorization</a>
-</li>
-</ul>
-</li>
-<li>
-<p>Programming</p>
-<ul>
-<li>LaTex: beamer/book</li>
-<li>Java: web crawler, functional programming</li>
-<li>Python: Pandas, Matplotlib, Scikit-learn</li>
-</ul>
-</li>
-</ol>
-      </section>
-    </div>
-  </body>
-</html>
+{% for post in site.posts limit: 5 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
