@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username:
-github_username:horsehour
+github_username: horsehour
 disqus_username:
 
 # Build settings
