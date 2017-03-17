@@ -3,7 +3,7 @@
   - 2. <a href="http://www.amazon.com/exec/obidos/ISBN%3D0387943919/ericstreasuretroA/">Mathematics and Politics - Strategy, Voting, Power and Proof</a>
   - 3. <a href="http://www.mayagupta.org/publications/PairedComparisonTutorialTsukidaGuptaUWTechReport2011.pdf">How to Analyze Paired Comparison Data</a>
 2. Machine Learning and Data Mining
-  - 1. <a href="http://mayagupta.org/publications/gupta14a.pdf">Training Highly Multiclass Classiﬁers</a>
+  - 1. <a href="http://mayagupta.org/publications/gupta14a.pdf">Training Highly Multi-class Classifiers</a>
   - 2. <a href="http://mayagupta.org/publications/AroraJMLR2013.pdf">Similarity-based Clustering by Left-Stochastic Matrix Factorization</a>
   - 3. <a href="http://www.mayagupta.org/publications/PairedComparisonTutorialTsukidaGuptaUWTechReport2011.pdf">How to Analyze Paired Comparison Data</a>
 3. Programming
