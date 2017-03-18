@@ -1,14 +1,13 @@
 ---
 bg: "rails.jpg"
 layout: default
-crawlertitle: "HorseHour - Chunheng Jiang"
 title: "HorseHour"
-summary:
 ---
 
 {% for post in site.posts limit: 5 %}
   <article class="index-page">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
     {{ post.excerpt }}
   </article>
 {% endfor %}
+

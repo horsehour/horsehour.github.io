@@ -2,10 +2,8 @@
 bg: "owl.jpg"
 layout: page
 title: "About"
-crawlertitle: "About"
 permalink: /about/
-summary:
-active: about
+visible: 1
 ---
 
 I am Chunheng Jiang, a PhD student in CS of RPI, NY. 
