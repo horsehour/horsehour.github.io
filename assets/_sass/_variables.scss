@@ -3,11 +3,21 @@ $break-point: 960px;
 $md-break-point: 640px;
 $sm-break-point: 320px;
 
-$aside-width: 35%;
-$content-wrapper-width: 62%;
-$article-max-width: 740px;
-$post-margin-left: 38%;
+$aside-width: 10%;
+$content-wrapper-width: 70%;
+$article-max-width: 1024px;
+$post-margin-left: 15%;
+$article-img-w: 1000px;
+
+
+$times: "Times New Roman", sans-serif;
+$georgia: Georgia, serif;
+$antiqua: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif;
+
+$spacing-unit: 30px;
+$line-height: 2;
 
 $img: "../img";
 $js: "../js";
 $font: "../font";
+

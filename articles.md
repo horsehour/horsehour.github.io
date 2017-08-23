@@ -2,7 +2,7 @@
 bg: "tag.jpg"
 layout: page
 permalink: /articles/
-title: "Articles"
+title: "articles"
 visible: 1
 ---
 

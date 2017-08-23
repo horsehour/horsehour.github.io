@@ -1,17 +1,17 @@
 ---
-bg: "owl.jpg"
 layout: page
-title: "About"
+title: "about me"
 permalink: /about/
 visible: 1
 ---
 
-I am Chunheng Jiang, a PhD student in CS of RPI, NY. 
+I am Chunheng Jiang. I am interested in machine learning (e.g. (un)supervised and
+reinforcement learning), artificial intelligence (AI), information retrieval (IR),
+their applications in voting (e.g. computational social choice) and ranking (e.g.
+ranking learning and ranking aggregation) problems. I like to develop simple but
+efficient algorithms, write codes in Java and Python, and take notes with LaTex.
+You can find me at [GitHub](https://github.com/horsehour/),
+[Research Gate](https://www.researchgate.net/profile/Chunheng_Jiang), or drop
+me emails: jiangchunheng@gmail.com.
 
-I am interested in ML, IR, AI, Vote and Rank problems.
-
-You can find me at 
-[GitHub](https://github.com/horsehour/),
-[Research Gate](https://www.researchgate.net/profile/Chunheng_Jiang)
-or via [last+first@gmail.com].
-
+[![railroad]({{ site.images }}/chunheng.jpg)]({{ site.images }}/chunheng.jpg)

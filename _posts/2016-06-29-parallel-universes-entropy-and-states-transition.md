@@ -1,11 +1,10 @@
 ---
-bg: "tools.jpg"
 layout: post
 title: "Parallel Universes, Entropy and States Transition"
 summary: "Some random words on entropy and the distribution over infinite states"
 date: 2016-03-26 20:09:47
 categories: posts
-tags: ["note-random"]
+tags: ["writing"]
 author: chunheng
 ---
 
