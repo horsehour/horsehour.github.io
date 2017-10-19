@@ -1,0 +1,19 @@
+---
+destination : ./_site/ 
+lsi         : false
+highlight   : pygment
+permalink   : none
+markdown    : kramdown  
+
+maruku:
+    use_divs: true
+    use_tex: true
+    png_engine : blahtex
+    png_dir    : images/latex/
+    png_url    : /images/latex/
+
+images: /images/
+
+gmail: jiangchunheng@gmail.com
+horsehour: http://www.horsehour.com
+github: https://github.com/horsehour
