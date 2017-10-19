@@ -85,7 +85,7 @@ _Summer 2013_ : <b>Automating Data Collection</b> <img src="{{ site.images }}/ja
 - Semi-automate the inefficient and expensive manual collection procedure
 - Align the collected data and ouput with homogeneous content
 
-_Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/c++.png" style="width: 35px;"/>
+_Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/c++.png" style="width: 20px;"/>
 - Crawl 5,000 research papers in PDF and related meta data from [arXiv](https://arxiv.org/){:target="_blank"}
 - Convert PDF documents to XML with [pdf2xml](https://sourceforge.net/projects/pdf2xml/){:target="_blank"} and create training set
 - Recognize the meta information blocks (titles, authors, keywords, abstract, and references) with handcrafted rules and machine learning techniques
