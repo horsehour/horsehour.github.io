@@ -712,11 +712,6 @@ print("Elapsed: " + str((end - begin)) + "s")
     PI =  3.141592653589794
     Elapsed: 0.11220011999830604s
 
-
-
-![png](learn_python_files/learn_python_53_1.png)
-
-
 *** argmin, argmax, get_rank ***
 
 
