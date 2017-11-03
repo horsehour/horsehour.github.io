@@ -6,6 +6,8 @@ section: resume
 
 I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI). I am interested in Machine Learning (e.g. supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g. Rank Learning and Rank Aggregation).
 
+[Download CV](/files/cv.pdf)
+
 <div class="section" markdown="1">
 Contact 
 ======= 
@@ -114,6 +116,7 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [rpi]:  https://www.rpi.edu/
 [swjtu]:http://www.swjtu.edu.cn/
 [tjcu]: http://www.tjcu.edu.cn/
+[cv]: /files/cv.pdf
 
 [collegeai]: https://www.collegeai.com/
 [dearank]: https://link.springer.com/article/10.1007/s10994-014-5442-3
