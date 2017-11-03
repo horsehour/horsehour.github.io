@@ -104,7 +104,7 @@ _Fall 2016_ : Assistant, [CSCI 4100/6100: Machine Learning from Data](http://www
 Programming
 ==========  
 Java, Python, C/C++, Matlab, Mathematical, Lingo  
-Eclipse, PyCharm, LaTeX, Markdown, vim, Mac OS X
+Eclipse, PyCharm, Git, LaTeX, Markdown, vim
 </div>
 
 <div class="section" markdown="1">
