@@ -116,7 +116,6 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [rpi]:  https://www.rpi.edu/
 [swjtu]:http://www.swjtu.edu.cn/
 [tjcu]: http://www.tjcu.edu.cn/
-[cv]: /files/cv.pdf
 
 [collegeai]: https://www.collegeai.com/
 [dearank]: https://link.springer.com/article/10.1007/s10994-014-5442-3
