@@ -13,6 +13,7 @@ GitHub.
 
 - [Code](https://github.com/horsehour/collegematch){:target="_blank"}
 - [PDF](https://github.com/horsehour/collegematch/blob/master/Student-College%20Match.pdf){:target="_blank"}
+- [TeX](/files/collegematch.tex){:target="_blank"}
 
 # Problem
 
