@@ -1,9 +1,9 @@
 ---
-destination : ./_site/ 
+destination : ./_site/
 lsi         : false
 highlight   : pygment
 permalink   : none
-markdown    : kramdown  
+markdown    : kramdown
 
 maruku:
     use_divs: true

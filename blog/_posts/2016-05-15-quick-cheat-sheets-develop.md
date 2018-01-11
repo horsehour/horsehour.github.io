@@ -240,6 +240,11 @@ python3 Main.py
  pdflatex report.tex
  ```
 
+## Html rendering with http.server
+```bash
+python3 -m http.server
+```
+
 # Project Building
 
 ## Ant
