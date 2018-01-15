@@ -136,7 +136,8 @@ $W=\big[W^s]^T V^c\in \mathbb R^{d_s\times d_c}$ as the product of the
 original two parametric transformation matrices. The similarity between
 $s_i$ and $c_1$ could be rewritten as $r_{i1} = [x_i^s]^T W x_i^c$.</p>
 
-<p>We borrow the idea from RankNet <sup id="fnref:manning1995introduction"><a href="#fn:manning1995introduction" class="footnote">1</a></sup>, and create a cross entropy loss
+<p>We borrow the idea from RankNet <sup>[<a href="#manning1995introduction">manning1995introduction</a>]</sup>, 
+and create a cross entropy loss
 function based on all pairs of colleges in students’ preference rankings. For
 the pair of colleges $(c_{[j]}, c_{[k]})\in \mathbb P_{s_i}$. We define
 the <strong>true</strong> probability of $s_i$ prefers $c_{[j]}$ to $c_{[k]}$ as</p>
@@ -169,13 +170,7 @@ parametric matrix $W$ based on SVD.</p>
 
 <h1 id="references">References</h1>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:manning1995introduction">
-      <p>Burges, Chris, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. “Learning to rank using gradient descent.” In Proceedings of the 22nd international conference on Machine learning, pp. 89-96. ACM, 2005.&nbsp;<a href="#fnref:manning1995introduction" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p><a id="manning1995introduction">[manning1995introduction]</a>: Burges, Chris, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. “Learning to rank using gradient descent.” In Proceedings of the 22nd international conference on Machine learning, pp. 89-96. ACM, 2005.</p>
 
 
   <address class="signature">

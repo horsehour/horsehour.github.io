@@ -99,7 +99,8 @@ $W=\big[W^s]^T V^c\in \mathbb R^{d_s\times d_c}$ as the product of the
 original two parametric transformation matrices. The similarity between
 $s_i$ and $c_1$ could be rewritten as $r_{i1} = [x_i^s]^T W x_i^c$.
 
-We borrow the idea from RankNet [^manning1995introduction], and create a cross entropy loss
+We borrow the idea from RankNet <sup>[[manning1995introduction](#manning1995introduction)]</sup>, 
+and create a cross entropy loss
 function based on all pairs of colleges in students' preference rankings. For
 the pair of colleges $(c_{[j]}, c_{[k]})\in \mathbb P_{s_i}$. We define
 the **true** probability of $s_i$ prefers $c_{[j]}$ to $c_{[k]}$ as
@@ -132,4 +133,4 @@ parametric matrix $W$ based on SVD.
 
 # References
 
-[^manning1995introduction]: Burges, Chris, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. "Learning to rank using gradient descent." In Proceedings of the 22nd international conference on Machine learning, pp. 89-96. ACM, 2005.
+<a id='manning1995introduction'>[manning1995introduction]</a>: Burges, Chris, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. "Learning to rank using gradient descent." In Proceedings of the 22nd international conference on Machine learning, pp. 89-96. ACM, 2005.
