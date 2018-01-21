@@ -99,6 +99,11 @@ scp username@host:/src/1.py local/  #copy from remote to local
 scp local/*.java username@host:/src/ #copy from local to remote
 ```
 
+## Turn on case insensitive auto-complete of Mac OSX terminal
+```bash
+echo "set completion-ignore-case On" >> ~/.inputrc
+```
+
 # Django
 
 ```python
