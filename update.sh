@@ -1,5 +1,7 @@
 #!/bin/bash
 
+jekyll build
+
 # git add *
 # avoid file of size exceeding 100m
 

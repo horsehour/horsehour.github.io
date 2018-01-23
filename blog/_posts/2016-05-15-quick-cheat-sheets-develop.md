@@ -104,6 +104,11 @@ scp local/*.java username@host:/src/ #copy from local to remote
 echo "set completion-ignore-case On" >> ~/.inputrc
 ```
 
+## Set up local Http server
+```
+python -m http.server
+```
+
 # Django
 
 ```python
