@@ -4,13 +4,7 @@ title: Courses
 section: resume
 ---
 
-This page matinas a complete list of courses that I have taken in universities.
-I have a M.Sc degree in Applied Mathematics, and B.Sc degree in Information and Computing Science. 
-Therefore, many of them will be math courses. Being a student in computer science, I have studied
-Java (since 2011), Python (since 2016) by taking some online courses and working on some interesting
-projects (e.g. write a tiny search engine from the scratch in Java, develop a comprehensive voting
-libraries in Java, build a reinforcement learning based voting model to learn the internal voting 
-procedure in Python).
+This page is maintained as a complete list of courses that I have taken on campus. I have a M.Sc degree in Applied Mathematics, and B.Sc degree in Information and Computing Science. Therefore, many are math courses. Coding is one import skill. Fortunately, I acquired it and I can now be able to code in Matlab, Mathematical, C/C++, Java and Python. I learned Mathematical and Matlab for courses 10 years ago, esp. for advanced algebra problems. I learned C/C++ in college, but had no chance to use it in work. Later, I learned to code in Java (since 2011) and Python (since 2016) because of the work requirements and became experienced. There is no shortcuts for experience, getting your hands dirty (e.g. wrote a tiny search engine from the scratch, developed a comprehensive voting libraries, built a reinforcement learning based voting model to learn the internal voting procedure) and eliminating the annoying bugs.
 
 Mathematics
 -----
@@ -40,7 +34,7 @@ Computer Science
 
 - Visual Basic
 - Data Structure
-- C/C++ Programmming Language
+- C/C++ Programming Language
 
 - Operating Systems
 - Parallel Computing

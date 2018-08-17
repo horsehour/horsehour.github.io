@@ -4,7 +4,7 @@ title: Resume
 section: resume
 ---
 
-I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI). I am interested in Machine Learning (e.g. supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g. Rank Learning and Rank Aggregation).
+I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), working on complex networks and the applications in transportation, biomedical systems. Also, I am interested in Machine Learning (e.g. supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g. Rank Learning and Rank Aggregation). 
 
 [Download CV](/files/cv.pdf)
 
@@ -31,15 +31,13 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 Publications
 ============
 Jiang, Chunheng, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. <b>[Practical Algorithms for Computing STV 
-and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>. In <i>EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case
-in Computational Social Choice</i>. 2017.   
+and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>. In <i>EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice</i>. 2017.   
 
 Jiang, Chunheng and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>.
 <i>Machine Learning</i>, 2015, 101: 415 -- 435.  
 
 Pei, Zhongyou, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>.
-In <i>2013 International Conference on Computer Science and Artificial Intelligence</i>, Yuetong Lin and Gabriel Alungbe, 
-Eds., Chengdu, China, 2013, 97 -- 102.   
+In <i>2013 International Conference on Computer Science and Artificial Intelligence</i>, Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.   
 </div>
 
 <div class="section" markdown="1">
