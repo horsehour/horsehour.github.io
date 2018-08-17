@@ -16,13 +16,14 @@ keywords: search, ranking, information retrieval, stats and math
 目录  
 ----------
 [信息检索与排名](./searchrank/ir.html){:target="_blank"}  
+
   - 向量空间模型  
   - 概率信息检索模型  
   - 基于图的排名模型
   - 图像搜索与排名算法
   - 基于评分的排名模型
   - 搜索引擎
-  
+
 [排名理论](./searchrank/rank.html){:target="_blank"}
   - 社会选择
   - 位置评分与概率模型

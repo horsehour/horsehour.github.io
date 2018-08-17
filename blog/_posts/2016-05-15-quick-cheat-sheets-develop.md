@@ -189,6 +189,14 @@ git merge branch1 branch2 #merge branch1 and branch2 into CURRENT branch
 git pull origin rep1 rep2 #pulls in changes from the remote `rep1` and `rep2` branches
 ``` 
 
+# SVN 
+
+## checkout a folder of a github repo
+```bash
+svn checkout https://github.com/horsehour/reponame/trunk/foldername
+```
+
+
 # PipPy
 
 `PipPy` is a package manager used to install and manage software package in python.

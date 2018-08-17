@@ -13,10 +13,11 @@ arr[arr.length] = new Array("Baidu", "http://www.baidu.com/s?wd=");
 
 arr[arr.length] = new Array("Thesaurus", "http://www.thesaurus.com/browse/");
 arr[arr.length] = new Array("Forvo", "https://forvo.com/search/");
-arr[arr.length] = new Array("Wayback", "http://web.archive.org/web/*/");
+arr[arr.length] = new Array("Archive", "http://web.archive.org/web/*/");
 arr[arr.length] = new Array("YouTube", "https://www.youtube.com/results?search_query=");
 arr[arr.length] = new Array("Wiki", "https://en.wikipedia.org/wiki/");
 arr[arr.length] = new Array("Lib", "http://gen.lib.rus.ec/search.php?req=");
+arr[arr.length] = new Array("SciHub (DOI)", "https://sci-hub.tw/");
 
 function addOptions(){
   var sel = document.search.engine;

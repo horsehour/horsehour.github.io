@@ -8,7 +8,7 @@ section: Home
 <img class='inset right' src='/images/seal.png' title='Chunheng Jiang' width='50px' />
 -->
 
-I'm Chunheng Jiang (蔣春恒), a Ph.D student in Computer Science. I am interested in developing simple but efficient algorithms to solve data related problems, esp. ranking problems. I have compiled a little book named <i>[Searching and Ranking](/blog/book){:target="_blank"}</i>, which covers many important algorithms (some may contain detailed mathematical derivation) in Information Retrieval, Machine Learning (e.g. ensemble learning, learning to rank), Mathematical Optimization, Social Choice, Decision Making and so on. If you can read Chinese, you may find it interesting and very useful. You can find me via [email](mailto:{{ site.gmail }}) or give your comments on the [blog posts](/blog).  
+I'm Chunheng Jiang (蔣春恒), a Ph.D student in Computer Science. I am interested in (1) developing simple but efficient algorithms to solve data related problems, esp. ranking problems, and (2) complex-network theories in transportation and biomedical systems. I have compiled a little book named <i>[Searching and Ranking](/blog/book){:target="_blank"}</i>, which covers many important algorithms (some may contain detailed mathematical derivation) in Information Retrieval, Machine Learning (e.g. ensemble learning, learning to rank), Mathematical Optimization, Social Choice, Decision Making and so on. If you can read Chinese, you may find it interesting and very useful. You can find me via [email](mailto:{{ site.gmail }}) or give your comments on the [blog posts](/blog).  
 
 <div class="section" markdown="1">
 Blog
