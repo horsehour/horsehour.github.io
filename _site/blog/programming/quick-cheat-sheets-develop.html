@@ -45,112 +45,104 @@
 
 <h2 id="files--folders">Files &amp; Folders</h2>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># change directory</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># change directory</span>
 
 <span class="nb">cd</span> ~ <span class="c">#root</span>
-<span class="nb">cd </span>dir
+<span class="nb">cd dir</span>
 
 <span class="c"># print current working dir</span>
 <span class="nb">pwd</span> 
 
 <span class="c"># list files</span>
-ls -alh <span class="c">#a-all, h-human-readibility</span>
+<span class="nb">ls</span> <span class="nt">-alh</span> <span class="c">#a-all, h-human-readibility</span>
 
 <span class="c"># create new file/dir</span>
 vim 1.txt
-<span class="nb">echo</span> <span class="s2">"hello"</span> &gt;&gt; 1.txt  <span class="c"># create new and feed it with hello</span>
-mkdir dir
+<span class="nb">echo</span> <span class="s2">"hello"</span> <span class="o">&gt;&gt;</span> 1.txt  <span class="c"># create new and feed it with hello</span>
+<span class="nb">mkdir dir</span>
 
 <span class="c"># concateenate/print files</span>
-cat 1.txt <span class="c">#all</span>
-tail -n 1.txt <span class="c">#last n lines </span>
-head -n 1.txt <span class="c">#first n lines</span>
+<span class="nb">cat </span>1.txt <span class="c">#all</span>
+<span class="nb">tail</span> <span class="nt">-n</span> 1.txt <span class="c">#last n lines </span>
+<span class="nb">head</span> <span class="nt">-n</span> 1.txt <span class="c">#first n lines</span>
 
 <span class="c"># cp file/dir</span>
-cp a.txt b.txt
-cp -R dir1 dir2
-cp -n a b <span class="c">#without overwritten</span>
+<span class="nb">cp </span>a.txt b.txt
+<span class="nb">cp</span> <span class="nt">-R</span> dir1 dir2
+<span class="nb">cp</span> <span class="nt">-n</span> a b <span class="c">#without overwritten</span>
 
 <span class="c"># rename/move</span>
-mv -f ./f1 ~/home/f2
-find . -name <span class="s2">"*txt"</span> -exec mv <span class="o">{}</span> /new/place <span class="se">\;</span> <span class="c"># lots of files</span>
+<span class="nb">mv</span> <span class="nt">-f</span> ./f1 ~/home/f2
+find <span class="nb">.</span> <span class="nt">-name</span> <span class="s2">"*txt"</span> <span class="nt">-exec</span> <span class="nb">mv</span> <span class="o">{}</span> /new/place <span class="se">\;</span> <span class="c"># lots of files</span>
 
 <span class="c"># delete files/folder</span>
-rm file.txt
-rm -r folder
+<span class="nb">rm </span>file.txt
+<span class="nb">rm</span> <span class="nt">-r</span> folder
 
 <span class="c"># open file with specific app</span>
-open a.log -a ultraedit
+open a.log <span class="nt">-a</span> ultraedit
 
 <span class="c"># zip/unzip</span>
-zip -r data.zip data/
-zip -r data.zip data2/1.txt  <span class="c">#update</span>
+zip <span class="nt">-r</span> data.zip data/
+zip <span class="nt">-r</span> data.zip data2/1.txt  <span class="c">#update</span>
 unzip data.zip
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="searching--count">Searching &amp; Count</h2>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>grep key <span class="k">*</span>.txt  <span class="c">#searching key from .txt files</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">grep </span>key <span class="k">*</span>.txt  <span class="c">#searching key from .txt files</span>
 
 top <span class="c">#cpu usuage</span>
-df -H, du -hs <span class="c"># free disk and used disk</span>
+<span class="nb">df</span> <span class="nt">-H</span>, <span class="nb">du</span> <span class="nt">-hs</span> <span class="c"># free disk and used disk</span>
 
 <span class="c"># count number of files/lines/words</span>
-find dir -type f | wc -l   <span class="c">#files</span>
+find <span class="nb">dir</span> <span class="nt">-type</span> f | <span class="nb">wc</span> <span class="nt">-l</span>   <span class="c">#files</span>
 
 <span class="c"># | is piping and redirection, &gt;&gt; for concatentate or override</span>
-ls -l | wc -l a.txt  <span class="c">#lines/words, or size of the file</span>
+<span class="nb">ls</span> <span class="nt">-l</span> | <span class="nb">wc</span> <span class="nt">-l</span> a.txt  <span class="c">#lines/words, or size of the file</span>
 
-du -hs <span class="k">*</span> | sort <span class="c">#total Disk Usage of the directory in a Human reabible Summary mode</span>
-head -5 1.txt &gt;&gt; 2.txt <span class="c">#append the first 5 lines of 1.txt -&gt; 2.txt</span>
-tail -n +2 -q a.txt &gt;&gt; b.txt <span class="c">#append from 2nd line to the end of file a.txt -&gt; b.txt</span>
-cat 1.txt 2.txt &gt; 3.txt <span class="c">#merge files 1.txt and 2.txt and output -&gt;  3.txt </span>
+<span class="nb">du</span> <span class="nt">-hs</span> <span class="k">*</span> | <span class="nb">sort</span> <span class="c">#total Disk Usage of the directory in a Human reabible Summary mode</span>
+<span class="nb">head</span> <span class="nt">-5</span> 1.txt <span class="o">&gt;&gt;</span> 2.txt <span class="c">#append the first 5 lines of 1.txt -&gt; 2.txt</span>
+<span class="nb">tail</span> <span class="nt">-n</span> +2 <span class="nt">-q</span> a.txt <span class="o">&gt;&gt;</span> b.txt <span class="c">#append from 2nd line to the end of file a.txt -&gt; b.txt</span>
+<span class="nb">cat </span>1.txt 2.txt <span class="o">&gt;</span> 3.txt <span class="c">#merge files 1.txt and 2.txt and output -&gt;  3.txt </span>
 
-curl -O http://www.horsehour.com <span class="c">#crawl page</span>
-</code></pre>
-</div>
+curl <span class="nt">-O</span> http://www.horsehour.com <span class="c">#crawl page</span>
+</code></pre></div></div>
 <p><em>Note</em>: grep: <strong>g</strong>lobally search a <strong>re</strong>gular expression and <strong>p</strong>rint</p>
 
 <h2 id="processes">Processes</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>ps <span class="c">#list all current processes</span>
-ps -ef | grep java <span class="c">#searching all processes with 'java' in names</span>
-ps aux | grep <span class="sb">`</span>z<span class="sb">`</span>  <span class="c"># searching the Zombie processes</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps <span class="c">#list all current processes</span>
+ps <span class="nt">-ef</span> | <span class="nb">grep </span>java <span class="c">#searching all processes with 'java' in names</span>
+ps aux | <span class="nb">grep</span> <span class="sb">`</span>z<span class="sb">`</span>  <span class="c"># searching the Zombie processes</span>
 <span class="c">#kill processes</span>
 <span class="nb">kill </span>pid <span class="c">#by id</span>
-pkill -9 -u <span class="sb">`</span>id -u username<span class="sb">`</span> <span class="c"># by username</span>
-nohup java -jar horse.jar &amp; <span class="c"># run processes to background</span>
+pkill <span class="nt">-9</span> <span class="nt">-u</span> <span class="sb">`</span><span class="nb">id</span> <span class="nt">-u</span> username<span class="sb">`</span> <span class="c"># by username</span>
+<span class="nb">nohup </span>java <span class="nt">-jar</span> horse.jar &amp; <span class="c"># run processes to background</span>
 <span class="nb">echo</span> <span class="nv">$!</span> <span class="c">#recent process</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><em>Note</em>: nohup: Close a terminal without killing a running process, or move running processes to background. If standard output is the terminal, it will be redirected to <code class="highlighter-rouge">nohup.out</code>.</p>
 
 <h2 id="vpn-ssh-and-scp">VPN, SSH and SCP</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>connect vpn.net.a.edu <span class="c">#vpn connection</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>connect vpn.net.a.edu <span class="c">#vpn connection</span>
 ssh username@host <span class="c">#ssh login a remote server</span>
 scp username@host:/src/1.py <span class="nb">local</span>/  <span class="c">#copy from remote to local</span>
 scp <span class="nb">local</span>/<span class="k">*</span>.java username@host:/src/ <span class="c">#copy from local to remote</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="turn-on-case-insensitive-auto-complete-of-mac-osx-terminal">Turn on case insensitive auto-complete of Mac OSX terminal</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"set completion-ignore-case On"</span> &gt;&gt; ~/.inputrc
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"set completion-ignore-case On"</span> <span class="o">&gt;&gt;</span> ~/.inputrc
+</code></pre></div></div>
 
 <h2 id="set-up-local-http-server">Set up local Http server</h2>
-<div class="highlighter-rouge"><pre class="highlight"><code>python -m http.server
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python -m http.server
+</code></pre></div></div>
 
 <h1 id="django">Django</h1>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">django</span><span class="o">.</span><span class="n">get_version</span><span class="p">())</span>
-</code></pre>
-</div>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>python3 -m django --version
-</code></pre>
-</div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">django</span><span class="o">.</span><span class="n">get_version</span><span class="p">())</span>
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> django <span class="nt">--version</span>
+</code></pre></div></div>
 
 <h2 id="structures">Structures</h2>
 <p>All applications must be created following some specific Django conventions. Django has many utilities to create related directories and files automatically, s.t. 
@@ -196,124 +188,108 @@ we can focus on the core code.</p>
 
 <ul>
   <li>create a Django project
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>django-admin startproject djsite
-</code></pre>
-    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>django-admin startproject djsite
+</code></pre></div>    </div>
   </li>
   <li>start the <code class="highlighter-rouge">Development</code> server
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>python3 manage.py runserver
-</code></pre>
-    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 manage.py runserver
+</code></pre></div>    </div>
   </li>
   <li>create a new application
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>python3 manage.py startapp djapp
-</code></pre>
-    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 manage.py startapp djapp
+</code></pre></div>    </div>
   </li>
 </ul>
 
 <h1 id="git">Git</h1>
 
 <h2 id="manually-create-a-new-repo-with-name-eg-drl">Manually create a new repo with name, e.g. <code class="highlighter-rouge">drl</code></h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/horseour/drl.git
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/horseour/drl.git
 git add <span class="k">*</span>
-git commit -a
-git push -u origin master
-</code></pre>
-</div>
+git commit <span class="nt">-a</span>
+git push <span class="nt">-u</span> origin master
+</code></pre></div></div>
 
 <h2 id="create-delete-a-branch-and-navigate-between-branches">Create, delete a branch, and navigate between branches</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git branch bname     <span class="c">#create a new branch</span>
-git branch -a              <span class="c">#list all branches (including all remote ones)</span>
-git branch -d/-D bname  <span class="c"># delete an obsolete branch in safe mode/forcefully</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch bname     <span class="c">#create a new branch</span>
+git branch <span class="nt">-a</span>              <span class="c">#list all branches (including all remote ones)</span>
+git branch <span class="nt">-d</span>/-D bname  <span class="c"># delete an obsolete branch in safe mode/forcefully</span>
 git push origin :bname  <span class="c">#delete a branch on remote server</span>
-git branch -m newname  <span class="c">#rename current branch</span>
+git branch <span class="nt">-m</span> newname  <span class="c">#rename current branch</span>
 git checkout bname <span class="o">(</span>or master<span class="o">)</span> <span class="c">#switch curr branch &amp; update the working dir to match</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="merge-branches-to-master">Merge branches to master</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git merge branch1 branch2 <span class="c">#merge branch1 and branch2 into CURRENT branch</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge branch1 branch2 <span class="c">#merge branch1 and branch2 into CURRENT branch</span>
 git pull origin rep1 rep2 <span class="c">#pulls in changes from the remote `rep1` and `rep2` branches</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h1 id="svn">SVN</h1>
 
 <h2 id="checkout-a-folder-of-a-github-repo">checkout a folder of a github repo</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>svn checkout https://github.com/horsehour/reponame/trunk/foldername
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn checkout https://github.com/horsehour/reponame/trunk/foldername
+</code></pre></div></div>
 
 <h1 id="pippy">PipPy</h1>
 
 <p><code class="highlighter-rouge">PipPy</code> is a package manager used to install and manage software package in python.</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>- pip install pkgname
-- pip install -r requirements.txt
-- pip install pkgname --upgrade
-- pip install pkgname -U
-- pip install git+https://github.com/horsehour.git
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- pip <span class="nb">install </span>pkgname
+- pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+- pip <span class="nb">install </span>pkgname <span class="nt">--upgrade</span>
+- pip <span class="nb">install </span>pkgname <span class="nt">-U</span>
+- pip <span class="nb">install </span>git+https://github.com/horsehour.git
 - pip uninstall pkgname
-</code></pre>
-</div>
+</code></pre></div></div>
 <h1 id="activate-auto-complete-on-terminal">Activate Auto-complete on Terminal</h1>
 
 <ul>
   <li>Check the current shell supported
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>shell <span class="nb">echo</span> <span class="nv">$SHELL</span> 
-</code></pre>
-    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shell <span class="nb">echo</span> <span class="nv">$SHELL</span> 
+</code></pre></div>    </div>
   </li>
   <li>
     <p>If the supported shell is <em>/bin/sh</em> the smart auto-complete may be locked up, change the shell</p>
   </li>
   <li>Check the existence of <code class="highlighter-rouge">.bashrc</code>
-    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>chsh -s /bin/bash username
-chsh usermod -s /bin/bash username
-</code></pre>
-    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chsh <span class="nt">-s</span> /bin/bash username
+chsh usermod <span class="nt">-s</span> /bin/bash username
+</code></pre></div>    </div>
   </li>
 </ul>
 
 <h1 id="compile-source-code--execute">Compile Source Code &amp; Execute</h1>
 
 <h2 id="cc">C/C++</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>gcc -Wall -Werror main.c
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc <span class="nt">-Wall</span> <span class="nt">-Werror</span> main.c
 ./a.out parameters
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="gdb-all-program-to-be-debugged-in-gdb-must-be-compiled-by-gcc-with-the--g-option">GDB: All program to be debugged in gdb must be compiled by gcc with the -g option.</h2>
 
 <h2 id="mpi">MPI</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>mpicc mpi.c
-mpiexec -n 5 ./a.out 
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mpicc mpi.c
+mpiexec <span class="nt">-n</span> 5 ./a.out 
+</code></pre></div></div>
 
 <h2 id="java">Java</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>javac main.java
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javac main.java
 java main
-java -jar main.jar parameters
-</code></pre>
-</div>
+java <span class="nt">-jar</span> main.jar parameters
+</code></pre></div></div>
 
 <h2 id="python">Python</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>python Main.py
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python Main.py
 python3 Main.py
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="rm-latex">$\rm \LaTeX$</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code> pdflatex report.tex
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> pdflatex report.tex
+</code></pre></div></div>
 
 <h2 id="html-rendering-with-httpserver">Html rendering with http.server</h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>python3 -m http.server
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> http.server
+</code></pre></div></div>
 
 <h1 id="project-building">Project Building</h1>
 
@@ -332,67 +308,63 @@ python3 Main.py
 <h1 id="anaconda">Anaconda</h1>
 <p>Package Manager + Environment Manager + Additional Scientific Libraries.</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># specify python version</span>
-conda install <span class="nv">python</span><span class="o">=</span>3.5
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># specify python version</span>
+conda <span class="nb">install </span><span class="nv">python</span><span class="o">=</span>3.5
 <span class="c"># list all created environments</span>
-conda env list
+conda <span class="nb">env </span>list
 <span class="c"># create a new environment</span>
-conda create -n env_reinforcement
+conda create <span class="nt">-n</span> env_reinforcement
 <span class="c"># activate env_reinforcement</span>
 <span class="nb">source </span>activate env_reinforcement
 <span class="c"># list all installed packages in an environment</span>
 conda list
 <span class="c"># install a package for an environment</span>
-conda install --name env_reinforcement scipy
+conda <span class="nb">install</span> <span class="nt">--name</span> env_reinforcement scipy
 <span class="c"># install opencv, see [^f1] </span>
-conda install -c menpo opencv3
+conda <span class="nb">install</span> <span class="nt">-c</span> menpo opencv3
 
 <span class="c"># full uninstall using Anaconda-Clean and simple remove</span>
-conda install anaconda-clean
+conda <span class="nb">install </span>anaconda-clean
 <span class="c"># remove all Anaconda-related files and directories without being prompted to delete each one</span>
-anaconda-clean --yes
+anaconda-clean <span class="nt">--yes</span>
 <span class="c"># remove all packages installed via pip</span>
-pip freeze | xargs pip uninstall -y
+pip freeze | xargs pip uninstall <span class="nt">-y</span>
 <span class="c"># remove unused archives installed via homebrew</span>
 brew cleanup 
 <span class="c"># uninstall all the packages install through Homebrew</span>
-brew remove --force <span class="k">$(</span>brew list<span class="k">)</span> --ignore-dependencies
+brew remove <span class="nt">--force</span> <span class="k">$(</span>brew list<span class="k">)</span> <span class="nt">--ignore-dependencies</span>
 
 <span class="c"># export/create conda environment to/from yaml file for reproduce</span>
-conda env <span class="nb">export</span> &gt; environment.yml
-conda env create -f environment.yml
-</code></pre>
-</div>
+conda <span class="nb">env export</span> <span class="o">&gt;</span> environment.yml
+conda <span class="nb">env </span>create <span class="nt">-f</span> environment.yml
+</code></pre></div></div>
 
 <h1 id="machine-learning-with-lightgbm-xgboost-and-tensorflow">Machine Learning with LightGBM, XGBoost and TensorFlow</h1>
 <h2 id="lightgbm">LightGBM<sup id="fnref:f2"><a href="#fn:f2" class="footnote">1</a></sup></h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>build
-python package install
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build
+python package <span class="nb">install</span>
+</code></pre></div></div>
 <h2 id="xgboost-">XGBoost <sup id="fnref:f3"><a href="#fn:f3" class="footnote">2</a></sup></h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>build
-python package install
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build
+python package <span class="nb">install</span>
+</code></pre></div></div>
 <h2 id="tensorflow-">TensorFlow <sup id="fnref:f4"><a href="#fn:f4" class="footnote">3</a></sup></h2>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>conda create -n tensorflow
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create <span class="nt">-n</span> tensorflow
 <span class="nb">source </span>activate tensorflow
-pip install --ignore-installed --upgrade TF_PYTHON_URL
-</code></pre>
-</div>
+pip <span class="nb">install</span> <span class="nt">--ignore-installed</span> <span class="nt">--upgrade</span> TF_PYTHON_URL
+</code></pre></div></div>
 
 <h1 id="references">References</h1>
 <div class="footnotes">
   <ol>
     <li id="fn:f2">
-      <p>https://aichamp.wordpress.com/2017/02/07/my-experiment-using-lightgbm-microsoft-from-scratch-at-osx/&nbsp;<a href="#fnref:f2" class="reversefootnote">&#8617;</a></p>
+      <p>https://aichamp.wordpress.com/2017/02/07/my-experiment-using-lightgbm-microsoft-from-scratch-at-osx/ <a href="#fnref:f2" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:f3">
-      <p>https://xgboost.readthedocs.io/en/latest/build.html&nbsp;<a href="#fnref:f3" class="reversefootnote">&#8617;</a></p>
+      <p>https://xgboost.readthedocs.io/en/latest/build.html <a href="#fnref:f3" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:f4">
-      <p>https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.3.0-py3-none-any.whl&nbsp;<a href="#fnref:f4" class="reversefootnote">&#8617;</a></p>
+      <p>https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.3.0-py3-none-any.whl <a href="#fnref:f4" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

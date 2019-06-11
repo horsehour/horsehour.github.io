@@ -52,26 +52,23 @@ provides ways to sort the collected data. There are more advanced visualization 
 collected data with an iterative calling graph sorting functions in decreasing order in terms of running time, times
 of being invoked. To use it, we can install it via <code class="highlighter-rouge">conda</code>:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>conda install -c anaconda qcachegrind
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>conda <span class="nb">install</span> <span class="nt">-c</span> anaconda qcachegrind
+</code></pre></div></div>
 
 <p>To profile the program, e.g. <code class="highlighter-rouge">machlearn.py</code>, there are at most two steps:</p>
 <ul>
   <li>collecting running data</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>python -m cProfile -o machlearn.cprof machlearn.py
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python <span class="nt">-m</span> cProfile <span class="nt">-o</span> machlearn.cprof machlearn.py
+</code></pre></div></div>
 
 <ul>
   <li>visualizing the data</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>pyprof2calltree -k -i machlearn.cprof
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pyprof2calltree <span class="nt">-k</span> <span class="nt">-i</span> machlearn.cprof
+</code></pre></div></div>
 
 <p><img class="inset center" src="/images/kcachegrind.png" width="600" /></p>
 
