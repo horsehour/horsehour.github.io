@@ -4,23 +4,24 @@ title: Resume
 section: resume
 ---
 
-I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), working on complex networks and the applications in transportation, biomedical systems. Also, I am interested in Machine Learning (e.g. supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g. Rank Learning and Rank Aggregation). 
+I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), working on inference in partially observed complex networks. Also, I am interested in Machine Learning (e.g., supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g., ranking learning and rank aggregation).
 
 [Download CV](/files/cv.pdf)
 
 <div class="section" markdown="1">
-Contact 
+Contact
 ======= 
 _E-mail_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
 _Website_: [{{ site.horsehour }}]({{ site.horsehour }}){:target="_blank"}  
 _GitHub_: [{{ site.github }}]({{ site.github }}){:target="_blank"}  
-Amos Eaton 123, 110 8th St. Troy NY, 12180, USA
+Lally 08, 110 8th St. Troy NY, 12180, USA
 </div>
 
 <div class="section" markdown="1">
 Education
 ============
 _2016.09 - now_: <b>Ph.D</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_2016.09 - 2018.06_: <b>M.Sc</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 2005.09 - 2009.07: ***B.Sc***, Information and Computing Science, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
@@ -30,14 +31,17 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 <div class="section" markdown="1">
 Publications
 ============
+Jiang, Chunheng, Jianxi Gao, and Malik Magdon-Ismail. <b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, in Proceedings of 34th AAAI Conference on Artificial Intelligence, 2020.
+
+Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. <b>[Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking][put]{:target="_blank"}</b>, in Proceedings of 33rd AAAI Conference on Artificial Intelligence, 2019.
+
 Jiang, Chunheng, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. <b>[Practical Algorithms for Computing STV 
-and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>. In <i>EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice</i>. 2017.   
+and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>, in EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice, 2017.
 
-Jiang, Chunheng and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>.
-<i>Machine Learning</i>, 2015, 101: 415 -- 435.  
+Jiang, Chunheng and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. Machine Learning, 2015, 101: 415 -- 435.  
 
-Pei, Zhongyou, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>.
-In <i>2013 International Conference on Computer Science and Artificial Intelligence</i>, Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.   
+Pei, Zhongyou, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
+in 2013 International Conference on Computer Science and Artificial Intelligence, Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
 </div>
 
 <div class="section" markdown="1">
@@ -83,7 +87,7 @@ _Summer 2016_ : <b>Learning to Vote Fairly</b>, RPI <img src="{{ site.images }}/
 _Summer 2013_ : <b>Automating Data Collection</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
 - Crawl over 10,000 professors' profiles from top Chinese universities
 - Semi-automate the inefficient and expensive manual collection procedure
-- Align the collected data and ouput with homogeneous content
+- Align the collected data and output with homogeneous content
 
 _Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/c++.png" style="width: 20px;"/>
 - Crawl 5,000 research papers in PDF and related meta data from [arXiv](https://arxiv.org/){:target="_blank"}
@@ -94,15 +98,15 @@ _Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images 
 <div class="section" markdown="1">
 Teaching 
 ==========  
-_Spring 2017_ : Assistant, [CSCI 4150: Introduction to Artifical Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI  
-_Fall 2016_ : Assistant, [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI  
+_Spring 2017/18_ : Assistant, [CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI 
+_Fall 2016_ : Assistant, [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI 
 </div>
 
 <div class="section" markdown="1">
 Programming
 ==========  
-Java, Python, C/C++, Matlab, Mathematical, Lingo  
-Eclipse, PyCharm, Git, LaTeX, Markdown, vim
+Python, Java, C/C++, Matlab, Mathematical, Lingo  
+Eclipse, PyCharm, Git, LaTeX, Markdown, Jupyter Notebook, vim
 </div>
 
 <div class="section" markdown="1">
@@ -119,3 +123,5 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [dearank]: https://link.springer.com/article/10.1007/s10994-014-5442-3
 [randwalk]: https://www.researchgate.net/publication/278670661_Random_Walks_on_the_Bipartite-Graph_for_Personalized_Recommendation
 [stv]: http://www.explore-2017.preflib.org/wp-content/uploads/2017/04/paper_16.pdf
+[put]: https://arxiv.org/pdf/1805.06992.pdf
+[estxs]: /files/aaai20-estxs.pdf
