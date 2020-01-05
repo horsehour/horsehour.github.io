@@ -31,16 +31,16 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 <div class="section" markdown="1">
 Publications
 ============
-Jiang, Chunheng, Jianxi Gao, and Malik Magdon-Ismail. <b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, in Proceedings of 34th AAAI Conference on Artificial Intelligence, 2020.
+Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. <b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, in Proceedings of 34th AAAI Conference on Artificial Intelligence, 2020.
 
 Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. <b>[Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking][put]{:target="_blank"}</b>, in Proceedings of 33rd AAAI Conference on Artificial Intelligence, 2019.
 
-Jiang, Chunheng, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. <b>[Practical Algorithms for Computing STV 
+Chunheng Jiang, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. <b>[Practical Algorithms for Computing STV 
 and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>, in EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice, 2017.
 
-Jiang, Chunheng and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. Machine Learning, 2015, 101: 415 -- 435.  
+Chunheng Jiang and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. Machine Learning, 2015, 101: 415 -- 435.  
 
-Pei, Zhongyou, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
+Zhongyou Pei, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
 in 2013 International Conference on Computer Science and Artificial Intelligence, Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
 </div>
 
