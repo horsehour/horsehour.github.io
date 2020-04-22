@@ -5,7 +5,15 @@ section: Home
 keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research
 ---
 
-I bought [horsehour.com][horsehour]{:target="_blank"} in March 2013, but did not use it until May 2017. To record my random thoughts on research and programming, I build this Jekyll blog hosted on GitHub. I prefer to take notes with $\rm \LaTeX $, which has excellent supports for mathematical equations and algorithmatic procedures. Therefore, the posts are written in a hybrid of Markdown (for text) and $\rm \LaTeX $(for equations) and converted into HTML by Pandoc. Sometimes, [pdf2htmlEX][pdf2htmlex]{:target="_blank"} is also used to convert PDFs to HTML documents such that the original structures of PDFs are well kept.
+I bought [horsehour.com][horsehour]{:target="_blank"} in March 2013, 
+but did not use it until May 2017. To keep a track of my random thoughts on research and programming, 
+I set up this Jekyll-based blog and host it on GitHub. 
+I prefer taking notes with $\rm \LaTeX $,
+because of its excellent rendering quality of complex mathematical equations. 
+Therefore, the posts are written in a hybrid of Markdown (for text) and $\rm \LaTeX $(for equations) and 
+converted to HTML using Pandoc. 
+Sometimes, [pdf2htmlEX][pdf2htmlex]{:target="_blank"} is also used to convert PDFs to 
+HTML documents with the original layouts of the PDF docuemnts are preserved.
 
 Recent Posts [<a href="arxiv.html">Complete Archive</a>]
 ------------

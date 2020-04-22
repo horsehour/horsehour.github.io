@@ -139,7 +139,7 @@ scp <span class="nb">local</span>/<span class="k">*</span>.java username@host:/s
 
 <h1 id="django">Django</h1>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">django</span><span class="o">.</span><span class="n">get_version</span><span class="p">())</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">django</span><span class="p">.</span><span class="n">get_version</span><span class="p">())</span>
 </code></pre></div></div>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> django <span class="nt">--version</span>
 </code></pre></div></div>
@@ -332,7 +332,7 @@ pip freeze | xargs pip uninstall <span class="nt">-y</span>
 <span class="c"># remove unused archives installed via homebrew</span>
 brew cleanup 
 <span class="c"># uninstall all the packages install through Homebrew</span>
-brew remove <span class="nt">--force</span> <span class="k">$(</span>brew list<span class="k">)</span> <span class="nt">--ignore-dependencies</span>
+brew remove <span class="nt">--force</span> <span class="si">$(</span>brew list<span class="si">)</span> <span class="nt">--ignore-dependencies</span>
 
 <span class="c"># export/create conda environment to/from yaml file for reproduce</span>
 conda <span class="nb">env export</span> <span class="o">&gt;</span> environment.yml

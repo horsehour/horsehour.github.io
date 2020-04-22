@@ -4,7 +4,12 @@ title: Resume
 section: resume
 ---
 
-I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), working on inference in partially observed complex networks. Also, I am interested in Machine Learning (e.g., supervised or unsupervised learning, and reinforcement learning), Artificial Intelligence (AI), Information Retrieval (IR), and their applications in ranking problems (e.g., ranking learning and rank aggregation).
+I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), 
+now working on inference from partially observed complex networks. 
+Also, I am interested in Machine Learning (e.g., supervised or unsupervised learning, 
+and reinforcement learning), Artificial Intelligence (AI), 
+Information Retrieval (IR), and their applications in ranking problems 
+(e.g., ranking learning and rank aggregation).
 
 [Download CV](/files/cv.pdf)
 
@@ -31,27 +36,44 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 <div class="section" markdown="1">
 Publications
 ============
-Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. <b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, in Proceedings of 34th AAAI Conference on Artificial Intelligence, 2020.
+Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
+<b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
+in Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020), 2020. 
+Acceptance Rate: 12.6%.
 
-Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. <b>[Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking][put]{:target="_blank"}</b>, in Proceedings of 33rd AAAI Conference on Artificial Intelligence, 2019.
+Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
+<b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
+in Proceedings of 34th AAAI Conference on Artificial Intelligence (AAAI 2020), 2020. Oral. Acceptance Rate: 20.6%.
 
-Chunheng Jiang, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. <b>[Practical Algorithms for Computing STV 
-and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>, in EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice, 2017.
+Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. 
+<b>[Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking][put]{:target="_blank"}</b>, 
+in Proceedings of 33rd AAAI Conference on Artificial Intelligence (AAAI 2019), 2019.
 
-Chunheng Jiang and Wenbin Lin. <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. Machine Learning, 2015, 101: 415 -- 435.  
+Chunheng Jiang, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. 
+<b>[Practical Algorithms for Computing STV and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>, 
+in EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice, 2017.
 
-Zhongyou Pei, Chunheng Jiang, and Wenbin Lin. <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
-in 2013 International Conference on Computer Science and Artificial Intelligence, Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
+Chunheng Jiang and Wenbin Lin. 
+<b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. 
+Machine Learning, 2015, 101: 415 -- 435.  
+
+Zhongyou Pei, Chunheng Jiang, and Wenbin Lin. 
+<b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
+in 2013 International Conference on Computer Science and Artificial Intelligence (ICCSAI 2013), 
+Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
 </div>
 
 <div class="section" markdown="1">
 Research Interests
 ============
-Machine Learning and Artificial Intelligence
-- Machine Learning / Optimization 
+Complex Networks and Artificial Intelligence
+- Topology and Dynamics Inference
+- Link Prediction
+- Optimization 
 - Deep Learning / Reinforcement Learning
+- Graph Neural Network
 - Learning to Rank / Rank Aggregation
-- Information Retrieval (Extraction) / Recommendation
+- Information Retrieval / Recommendation
 
 </div>
 
@@ -59,10 +81,12 @@ Machine Learning and Artificial Intelligence
 Work Experience
 ===============
 _2014.07 - 2016.03_: *Software Developer*, Antusuoji Network Technology Co., Ltd., Chengdu, CHINA
+
+<!--
 - Collect web information (commercial products, job positions)
 - Build an information retrieval system based on Solr
 
-<!--_2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
+_2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 - Process the raw data in well organized structure
 - Create model to analysis the financial data with statistical techniques
 -->
@@ -70,8 +94,22 @@ _2014.07 - 2016.03_: *Software Developer*, Antusuoji Network Technology Co., Ltd
 
 <div class="section" markdown="1">
 Projects 
-==========  
-_Spring - Summer 2017_ : <b>Multiround Winner Determination</b>, RPI <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/python.png" style="width: 15px;"/>
+==========
+_Fall 2018 -_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI
+<img src="{{ site.images }}/python.png" style="width: 15px;"/>
+- Predict steady-states of vertices from incomplete networks (e.g., ecology, epidemic, regulatory)
+- Infer vertices’ degrees and missing links from partially observed networks
+- Recovery true nonlinear dynamics with incomplete information (e.g., topology and steady-states)
+
+_Summer 2018 -_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI
+<img src="{{ site.images }}/python.png" style="width: 15px;"/> 
+- Preprocess traffic time series data (denoising, smoothing)
+- Design and compute early warning signals of traffic congestion
+- Machine learning based traffic prediction
+
+_Spring - Summer 2017_ : <b>Multiround Winner Determination</b>, RPI 
+<img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
+<img src="{{ site.images }}/python.png" style="width: 15px;"/>
 - Devise heuristic strategies (sample, cache, prune) to search all tied winners
 - Train reinforcement learning models to simulate the voting procedure
 - Improve the baseline DFS in terms of running time & number of nodes
@@ -125,3 +163,5 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [stv]: http://www.explore-2017.preflib.org/wp-content/uploads/2017/04/paper_16.pdf
 [put]: https://arxiv.org/pdf/1805.06992.pdf
 [estxs]: /files/aaai20-estxs.pdf
+[estks]: /files/ijcai20-estks.pdf
+
