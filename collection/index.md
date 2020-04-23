@@ -23,6 +23,8 @@ Individual Researcher / Teams
 - [CrowdAI](https://www.crowdai.com/){:target="_blank"}, EPFL Switzerland
 - [OpenAI](https://gym.openai.com/){:target="_blank"}, [Maluuba](http://www.maluuba.com/){:target="_blank"}, Microsoft
 - [BostonDynamics](https://www.bostondynamics.com/){:target="_blank"}
+- [Autopilot](https://www.tesla.com/autopilotAI){:target="_blank"}, Tesla
+- [Openpilot](https://comma.ai/){:target="_blank"}, comma.ai
 
 Open Sources
 ------------
