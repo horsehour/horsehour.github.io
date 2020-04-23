@@ -4,12 +4,11 @@ title: Resume
 section: resume
 ---
 
-I am a Ph.D student in Computer Science of Rensselaer Polytechnic Institute (RPI), 
-now working on inference from partially observed complex networks. 
-Also, I am interested in Machine Learning (e.g., supervised or unsupervised learning, 
-and reinforcement learning), Artificial Intelligence (AI), 
-Information Retrieval (IR), and their applications in ranking problems 
-(e.g., ranking learning and rank aggregation).
+I am now doing my PhD on complex networks & artificial intelligence with Dr. Jianxi Gao in RPI. 
+
+<!--
+I plan to go to industry after graduation.  
+-->
 
 [Download CV](/files/cv.pdf)
 
@@ -162,6 +161,6 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [randwalk]: https://www.researchgate.net/publication/278670661_Random_Walks_on_the_Bipartite-Graph_for_Personalized_Recommendation
 [stv]: http://www.explore-2017.preflib.org/wp-content/uploads/2017/04/paper_16.pdf
 [put]: https://arxiv.org/pdf/1805.06992.pdf
-[estxs]: /files/aaai20-estxs.pdf
-[estks]: /files/ijcai20-estks.pdf
+[estxs]: https://arxiv.org/pdf/2001.06722.pdf 
+[estks]: https://arxiv.org/pdf/2004.10546.pdf
 
