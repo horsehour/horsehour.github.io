@@ -8,7 +8,23 @@ section: Home
 <img class='inset right' src='/images/seal.png' title='Chunheng Jiang' width='50px' />
 -->
 
-I'm Chunheng Jiang (蔣春恒), a Ph.D student in Computer Science in Rensselaer Polytechnic Institute (RPI), Troy, New York. I am interested in (1) developing simple but efficient algorithms to solve data related problems, esp. ranking problems, and (2) complex network theories in transportation and biomedical systems. I have compiled a little book named <i>[Searching and Ranking](/blog/book){:target="_blank"}</i>, which covers many important algorithms (some may contain detailed mathematical derivations) in Information Retrieval, Machine Learning (e.g. ensemble learning, learning to rank), Mathematical Optimization, Social Choice, Decision Making and so on. If you can read Chinese, you may find it interesting and very useful. Please drop me an [email](mailto:{{ site.gmail }}) or give your comments on the [blog posts](/blog).
+I'm Chunheng Jiang (蔣春恒), a computer science PhD student of
+Rensselaer Polytechnic Institute (RPI) in Troy NY. 
+I am now working on inference from incomplete networks 
+using sampling and optimization techniques.
+I am a strongly self-motivated learner, 
+and fascinated in developing simple but efficient algorithms for real problems.
+
+I have compiled a little book named 
+<i>[Searching and Ranking](/blog/book){:target="_blank"}</i> based on my learning experience on 
+General Artificial Intelligence (GAI). 
+It is a cheat sheet, covering some classical algorithms (detailed mathematical derivations may be included as well), 
+in information retrieval, machine learning (e.g. ensemble learning, learning to rank), 
+mathematical optimization and social choice. 
+<!--
+If you can read Chinese, it can be very useful for you to understand related research paper. 
+-->
+Please [let me know](mailto:{{ site.gmail }}) if you find it useful. 
 
 <div class="section" markdown="1">
 Blog
