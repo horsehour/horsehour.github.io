@@ -42,7 +42,7 @@ in Proceedings of the 29th International Joint Conference on Artificial Intellig
 Acceptance Rate: 12.6%.
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
-<b>[Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
+<b>[True Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
 in Proceedings of 34th AAAI Conference on Artificial Intelligence (AAAI 2020), 2020. Oral. Acceptance Rate: 20.6%.
 
 Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. 
