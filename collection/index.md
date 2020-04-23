@@ -21,8 +21,8 @@ Individual Researcher / Teams
 - [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/){:target="_blank"}
 - [Deep Mind](https://deepmind.com/){:target="_blank"}, Google
 - [CrowdAI](https://www.crowdai.com/){:target="_blank"}, EPFL Switzerland
-- [Maluuba](http://www.maluuba.com/){:target="_blank"}, Microsoft
-- [OpenAI] (https://gym.openai.com/){:target="_blank"}, Microsoft
+- [OpenAI](https://gym.openai.com/){:target="_blank"}, [Maluuba](http://www.maluuba.com/){:target="_blank"}, Microsoft
+- [BostonDynamics](https://www.bostondynamics.com/){:target="_blank"}
 
 Open Sources
 ------------
