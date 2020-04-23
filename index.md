@@ -12,13 +12,13 @@ I'm Chunheng Jiang (蔣春恒), a computer science PhD student of
 Rensselaer Polytechnic Institute (RPI) in Troy NY. 
 I am now working on inference from incomplete networks 
 using sampling and optimization techniques.
-I am a strongly self-motivated learner, 
-and fascinated in developing simple but efficient algorithms for real problems.
 
+I am a highly self-motivated learner, 
+and fascinated in developing simple but efficient algorithms for real problems.
 I have taken a collection of notes and compiled them into a book named 
 <i>[Searching and Ranking][searchrank]{:target="_blank"}</i>
 based on my learning experience on 
-General Artificial Intelligence (GAI).
+Artificial General Intelligence (AGI).
 It covers some classical algorithms (detailed mathematical derivations may be included as well) 
 in information retrieval, machine learning, 
 mathematical optimization, statistics and decision making. 

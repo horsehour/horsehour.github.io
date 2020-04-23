@@ -10,17 +10,19 @@ Many of them have lied in my lengthy bookmarks for years. An individual page can
 
 Individual Researcher / Teams
 -----
+- [The Center for Complex Network Research](https://www.barabasilab.com/){:target="_blank"}, Albert-László Barabási
+- [Complex Networks](http://havlin.biu.ac.il/){:target="_blank"}, Shlomo Havlin
+- [Synergy Program for Analyzing Resilience and Critical transitionS](https://www.sparcs-center.org/){:target="_blank"}, SPARCS
 - [Machine Learning and Optimization](http://fa.bianp.net/pages/about.html){:target="_blank"}, Fabian Pedregosa
-- [Computational Social Choice and AI](http://www.cs.rpi.edu/~xial/){:target="_blank"}, Lirong Xia
 - [Machine Learning Theory](http://hunch.net){:target="_blank"}, John Langford
 - [Data Science and Machine Learning](http://blog.mikiobraun.de/){:target="_blank"}, Mikio Braun
-- [Machine Learning](http://yyue.blogspot.com/){:target="_blank"}, Yisong Yue
-- [Ensemble Learning](http://www.overkillanalytics.net/more-is-always-better-the-power-of-simple-ensembles/){:target="_blank"}, Carter Sibley
 - [Learning to Rank](https://www.microsoft.com/en-us/research/project/mslr/){:target="_blank"}, Tie-Yan Liu, Tao Qin
 
+- [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/){:target="_blank"}
 - [Deep Mind](https://deepmind.com/){:target="_blank"}, Google
-- [CrowdAI](https://www.crowdai.org/){:target="_blank"}, EPFL Switzerland
+- [CrowdAI](https://www.crowdai.com/){:target="_blank"}, EPFL Switzerland
 - [Maluuba](http://www.maluuba.com/){:target="_blank"}, Microsoft
+- [OpenAI] (https://gym.openai.com/){:target="_blank"}, Microsoft
 
 Open Sources
 ------------
@@ -44,17 +46,6 @@ Open Sources
 - [Open Sim (Musculoskeletal Models)](https://github.com/stanfordnmbl/osim-rl){:target="_blank"}, Stanford University
 - [Brown-UMBC Reinforcement Learning and Planning (BURLAP)](http://burlap.cs.brown.edu/){:target="_blank"}, Brown University
 
-Portals
----------
-- [Decision Trees](http://decisiontrees.net/){:target="_blank"}
-, [Boosting](http://www.boosting.org/){:target="_blank"}
-, [Clustering](http://www.wikiwand.com/en/Cluster_analysis){:target="_blank"}
-, [Deep Learning](http://deeplearning.net/){:target="_blank"}
-, [Machine Learning Dictionary](http://www.cse.unsw.edu.au/~billw/mldict.html){:target="_blank"}
-- [Becoming Human](https://becominghuman.ai/){:target="_blank"}
-, [DLWorld](http://www.dlworld.cn){:target="_blank"} (Chinese)
-, [JiQiZhiXin](https://www.jiqizhixin.com/){:target="_blank"} (Chinese)
-
 Courses
 -------
 - [Coursera - Deep Learning](https://www.deeplearning.ai/){:target="_blank"}, Andrew Ng
@@ -68,7 +59,6 @@ Courses
 
 Programming
 -----------
-- Java 8.0: Functional Programming (Lambda Function & Stream)
 - Python: Jupyter Notebook, Scikit-learn, Pandas, NumPy, Matplotlib
 <!--- TensorFlow, Keras-->
 - $\rm \LaTeX$: Tikz, Beamer
