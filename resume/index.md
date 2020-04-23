@@ -4,7 +4,8 @@ title: Resume
 section: resume
 ---
 
-I am now doing my PhD on complex networks & artificial intelligence with Dr. Jianxi Gao in RPI. 
+I am now doing my PhD on network science & artificial intelligence with Dr. [Jianxi Gao][Gao]{:target="_blank"} in RPI. 
+Contact me if you are interested in my work.
 
 <!--
 I plan to go to industry after graduation.  
@@ -152,6 +153,7 @@ Eclipse, PyCharm, Git, LaTeX, Markdown, Jupyter Notebook, vim
 A complete [list of courses](/resume/courses/) I have taken on-campus or online
 </div>
 
+[gao]: http://gaojianxi.com/
 [rpi]:  https://www.rpi.edu/
 [swjtu]:http://www.swjtu.edu.cn/
 [tjcu]: http://www.tjcu.edu.cn/
