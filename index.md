@@ -15,15 +15,13 @@ using sampling and optimization techniques.
 I am a strongly self-motivated learner, 
 and fascinated in developing simple but efficient algorithms for real problems.
 
-I have compiled a little book named 
-<i>[Searching and Ranking](/blog/book){:target="_blank"}</i> based on my learning experience on 
-General Artificial Intelligence (GAI). 
-It is a cheat sheet, covering some classical algorithms (detailed mathematical derivations may be included as well), 
-in information retrieval, machine learning (e.g. ensemble learning, learning to rank), 
-mathematical optimization and social choice. 
-<!--
-If you can read Chinese, it can be very useful for you to understand related research paper. 
--->
+I have taken a collection of notes and compiled them into a book named 
+<i>[Searching and Ranking][searchrank]{:target="_blank"}</i>
+based on my learning experience on 
+General Artificial Intelligence (GAI).
+It covers some classical algorithms (detailed mathematical derivations may be included as well) 
+in information retrieval, machine learning, 
+mathematical optimization, statistics and decision making. 
 Please [let me know](mailto:{{ site.gmail }}) if you find it useful. 
 
 <div class="section" markdown="1">
@@ -63,3 +61,4 @@ Reading
 <div id="wf9bea313bdf7bde6e5de83d63c44608c"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=horsehour&theID=wf9bea313bdf7bde6e5de83d63c44608c"></script><noscript><a href="http://www.librarything.com/profile/horsehour">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
 </div>
 
+[searchrank]: /files/searchrank.pdf
