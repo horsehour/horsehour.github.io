@@ -58,7 +58,11 @@ Hobbies
 <div class="section" markdown="1">
 Reading
 ==============================================
+<div id="w0789d8409abbeacae8fbd27aa551582a"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=horsehour&theID=w0789d8409abbeacae8fbd27aa551582a"></script><noscript><a href="http://www.librarything.com/profile/horsehour">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
+
+<!--
 <div id="wf9bea313bdf7bde6e5de83d63c44608c"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=horsehour&theID=wf9bea313bdf7bde6e5de83d63c44608c"></script><noscript><a href="http://www.librarything.com/profile/horsehour">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
 </div>
+-->
 
 [searchrank]: /files/searchrank.pdf
