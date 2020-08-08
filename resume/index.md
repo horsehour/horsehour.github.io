@@ -80,6 +80,7 @@ Complex Networks and Artificial Intelligence
 <div class="section" markdown="1">
 Work Experience
 ===============
+_2020.06 - 2020.08_: *Summer Research Internship*, IBM, Yorktown Heights, NY, USA
 _2014.07 - 2016.03_: *Software Developer*, Antusuoji Network Technology Co., Ltd., Chengdu, CHINA
 
 <!--
