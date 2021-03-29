@@ -36,10 +36,14 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 <div class="section" markdown="1">
 Publications
 ============
+Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
+<b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
+arXiv preprint arXiv:2010.1445, 2020.
+
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
 in Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020), 2020. 
-Acceptance Rate: 12.6%.
+Acceptance Rate: 12.6%. (<b>[slides][ijcai20slides]{:target="_blank"})
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[True Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
@@ -71,7 +75,6 @@ Complex Networks and Artificial Intelligence
 - Link Prediction
 - Optimization 
 - Deep Learning / Reinforcement Learning
-- Graph Neural Network
 - Learning to Rank / Rank Aggregation
 - Information Retrieval / Recommendation
 
@@ -96,6 +99,12 @@ _2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 <div class="section" markdown="1">
 Projects 
 ==========
+_Fall 2020 -_ : <b>Learning Dynamics of Deep Neural Network</b>, RPI-IBM AI Research Collaboration (AIRC)
+<img src="{{ site.images }}/python.png" style="width: 15px;"/>
+- Build a networked system for synaptic connections in DNN
+- Propose an integrated dynamical system for feed-forward and BP
+- Develop predictive indicators for the generalization ability of DNN models 
+
 _Fall 2018 -_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
 - Predict steady-states of vertices from incomplete networks (e.g., ecology, epidemic, regulatory)
@@ -123,6 +132,7 @@ _Summer 2016_ : <b>Learning to Vote Fairly</b>, RPI <img src="{{ site.images }}/
 - Learn the fairness criteria in voting rules with machine learning approaches
 - Apply data augmentation to enhance the learning performance
 
+<!--
 _Summer 2013_ : <b>Automating Data Collection</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
 - Crawl over 10,000 professors' profiles from top Chinese universities
 - Semi-automate the inefficient and expensive manual collection procedure
@@ -132,6 +142,8 @@ _Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images 
 - Crawl 5,000 research papers in PDF and related meta data from [arXiv](https://arxiv.org/){:target="_blank"}
 - Convert PDF documents to XML with [pdf2xml](https://sourceforge.net/projects/pdf2xml/){:target="_blank"} and create training set
 - Recognize the meta information blocks (titles, authors, keywords, abstract, and references) with handcrafted rules and machine learning techniques
+-->
+
 </div>
 
 <div class="section" markdown="1">
@@ -166,4 +178,5 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [put]: https://arxiv.org/pdf/1805.06992.pdf
 [estxs]: https://arxiv.org/pdf/2001.06722.pdf 
 [estks]: https://arxiv.org/pdf/2004.10546.pdf
-
+[ijcai20slides]: /files/ijcai20-estks-slides.pdf
+[pandemic]: https://arxiv.org/pdf/2010.14452.pdf
