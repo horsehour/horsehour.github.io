@@ -7,9 +7,6 @@ section: resume
 I am now doing my PhD on network science & artificial intelligence with Dr. [Jianxi Gao][Gao]{:target="_blank"} in RPI. 
 Contact me if you are interested in my work.
 
-<!--
-I plan to go to industry after graduation.  
--->
 
 [Download CV](/files/cv.pdf)
 
@@ -38,12 +35,12 @@ Publications
 ============
 Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
-arXiv preprint arXiv:2010.1445, 2020.
+Scientific Reports, 11, 7645, 2021.
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
 in Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020), 2020. 
-Acceptance Rate: 12.6%. (<b>[slides][ijcai20slides]{:target="_blank"})
+Oral. Acceptance Rate: 12.6%. (<b>[slides][ijcai20slides]{:target="_blank"})
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[True Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
@@ -179,4 +176,4 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [estxs]: https://arxiv.org/pdf/2001.06722.pdf 
 [estks]: https://arxiv.org/pdf/2004.10546.pdf
 [ijcai20slides]: /files/ijcai20-estks-slides.pdf
-[pandemic]: https://arxiv.org/pdf/2010.14452.pdf
+[pandemic]: https://www.nature.com/articles/s41598-021-85432-x 
