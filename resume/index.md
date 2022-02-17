@@ -35,7 +35,7 @@ Publications
 ============
 Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
-Scientific Reports, 11, 7645, 2021.
+Scientific Reports, 11, 7645 (2021).
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
