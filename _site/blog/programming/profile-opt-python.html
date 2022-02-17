@@ -50,12 +50,12 @@ the times each function is called.</p>
 <p>However, it’s not easy to directly read the collected raw data without any preprocessing or organization. The profiler
 provides ways to sort the collected data. There are more advanced visualization tools, e.g. <strong>KCacheGrind</strong>. It reports the
 collected data with an iterative calling graph sorting functions in decreasing order in terms of running time, times
-of being invoked. To use it, we can install it via <code class="highlighter-rouge">conda</code>:</p>
+of being invoked. To use it, we can install it via <code class="language-plaintext highlighter-rouge">conda</code>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>conda <span class="nb">install</span> <span class="nt">-c</span> anaconda qcachegrind
 </code></pre></div></div>
 
-<p>To profile the program, e.g. <code class="highlighter-rouge">machlearn.py</code>, there are at most two steps:</p>
+<p>To profile the program, e.g. <code class="language-plaintext highlighter-rouge">machlearn.py</code>, there are at most two steps:</p>
 <ul>
   <li>collecting running data</li>
 </ul>

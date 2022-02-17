@@ -8,7 +8,7 @@ section: Home
 <img class='inset right' src='/images/seal.png' title='Chunheng Jiang' width='50px' />
 -->
 
-I'm Chunheng Jiang (蔣春恒), a computer science PhD student of
+I'm Chunheng Jiang (蒋春恒), a computer science PhD candidate of
 Rensselaer Polytechnic Institute (RPI) in Troy NY. 
 I am now working on inference from incomplete networks 
 using sampling and optimization techniques.

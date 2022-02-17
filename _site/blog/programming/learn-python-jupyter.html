@@ -41,7 +41,7 @@
 
 <p>To learn a new programming language with specific goals can speed up the learning.  It’s a little guide book for such purpose. When acquiring a new language, it’s very nature to make some subconscious comparisons between the previous ones and the one you are learning. It’s helpful to follow the specific sub-goals to get familiar to the basic data strucutres, for-loop, string, I/O, so on and so forth.</p>
 
-<p>To generate a markdown file from a jupyter notebook<code class="highlighter-rouge">.ipynb</code>, run:</p>
+<p>To generate a markdown file from a jupyter notebook<code class="language-plaintext highlighter-rouge">.ipynb</code>, run:</p>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter nbconvert guide.ipynb <span class="nt">--to</span> guide.md
 </code></pre></div></div>
 
@@ -141,14 +141,14 @@
 <span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="c1">## gives the type of a variable
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>01234
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>01234
 tuple
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">int</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1">## string -&gt; int
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
 </code></pre></div></div>
 
 <p><em>** How to create empty {list, tuple, dict, string}? **</em></p>
@@ -158,7 +158,7 @@ tuple
     <span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;class 'list'&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;class 'list'&gt;
 &lt;class 'tuple'&gt;
 &lt;class 'dict'&gt;
 &lt;class 'int'&gt;
@@ -176,7 +176,7 @@ tuple
         <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s">" is not empty."</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[] is empty.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[] is empty.
 () is empty.
 {} is empty.
 0 is empty.
@@ -194,7 +194,7 @@ True is not empty.
 <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
 20
 30
 40
@@ -224,21 +224,21 @@ classes are hashable by default; they all compare unequal, and their hash value 
 </span><span class="k">print</span><span class="p">(</span><span class="nb">hash</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span> <span class="o">==</span> <span class="nb">hash</span><span class="p">(</span><span class="n">s2</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">t</span> <span class="o">=</span> <span class="p">{</span><span class="s">'i'</span><span class="p">:</span><span class="nb">hash</span><span class="p">(</span><span class="s">'i'</span><span class="p">),</span> <span class="s">'u'</span><span class="p">:</span><span class="nb">hash</span><span class="p">(</span><span class="s">'u'</span><span class="p">)}</span>
 <span class="n">t</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'i': 433611154635708497, 'u': 3049833569042992159}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'i': 433611154635708497, 'u': 3049833569042992159}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">t</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
     <span class="k">print</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>i 433611154635708497
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>i 433611154635708497
 u 3049833569042992159
 </code></pre></div></div>
 
@@ -246,14 +246,14 @@ u 3049833569042992159
 <span class="n">l</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[9, True]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[9, True]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">l</span><span class="p">.</span><span class="n">reverse</span><span class="p">()</span>
 <span class="n">l</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 9, '2', True]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 9, '2', True]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
@@ -262,13 +262,13 @@ u 3049833569042992159
 <span class="n">b</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[9, 2, 0]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[9, 2, 0]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'it'</span> <span class="ow">in</span> <span class="n">s1</span><span class="p">,</span> <span class="s">'we'</span> <span class="ow">in</span> <span class="n">s1</span><span class="p">,</span> <span class="n">s1</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">'he'</span><span class="p">),</span> <span class="n">s1</span><span class="p">.</span><span class="n">rfind</span><span class="p">(</span><span class="s">'g'</span><span class="p">),</span> <span class="n">s1</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="s">'t'</span><span class="p">),</span> <span class="n">s1</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">' '</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True False -1 5 2 ["it's", 'great']
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True False -1 5 2 ["it's", 'great']
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s3</span> <span class="o">=</span> <span class="s">"  welcome to python"</span>
@@ -277,14 +277,14 @@ u 3049833569042992159
 <span class="k">print</span><span class="p">(</span><span class="s">"after:"</span> <span class="o">+</span> <span class="n">s3</span><span class="p">.</span><span class="n">strip</span><span class="p">())</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>before:  welcome to python
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>before:  welcome to python
 after:welcome to python
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'{1} and {0}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'spam'</span><span class="p">,</span> <span class="s">'eggs'</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eggs and spam
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eggs and spam
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="o">=</span> <span class="s">"/Users/chjiang/GitHub/csc/soc-3-hardcase/m10n10-1.csv"</span>
@@ -293,7 +293,7 @@ after:welcome to python
         <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s">""</span><span class="p">)</span> <span class="c1">## without newline
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10
 0,c0
 1,c1
 2,c2
@@ -327,7 +327,7 @@ after:welcome to python
         <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s">""</span><span class="p">)</span> <span class="c1">## without newline
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1,7,9,4,2,1,0,6,5,8,3
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1,7,9,4,2,1,0,6,5,8,3
 1,5,2,7,1,4,9,3,8,0,6
 1,5,2,7,8,6,0,3,4,9,1
 1,9,7,6,2,5,8,4,1,0,3
@@ -353,7 +353,7 @@ after:welcome to python
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">profile</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(0, 4, 3, 5, 7, 2, 8, 6, 9, 1): 1,
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(0, 4, 3, 5, 7, 2, 8, 6, 9, 1): 1,
  (3, 2, 6, 1, 5, 7, 4, 8, 9, 0): 1,
  (3, 8, 4, 2, 6, 5, 9, 7, 0, 1): 1,
  (5, 2, 7, 1, 4, 9, 3, 8, 0, 6): 1,
@@ -368,13 +368,13 @@ after:welcome to python
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">profile</span><span class="p">.</span><span class="n">items</span><span class="p">()))</span> <span class="c1">## iteratively get access to all items
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>((0, 4, 3, 5, 7, 2, 8, 6, 9, 1), 1)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>((0, 4, 3, 5, 7, 2, 8, 6, 9, 1), 1)
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">profile</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(0, 4, 3, 5, 7, 2, 8, 6, 9, 1): 1,
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(0, 4, 3, 5, 7, 2, 8, 6, 9, 1): 1,
  (3, 2, 6, 1, 5, 7, 4, 8, 9, 0): 1,
  (3, 8, 4, 2, 6, 5, 9, 7, 0, 1): 1,
  (5, 2, 7, 1, 4, 9, 3, 8, 0, 6): 1,
@@ -392,7 +392,7 @@ after:welcome to python
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">c</span><span class="p">,</span> <span class="n">e</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>('3', 'w')
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>('3', 'w')
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ll</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span>
@@ -400,7 +400,7 @@ after:welcome to python
 <span class="k">print</span><span class="p">(</span><span class="n">ll</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[2, 1, 9, 43]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[2, 1, 9, 43]
 </code></pre></div></div>
 
 <ol>
@@ -429,8 +429,8 @@ after:welcome to python
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="o">=</span> <span class="s">"./temp.txt"</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="s">"w+"</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
-    <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"hello</span><span class="si">\</span><span class="se">n</span><span class="s">"</span><span class="p">)</span>
-    <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"what?</span><span class="si">\</span><span class="se">n</span><span class="s">"</span><span class="p">)</span>
+    <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"hello</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+    <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"what?</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
 
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="s">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">file</span><span class="p">:</span>
@@ -441,7 +441,7 @@ after:welcome to python
 </span>    <span class="n">os</span><span class="p">.</span><span class="n">rename</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">source</span> <span class="o">+</span> <span class="s">"-2"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hello
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hello
 what?
 </code></pre></div></div>
 
@@ -449,7 +449,7 @@ what?
 <span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5
 </code></pre></div></div>
 
 <p>** Tranform a list to a set **</p>
@@ -457,13 +457,13 @@ what?
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">set</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="c1">## sorted set
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{0, 1, 4, 9}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{0, 1, 4, 9}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">==</span> <span class="mi">5</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">a</span><span class="p">))</span> <span class="o">==</span> <span class="mi">4</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
 </code></pre></div></div>
 
 <p><em>** Set operations **</em></p>
@@ -478,7 +478,7 @@ what?
 </span><span class="p">(</span><span class="n">s1</span> <span class="o">|</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s1</span> <span class="o">&amp;</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s1</span> <span class="o">-</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s1</span> <span class="o">^</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s3</span> <span class="o">&lt;=</span> <span class="n">s1</span><span class="p">,</span> <span class="n">s4</span> <span class="o">==</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s4</span> <span class="o">&lt;</span> <span class="n">s2</span><span class="p">,</span> <span class="n">s4</span> <span class="o">&lt;=</span> <span class="n">s2</span><span class="p">)</span> 
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>({'a', 'b', 'c', 'd', 'e'},
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>({'a', 'b', 'c', 'd', 'e'},
  {'b', 'c'},
  {'a', 'd'},
  {'a', 'd', 'e'},
@@ -493,7 +493,7 @@ what?
 <span class="k">print</span><span class="p">((</span><span class="n">s3</span><span class="p">.</span><span class="n">issubset</span><span class="p">(</span><span class="n">s1</span><span class="p">),</span> <span class="n">s4</span><span class="p">.</span><span class="n">isdisjoint</span><span class="p">(</span><span class="n">s2</span><span class="p">),</span> <span class="n">s4</span><span class="p">.</span><span class="n">issubset</span><span class="p">(</span><span class="n">s2</span><span class="p">)))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>({'c', 'a', 'e', 'd', 'b'}, {'b', 'c'}, {'a', 'd'}, {'e', 'd', 'a'})
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>({'c', 'a', 'e', 'd', 'b'}, {'b', 'c'}, {'a', 'd'}, {'e', 'd', 'a'})
 (True, False, True)
 </code></pre></div></div>
 
@@ -501,7 +501,7 @@ what?
 </span><span class="s">'a'</span> <span class="ow">in</span> <span class="n">s1</span><span class="p">,</span> <span class="s">'ag'</span> <span class="ow">in</span> <span class="n">s2</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(True, False)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(True, False)
 </code></pre></div></div>
 
 <p><em>** Priority Queue **</em></p>
@@ -516,7 +516,7 @@ what?
 <span class="k">print</span><span class="p">(</span><span class="n">q1</span><span class="p">.</span><span class="n">empty</span><span class="p">(),</span> <span class="n">q1</span><span class="p">.</span><span class="n">full</span><span class="p">(),</span> <span class="n">q1</span><span class="p">.</span><span class="n">maxsize</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False True 2
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False True 2
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># add elements into quque
@@ -528,7 +528,7 @@ what?
 <span class="k">print</span><span class="p">(</span><span class="n">q2</span><span class="p">.</span><span class="n">empty</span><span class="p">(),</span> <span class="n">q2</span><span class="p">.</span><span class="n">full</span><span class="p">(),</span> <span class="n">q2</span><span class="p">.</span><span class="n">maxsize</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False False 0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False False 0
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># gets acess to elements in queue, it also remove elements from queue
@@ -536,7 +536,7 @@ what?
     <span class="k">print</span><span class="p">(</span><span class="n">q2</span><span class="p">.</span><span class="n">get</span><span class="p">())</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(-1, 'e')
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(-1, 'e')
 (0, 'b')
 (1, 'a')
 (9, 'e')
@@ -576,7 +576,7 @@ what?
 <span class="k">print</span><span class="p">(</span><span class="s">"peel:"</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">q</span><span class="p">.</span><span class="n">get</span><span class="p">()))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Before state3: [19, 100]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Before state3: [19, 100]
 peel:[0, 2, 4]
 After state3: [100, 100]
 peel:[100, 100]
@@ -588,7 +588,7 @@ peel:[100, 100]
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">v</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6
 </code></pre></div></div>
 
 <p><em>** Timing **</em> It’s an example to compute the $\pi$ value from a series approximation:
@@ -621,7 +621,7 @@ $\pi = \sqrt{12} \sum\limits_{i=0}^\infty \frac{1}{(2 i + 1) 3^i}$</p>
 <span class="k">print</span><span class="p">(</span><span class="s">"Elapsed: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">((</span><span class="n">end</span> <span class="o">-</span> <span class="n">begin</span><span class="p">))</span> <span class="o">+</span> <span class="s">"s"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PI =  3.141592653589794
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PI =  3.141592653589794
 Elapsed: 0.11220011999830604s
 </code></pre></div></div>
 
@@ -671,19 +671,19 @@ Elapsed: 0.11220011999830604s
 <span class="n">get_rank</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 4, 1, 5, 2, 3]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 4, 1, 5, 2, 3]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">argmin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 4]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 4]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">argmax</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[2, 3]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[2, 3]
 </code></pre></div></div>
 
 <p><em>** <strong>init</strong> method is used when the class is called to initialize the instance, while the <strong>call</strong> method is called when the instance is called **</em></p>
@@ -703,7 +703,7 @@ Elapsed: 0.11220011999830604s
 </span><span class="n">cls</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span> <span class="c1"># call instance with parameters
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(6, 7)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(6, 7)
 </code></pre></div></div>
 
 <p><em>** difference between python2 and python3 in division operation between two integers **</em></p>
@@ -738,7 +738,7 @@ need to change the denominator (number below the line in a fraction), i.e.</p>
 </span><span class="k">print</span><span class="p">(</span><span class="s">"del lst[0]: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">lst</span><span class="p">))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rmv 0:[8, 29, -1, 89]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rmv 0:[8, 29, -1, 89]
 pop:[8, 29, -1]
 pop(1): [8, -1]
 del lst[0]: [-1]
@@ -772,7 +772,7 @@ closed automatically at the end of the <strong>with</strong> block.</p>
 <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2, 4, [5, 0]]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2, 4, [5, 0]]
 [1, 2, 4, [5, 0], 8, 9]
 </code></pre></div></div>
 
@@ -782,7 +782,7 @@ closed automatically at the end of the <strong>with</strong> block.</p>
 <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="ow">in</span> <span class="n">d</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
 </code></pre></div></div>
 
 <p><em>** Merging of two dict **</em></p>
@@ -792,21 +792,21 @@ closed automatically at the end of the <strong>with</strong> block.</p>
 <span class="n">d</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(1, 3): 2, (2, 4, 5): 1, (2, 5): 2}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(1, 3): 2, (2, 4, 5): 1, (2, 5): 2}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">e</span> <span class="o">=</span> <span class="p">{(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">:</span> <span class="mi">4</span><span class="p">}</span>
 <span class="n">d</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(1, 3): 2, (2, 4, 5): 1, (2, 5): 2}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{(1, 3): 2, (2, 4, 5): 1, (2, 5): 2}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="s">'a'</span> <span class="ow">in</span> <span class="n">a</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
 </code></pre></div></div>
 
 <p><em>**module import and <strong>init</strong>.py **</em>
@@ -816,8 +816,8 @@ file, even the file is empty, otherwise, the module under the directory may fail
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="o">=</span> <span class="s">"/users/chjiang/github/csc/temp.txt"</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="s">"w+"</span><span class="p">)</span> <span class="k">as</span> <span class="n">output</span><span class="p">:</span>
-    <span class="n">output</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"lhel"</span> <span class="o">+</span> <span class="s">"</span><span class="si">\</span><span class="se">n</span><span class="s">"</span><span class="p">)</span>
-    <span class="n">output</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"lskdf"</span> <span class="o">+</span> <span class="s">"</span><span class="si">\</span><span class="se">n</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">output</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"lhel"</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">output</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"lskdf"</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
@@ -826,19 +826,19 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="n">s</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{1, 2}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{1, 2}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sorted</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2]
 </code></pre></div></div>
 
 <p><em>** shell basic: kill background process nohup **</em></p>
@@ -883,7 +883,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">prof</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'a': 100, 'b': 90}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'a': 100, 'b': 90}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#*** record log using logging ***
@@ -926,14 +926,14 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="c1"># os.remove(file)
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># basename
 </span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">basename</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'temp.log'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'temp.log'
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
@@ -947,7 +947,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="n">a</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[20, 4, 3, 1]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[20, 4, 3, 1]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
@@ -955,7 +955,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
@@ -964,13 +964,13 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)]</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1.0, 13.0, 4.0]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1.0, 13.0, 4.0]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;zip at 0x1073181c8&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;zip at 0x1073181c8&gt;
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span>
@@ -979,7 +979,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 1, 3, 4]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 1, 3, 4]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
@@ -989,7 +989,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sum</span><span class="p">([</span><span class="n">e</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">a</span><span class="p">])</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">onehot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
@@ -1012,21 +1012,21 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="n">onehot</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 1, 0, 0, 1, 1, 0, 0, 0, 0]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 1, 0, 0, 1, 1, 0, 0, 0, 0]
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">}</span>
 <span class="n">a</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{1: 4}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{1: 4}
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"{0:&gt;2} {1:&lt;30} {2:&lt;2} {3:&lt;10}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="nb">str</span><span class="p">([</span><span class="mi">1</span><span class="p">]),</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">str</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">])))</span>
 <span class="k">print</span><span class="p">(</span><span class="s">"{0:&gt;2} {1:&lt;30} {2:&lt;2} {3:&lt;10}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="nb">str</span><span class="p">([</span><span class="mi">1</span><span class="p">]),</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="p">[</span><span class="mi">2</span><span class="p">]),</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">str</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">])))</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1] [0, 1, 4, 5]                   [0, 1, 4, 5] [0, 9]    
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1] [0, 1, 4, 5]                   [0, 1, 4, 5] [0, 9]    
 [1] [0, 1, 4, 5, 2]                [0, 1, 4, 5] [1, 9]    
 </code></pre></div></div>
 
@@ -1034,14 +1034,14 @@ file, even the file is empty, otherwise, the module under the directory may fail
 <span class="o">-</span><span class="n">sys</span><span class="p">.</span><span class="n">float_info</span><span class="p">.</span><span class="nb">min</span> <span class="o">&lt;</span> <span class="mi">0</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># minimum float
 </span><span class="o">-</span><span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)</span> <span class="o">&lt;</span> <span class="o">-</span><span class="n">sys</span><span class="p">.</span><span class="n">float_info</span><span class="p">.</span><span class="nb">max</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span>
@@ -1049,7 +1049,7 @@ file, even the file is empty, otherwise, the module under the directory may fail
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="mi">2</span>
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>False
 </code></pre></div></div>
 
 

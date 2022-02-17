@@ -22,9 +22,9 @@ Lally 08, 110 8th St. Troy NY, 12180, USA
 <div class="section" markdown="1">
 Education
 ============
-_2016.09 - now_: <b>Ph.D</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_2016.09 - 2018.06_: <b>M.Sc</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
+_2016.08 - now_: <b>Ph.D.</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_2016.08 - 2018.05_: <b>M.S.</b>, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_2011.09 - 2014.07_: <b>M.S.</b>, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 2005.09 - 2009.07: ***B.Sc***, Information and Computing Science, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
 -->
@@ -33,6 +33,19 @@ _2011.09 - 2014.07_: <b>M.Sc</b>, Applied Mathematics, [Southwest Jiaotong Unive
 <div class="section" markdown="1">
 Publications
 ============
+Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
+<b>[Neural Capacitance: A New Perspective of Neural
+Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
+arXiv preprint arXiv:2201.04194, (2022).
+
+Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
+<b>[Nuclear Reaction Network Unveils Novel Reaction Patterns Based on Stellar Energies][nucnet]{:target="_blank"}</b>,
+New Journal of Physics, (2021).
+
+Xiang Niu, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss, and Boleslaw Szymanski.
+<b>[From Data to Complex Network Control of Airline Flight Delays][flightnet]{:target="_blank"}</b>, 
+Scientific Reports, 11, 18715, (2021).
+
 Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
 Scientific Reports, 11, 7645 (2021).
@@ -74,14 +87,15 @@ Complex Networks and Artificial Intelligence
 - Deep Learning / Reinforcement Learning
 - Learning to Rank / Rank Aggregation
 - Information Retrieval / Recommendation
-
+- Visualization
 </div>
+
 
 <div class="section" markdown="1">
 Work Experience
 ===============
-_2020.06 - 2020.08_: *Summer Research Internship*, IBM, Yorktown Heights, NY, USA
-_2014.07 - 2016.03_: *Software Developer*, Antusuoji Network Technology Co., Ltd., Chengdu, CHINA
+_2020.06 - 2020.08_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA
+_2014.07 - 2016.03_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, CHINA
 
 <!--
 - Collect web information (commercial products, job positions)
@@ -96,38 +110,50 @@ _2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 <div class="section" markdown="1">
 Projects 
 ==========
-_Fall 2020 -_ : <b>Learning Dynamics of Deep Neural Network</b>, RPI-IBM AI Research Collaboration (AIRC)
+_Aug 2020 -_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
-- Build a networked system for synaptic connections in DNN
-- Propose an integrated dynamical system for feed-forward and BP
-- Develop predictive indicators for the generalization ability of DNN models 
+- Built a novel graph representation for various neural architectures (e.g., ResNet, DenseNet, MobileNet, VGG, etc.)
+- Studied the topological properties (e.g., resilience, shortest path length) of neural architectures for robust models
+- Derived approximated training dynamics to speed-up neural network training and neural architecture search (NAS)
+- Achieved 10-70% relative improvement over the best baseline w.r.t ranking of neural networks
+- <b>Techniques</b>: SGD, transfer learning, neural architecture search/design, learning curve prediction
 
-_Fall 2018 -_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI
+_Aug 2018 -_May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI, Research Assistant
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
-- Predict steady-states of vertices from incomplete networks (e.g., ecology, epidemic, regulatory)
-- Infer vertices’ degrees and missing links from partially observed networks
-- Recovery true nonlinear dynamics with incomplete information (e.g., topology and steady-states)
+- Developed a mean-field approach to infer nodes’ characteristics from incomplete networks
+- Recovered true nonlinear dynamics with incomplete topology and equilibrium state information
+- Designed a heuristic optimization algorithm based on our topology inference approach to solve K-SUM problem
+- Solved large-scale nonlinear dynamical systems in parallel (10x speedup w/ MPI/SLURM)
+- <b>Techniques</b>: graph sampling, mean-field, dynamical systems, optimization, parallel computing
 
-_Summer 2018 -_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI
+_May 2018 -_Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI, Research Assistant
 <img src="{{ site.images }}/python.png" style="width: 15px;"/> 
-- Preprocess traffic time series data (denoising, smoothing)
-- Design and compute early warning signals of traffic congestion
-- Machine learning based traffic prediction
+- Preprocessed traffic time series data (denoising, smoothing)
+- Designed and computed early warning signals of traffic congestion
+- Trained a machine learning based composite early warning signal indicator
+- Issued warning for upcoming traffic congestion
+- <b>Techniques</b>: denoising, smoothing, Gaussian density estimation, machine learning
 
-_Spring - Summer 2017_ : <b>Multiround Winner Determination</b>, RPI 
+_May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI, Research Assistant 
 <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
-- Devise heuristic strategies (sample, cache, prune) to search all tied winners
-- Train reinforcement learning models to simulate the voting procedure
-- Improve the baseline DFS in terms of running time & number of nodes
+- Devised heuristic strategies (sampling, caching, pruning) to efficiently identify all tied winners in voting
+- Developed reinforcement learning models to simulate voting procedures and improve the search efficiency
+- Reduced run time by 50-80% relative to the baseline strategies
+- <b>Techniques</b>: sampling, pruning, DFS, reinforcement learning, optimization, voting
 
-_Fall 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>  <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/python.png" style="width: 15px;"/>
-- Design a bilinear model to match students and colleges's preferences
-- Optimize a ranking-related loss function with SGD to train the model
+_Sept - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
+RPI, Research Assistant
+<img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/python.png" style="width: 15px;"/>
+- Designed a bilinear model to match students and colleges' preferences
+- Trained a pairwise ranking model with synthesized dataset
+- <b>Techniques</b>: machine learning, optimization
 
-_Summer 2016_ : <b>Learning to Vote Fairly</b>, RPI <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
-- Learn the fairness criteria in voting rules with machine learning approaches
-- Apply data augmentation to enhance the learning performance
+_May - Aug 2016_ : <b>Learning to Vote Fairly</b>, RPI, Research Assistant
+<img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
+- Learned the fairness criteria in voting rules with machine learning approaches
+- Introduced data augmentation to enhance the learning performance
+- <b>Techniques</b>: machine learning, optimization, data augmentation, neural network
 
 <!--
 _Summer 2013_ : <b>Automating Data Collection</b> <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
@@ -177,3 +203,6 @@ A complete [list of courses](/resume/courses/) I have taken on-campus or online
 [estks]: https://arxiv.org/pdf/2004.10546.pdf
 [ijcai20slides]: /files/ijcai20-estks-slides.pdf
 [pandemic]: https://www.nature.com/articles/s41598-021-85432-x 
+[flightnet]: https://www.nature.com/articles/s41598-021-98112-7
+[nucnet]: https://iopscience.iop.org/article/10.1088/1367-2630/ac1a3d
+[capacitance]: https://arxiv.org/abs/2201.04194v2

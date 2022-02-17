@@ -71,13 +71,12 @@ college $c_i\in \mathcal C$.</p>
 <p>Let all the transformation functions be linear functions, and assuming
 that</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\left\{
+\[\left\{
 \begin{array}{rl}
-z_i^s & = f_i^s(x_i^s) = W_i^s x_i^s,\\
-z_i^c & = g_i^s(x_i^c) = V_i^s x_i^c,
+z_i^s &amp; = f_i^s(x_i^s) = W_i^s x_i^s,\\
+z_i^c &amp; = g_i^s(x_i^c) = V_i^s x_i^c,
 \end{array}
-\right. %]]></script>
+\right.\]
 
 <p>where $W_i^s\in \mathbb R^{d\times d_s}$ and
 $V_i^s \in \mathbb R^{d\times d_c}$ are the parameter vectors in $f_i^s$
@@ -90,7 +89,7 @@ college side.</p>
 students, and apply them to calculate the match score between $s_i$ and
 $c_i$, i.e.</p>
 
-<script type="math/tex; mode=display">p_{ij} = \langle z_i^s,z_i^c\rangle = \langle W_i^s x_i^s,V_i^s x_i^c\rangle, \forall 1\le i\le m, 1\le j\le n.</script>
+\[p_{ij} = \langle z_i^s,z_i^c\rangle = \langle W_i^s x_i^s,V_i^s x_i^c\rangle, \forall 1\le i\le m, 1\le j\le n.\]
 
 <p>Based on these scores, the prediction accuracy of the model can be
 evaluated based on some ranking metrics $\mathcal M$ (e.g. MAP, NDCG).
@@ -100,7 +99,7 @@ transformed functions produce a consistent ranking over $\mathcal C$
 with $\pi_i$. Therefore the objective function in learning could be
 formulated as</p>
 
-<script type="math/tex; mode=display">\max\limits_{W_i^s,V_i^s} \mathcal M(\pi(r_i^s),\pi_i),</script>
+\[\max\limits_{W_i^s,V_i^s} \mathcal M(\pi(r_i^s),\pi_i),\]
 
 <p>where $r_i^s =(r_{i1}, r_{i2}, \ldots, r_{in})^T\in \mathbb R^n$,
 $\pi(r_i^s)$ sorts colleges in descending order in terms of match scores
@@ -122,7 +121,7 @@ failing to be elected get nothing. Let $c_{[k]}^i\in \mathcal C$ be the
 college receives $k$ preference level in $\pi_{s_i}$. Furthermore,
 denote</p>
 
-<script type="math/tex; mode=display">\mathbb P_{s_i} = \{(c_{[j]}^i, c_{[k]}^i), \forall K\ge j > k \ge 0\}.</script>
+\[\mathbb P_{s_i} = \{(c_{[j]}^i, c_{[k]}^i), \forall K\ge j &gt; k \ge 0\}.\]
 
 <p>A college has an implicit ranking position $K+1$ in $\pi_{s_i}$ if it
 does not preferred by $s_i$.</p>
@@ -142,7 +141,7 @@ function based on all pairs of colleges in students’ preference rankings. For
 the pair of colleges $(c_{[j]}, c_{[k]})\in \mathbb P_{s_i}$. We define
 the <strong>true</strong> probability of $s_i$ prefers $c_{[j]}$ to $c_{[k]}$ as</p>
 
-<script type="math/tex; mode=display">{p^*}_{jk}^i = 1/[1+e^{-|j-k|})].</script>
+\[{p^*}_{jk}^i = 1/[1+e^{-|j-k|})].\]
 
 <p>The bilinear model makes prediction
 on $s_i$’s the preferences level difference on $c_{[j]}$ and $c_{[k]}$
@@ -151,18 +150,18 @@ probability as $p_{jk}^i = 1/[1+e^{-o_{jk}^i}]$.</p>
 
 <p>Using the two probabilities, we define the CE loss function</p>
 
-<script type="math/tex; mode=display">L_{jk}^i = -{p^*}_{jk}^i \log p_{jk}^i - [1-{p^*}_{jk}^i] \log [1-p_{jk}^i] = \log[1+e^{o_{jk}^i}] - {p^*}_{jk}^i o_{jk}^i,</script>
+\[L_{jk}^i = -{p^*}_{jk}^i \log p_{jk}^i - [1-{p^*}_{jk}^i] \log [1-p_{jk}^i] = \log[1+e^{o_{jk}^i}] - {p^*}_{jk}^i o_{jk}^i,\]
 
 <p>and optimize it based on stochastic gradient descent method. Therefore,
 we have its gradient w.r.t $W$</p>
 
-<script type="math/tex; mode=display">\frac{\partial L_{jk}^i}{\partial W} = \Big[\frac{e^{o_{jk}^i}}{1+e^{o_{jk}^i}} - {p^*}_{jk}^i\Big] \frac{\partial o_{jk}^i}{\partial W} = \big[p_{jk}^i - {p^*}_{jk}^i\big] x_i^s \big[x_{[j]}^c-x_{[k]}^c\big]^T.</script>
+\[\frac{\partial L_{jk}^i}{\partial W} = \Big[\frac{e^{o_{jk}^i}}{1+e^{o_{jk}^i}} - {p^*}_{jk}^i\Big] \frac{\partial o_{jk}^i}{\partial W} = \big[p_{jk}^i - {p^*}_{jk}^i\big] x_i^s \big[x_{[j]}^c-x_{[k]}^c\big]^T.\]
 
 <p>Given the learning rate $\eta&gt;0$, we update the parameter matrix $W$
 iteratively over randomly selected pair of colleges with different
 preference level for a specific student, saying $s_i$</p>
 
-<script type="math/tex; mode=display">W\leftarrow W - \eta \big[p_{jk}^i - {p^*}_{jk}^i\big] x_i^s \big[x_{[j]}^c-x_{[k]}^c\big]^T, \forall j > k \ge 0.</script>
+\[W\leftarrow W - \eta \big[p_{jk}^i - {p^*}_{jk}^i\big] x_i^s \big[x_{[j]}^c-x_{[k]}^c\big]^T, \forall j &gt; k \ge 0.\]
 
 <p>To explicit present the two individual transformation matrix $W^s$ and
 $W^c$, we can predefine a fix $d &gt; 0$ and decompose the learned
