@@ -16,6 +16,7 @@ Contact
 _E-mail_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
 _Website_: [{{ site.horsehour }}]({{ site.horsehour }}){:target="_blank"}  
 _GitHub_: [{{ site.github }}]({{ site.github }}){:target="_blank"}  
+_LinkedIn_: [{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}  
 Lally 08, 110 8th St. Troy NY, 12180, USA
 </div>
 
@@ -118,7 +119,7 @@ _Aug 2020 -_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM 
 - Achieved 10-70% relative improvement over the best baseline w.r.t ranking of neural networks
 - <b>Techniques</b>: SGD, transfer learning, neural architecture search/design, learning curve prediction
 
-_Aug 2018 -_May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI, Research Assistant
+_Aug 2018 - May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI/RA
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
 - Developed a mean-field approach to infer nodes’ characteristics from incomplete networks
 - Recovered true nonlinear dynamics with incomplete topology and equilibrium state information
@@ -126,7 +127,7 @@ _Aug 2018 -_May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>,
 - Solved large-scale nonlinear dynamical systems in parallel (10x speedup w/ MPI/SLURM)
 - <b>Techniques</b>: graph sampling, mean-field, dynamical systems, optimization, parallel computing
 
-_May 2018 -_Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI, Research Assistant
+_May - Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI/RA
 <img src="{{ site.images }}/python.png" style="width: 15px;"/> 
 - Preprocessed traffic time series data (denoising, smoothing)
 - Designed and computed early warning signals of traffic congestion
@@ -134,7 +135,7 @@ _May 2018 -_Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Break
 - Issued warning for upcoming traffic congestion
 - <b>Techniques</b>: denoising, smoothing, Gaussian density estimation, machine learning
 
-_May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI, Research Assistant 
+_May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/RA
 <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
 <img src="{{ site.images }}/python.png" style="width: 15px;"/>
 - Devised heuristic strategies (sampling, caching, pruning) to efficiently identify all tied winners in voting
@@ -143,16 +144,17 @@ _May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI, Research Assista
 - <b>Techniques</b>: sampling, pruning, DFS, reinforcement learning, optimization, voting
 
 _Sept - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
-RPI, Research Assistant
+RPI/RA
 <img src="{{ site.images }}/java.jpg" style="width: 40px;"/><img src="{{ site.images }}/python.png" style="width: 15px;"/>
 - Designed a bilinear model to match students and colleges' preferences
 - Trained a pairwise ranking model with synthesized dataset
 - <b>Techniques</b>: machine learning, optimization
 
-_May - Aug 2016_ : <b>Learning to Vote Fairly</b>, RPI, Research Assistant
+_May - Aug 2016_ : <b>Learning to Vote Fairly</b>, RPI/RA
 <img src="{{ site.images }}/java.jpg" style="width: 40px;"/>
-- Learned the fairness criteria in voting rules with machine learning approaches
-- Introduced data augmentation to enhance the learning performance
+- Learned the fairness criteria in voting based on machine learning techniques
+- Generated collections of ballots that satisfy specific fairness criteria
+- Applied data augmentation to produce fair voting results with multiple fairness criteria
 - <b>Techniques</b>: machine learning, optimization, data augmentation, neural network
 
 <!--
