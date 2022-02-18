@@ -5,7 +5,12 @@ tags: [Randomization, Algorithms, Lecture, Notes]
 title: Lecture Note of Randomized Algorithms
 ---
 
-It's a lecture note for *Randomized Algorithms*, an advanced algorithms class. I have invested large amount of time on this course, and tried my best to read related materials and understand as many as possible. To design an efficient algorithms, many techniques introduced in this class are very valuable, e.g. _Chernoff bounds_, _Derandomization_.
+It's a lecture note of an advanced algorithm class *Randomized Algorithms*.
+I made some efforts to take notes and understand related materials.
+To analyze and design an efficient algorithm, many valuable tools and advanced techniques are introduced, 
+e.g., _Chernoff bounds_, _Derandomization_.
+
+[PDF Note](/files/randalgos.pdf){:target="_blank"}
 
 Asymptotic Analysis
 =====================

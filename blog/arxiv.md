@@ -6,7 +6,7 @@ section: arxiv
 keywords: Posts, Blog, Research, Comments, Machine Learning, Artificial Intelligence, Math, Stats
 ---
 
-All the posts within this blog are listed here in reverse chronological order:
+ALL POSTS ARE SHOWN IN REVERSE CHRONOLOGICAL ORDER:
 
 {% for post in site.categories.blog %}
 <div class="section list">

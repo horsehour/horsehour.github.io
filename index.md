@@ -26,7 +26,8 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
 <div class="section" markdown="1">
 Blog
 =====
-A technical [blog](/blog) on network science, data science, machine learning (e.g. deep learning and reinforcement learning), information retrieval, artificial intelligence, some maths and stats. You can find my latest posts:
+A technical [blog](/blog) on network science, deep learning, reinforcement learning, information retrieval, 
+optimization and data visualization. You can find my latest posts:
 {% for post in site.categories.blog limit:5 %}
 <ul class="compact recent">
 <li>

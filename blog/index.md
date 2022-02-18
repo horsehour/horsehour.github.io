@@ -5,8 +5,9 @@ section: Home
 keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research
 ---
 
-I bought [horsehour.com][horsehour]{:target="_blank"} in March 2013, 
-but did not use it until May 2017. To keep a track of my random thoughts on research and programming, 
+I purchased [horsehour.com][horsehour]{:target="_blank"} in March 2013, 
+but did not use it until May 2017. 
+To keep a track of my random thoughts on research and programming, 
 I set up this Jekyll-based blog and host it on GitHub. 
 I prefer taking notes with $\rm \LaTeX $,
 because of its excellent rendering quality of complex mathematical equations. 
