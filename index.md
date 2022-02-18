@@ -26,7 +26,7 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
 <div class="section" markdown="1">
 Blog
 =====
-A technical [blog](/blog) on data science, including machine learning (e.g. deep learning and reinforcement learning), information retrieval, artificial intelligence, some maths and stats. You can find my latest posts:
+A technical [blog](/blog) on network science, data science, machine learning (e.g. deep learning and reinforcement learning), information retrieval, artificial intelligence, some maths and stats. You can find my latest posts:
 {% for post in site.categories.blog limit:5 %}
 <ul class="compact recent">
 <li>
@@ -50,8 +50,8 @@ Search
 <div class="section" markdown="1">
 Hobbies
 ==============================================
-- Sports: Mountain Biking, Pingpong
-- Music & Movies: The Matrix, Mountain Patrol, Maksim's Exodus, The Phantom of the Opera, Seven Samurai, Nausicaa of the Valley of the Wind
+- <b>Sports</b>: Mountain Biking, Pingpong
+- <b>Musics & Movies</b>: The Matrix, Mountain Patrol, Maksim's Exodus, The Phantom of the Opera, Seven Samurai, Nausicaa of the Valley of the Wind
 </div>
 
 <div class="section" markdown="1">
