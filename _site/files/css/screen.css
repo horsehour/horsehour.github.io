@@ -21,7 +21,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family: Palatino, georgia, "times new roman", serif;
+	/*font-family: Palatino, georgia, "times new roman", serif;*/
+	font-family: Harding, Palatino, serif, sans-serif;
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
@@ -31,7 +32,7 @@ body {
 img { -ms-interpolation-mode:bicubic; }
 
 /* IE6 ignores this and uses default size of 16pt */
-html>body { font-size:16px; }
+html>body { font-size:20px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
 
 a { text-decoration: none; color: #339; }
@@ -45,7 +46,8 @@ h1,h2,h3,h4 {
 	font-size:1.5em; 
 	font-weight: normal; 
 	clear: left; 	
-	font-family: "Times New Roman", Georgia, Serif;
+    font-family: Harding, Palatino, serif, sans-serif
+	/*font-family: "Times New Roman", Georgia, Serif;*/
 	font-variant: small-caps;
 }
 h1 { margin-bottom: 1em; }
