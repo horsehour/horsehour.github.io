@@ -239,7 +239,7 @@ Search
 ==============================================
 <form name="search">
     <select name="engine" style="background-color: #F5F5F5;"></select>
-    <input type="text" name="query" size="50" onkeypress="return checkKey()"/>
+    <input type="text" name="query" onkeypress="return checkKey()"/>
     <input type="button" value="Go" onClick="return startSearch()"/>
 </form>
 </div>
