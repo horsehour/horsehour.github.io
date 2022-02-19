@@ -19,11 +19,8 @@ nuclear reaction networks and boiling crisis in nuclear reactors.
 Our collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
 journals (Scientific Reports, New Journal of Physics).
 
-<div class="section" markdown="1">
 <img src="/assets/images/pdflogo.jpg" style="width: 30px;"/>
-=======
-[Curriculum Vitae](/files/cv.pdf){:target="_blank"} / [Searching and Ranking][searchrank]{:target="_blank"}  
-</div>
+[Curriculum Vitae](/files/cv.pdf){:target="_blank"} 
 
 
 <div class="section" markdown="1">
@@ -67,6 +64,10 @@ Scientific Reports, 11, 18715, 2021.
 Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
 Scientific Reports, 11, 7645, 2021.
+
+Chunheng Jiang, Jae-wook Ahn and Nirmit Desai. 
+<b>[Acoustic Environment Transfer for Distributed Systems][acoustic]{:target="_blank"}</b>, In SEC-2020: The
+5th IEEE/ACM Symposium on Edge Computing, IEEE, 2020.
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
@@ -262,7 +263,6 @@ Reading
 [rpi]:  https://www.rpi.edu/
 [swjtu]:  http://www.swjtu.edu.cn/
 [tjcu]:  http://www.tjcu.edu.cn/
-[searchrank]:  https://github.com/horsehour/searchrank/
 
 [collegeai]: https://www.collegeai.com/
 [dearank]: https://link.springer.com/article/10.1007/s10994-014-5442-3
@@ -276,4 +276,4 @@ Reading
 [flightnet]: https://www.nature.com/articles/s41598-021-98112-7
 [nucnet]: https://iopscience.iop.org/article/10.1088/1367-2630/ac1a3d
 [capacitance]: https://arxiv.org/abs/2201.04194v2
-
+[acoustic]: https://arxiv.org/abs/2101.01863

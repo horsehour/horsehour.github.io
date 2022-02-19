@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: main 
 title: Search and Rank
 section: notes 
 keywords: search, ranking, information retrieval, stats and math
@@ -12,10 +12,14 @@ based on my learning experience on Artificial General Intelligence (AGI).
 It covers some classical algorithms (detailed mathematical derivations may be included as well) in 
 information retrieval, machine learning, mathematical optimization, statistics and decision making. 
 Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
+ 
+<img src="/assets/images/githublogo.png" style="width: 30px;"/>
+[GitHub](https://github.com/horsehour/searchrank){:target="_blank"}
+<img src="/assets/images/pdflogo.jpg" style="width: 30px;"/>
+[PDF][searchrank]{:target="_blank"}
+
 
 这篇文档是一份个人笔记，源于我在读研和工作期间([2011 -- 2016年](/resume))阅读文献时的一些总结与思考。文档的主线是排名问题，涵盖的主题五花八门，我也曾多次删减，但是囿于水平，必然存在各种谬误。如您觉得文档有价值或有兴趣参与改进，请和我[联系](mailto:jiangchunheng@gmail.com)。我将文档分享出来就是希望它可以成为一个开源项目，使更多的人能够参与其中，丰富和完善它，帮助到处于不同学习阶段的朋友。原始文档是使用$\rm \LaTeX $编辑，为了维持原始文档的格式，现在使用[pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX){:target="_blank"}将PDF转化成HTML，感谢pdf2htmlEX的开发人员。由于pdf2htmlEX的转化过程会产生大量冗余的格式信息，不利于搜索引擎建立索引，另外对独立页面的转换会产生索引缺失，无疑增加了维护的难度。一个备选方案是使用[Pandoc](https://pandoc.org/getting-started.html){:target="_blank"}直接编译$\rm \TeX$源码生成HTML。此外，文档内容参考了网络上的一些优秀博文，如果您发现文中有内容缺少引用，请您予以指出以方便更正或修改。
-
-[Github Repository](https://github.com/horsehour/searchrank){:target="_blank"}
 
 摘要  
 ---------
@@ -25,7 +29,7 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
 
 目录  
 ----------
-[信息检索与排名](./searchrank/ir.html){:target="_blank"}  
+[信息检索与排名](./ir.html){:target="_blank"}  
 
   - 向量空间模型  
   - 概率信息检索模型  
@@ -34,13 +38,13 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - 基于评分的排名模型
   - 搜索引擎
 
-[排名理论](./searchrank/rank.html){:target="_blank"}
+[排名理论](./rank.html){:target="_blank"}
   - 社会选择
   - 位置评分与概率模型
   - 公平准则
   - 排名聚合
 
-[数据挖掘与机器学习](./searchrank/dmml.html){:target="_blank"}
+[数据挖掘与机器学习](./dmml.html){:target="_blank"}
   - 分类、聚类与回归
   - 决策树(Decision Tree)、支持向量机(SVM)、神经网络(Neural Network)
   - 统计模型
@@ -49,24 +53,24 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - 信息抽取
   - 机器学习基础
 
-[排序学习](./searchrank/l2r.html){:target="_blank"}  
+[排序学习](./l2r.html){:target="_blank"}  
   - 逐点型、序对型、序列型
   - RankNet, RankList, RankSVM, RankBoost, AdaRank
 
 
-[评价指标](./searchrank/metric.html){:target="_blank"}
+[评价指标](./metric.html){:target="_blank"}
   - 范数
   - 距离和相似性
   - 推荐系统评价指标
   - 排名性能评价指标
   - 混杂度和信息量
 
-[数学基础](./searchrank/math.html){:target="_blank"}
+[数学基础](./math.html){:target="_blank"}
   - 矩阵
   - 优化
-  - [统计](./searchrank/stat.html){:target="_blank"}
+  - [统计](./stat.html){:target="_blank"}
 
-[决策分析](./searchrank/mcda.html){:target="_blank"}
+[决策分析](./mcda.html){:target="_blank"}
   - 数据包络分析
   - 层次分析
   - ELECTRE
@@ -74,6 +78,6 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - TOPSIS
   - 偏好模型
 
-[参考文献](./searchrank/ref.html){:target="_blank"}
+[参考文献](./ref.html){:target="_blank"}
 
 [searchrank]: /files/searchrank.pdf

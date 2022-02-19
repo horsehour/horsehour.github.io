@@ -30,10 +30,6 @@ Recent Posts [<a href="arxiv.html">Complete Archive</a>]
 </div>
 {% endfor %}
 
-Licence
--------
-All content within this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>, unless otherwise specified.
 
 [horsehour]: http://www.horsehour.com/
 [pdf2htmlex]: https://github.com/coolwanglu/pdf2htmlEX
