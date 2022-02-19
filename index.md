@@ -25,10 +25,12 @@ PDF
 [Curriculum Vitae](/files/cv.pdf) / [Searching and Ranking](searchrank)
 </div>
 
+
 <div class="section" markdown="1">
 Contact
 ======= 
-_E-mail_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
+_Email_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
+_Phone_: +1 518-960-7682  
 _Website_: [{{ site.horsehour }}]({{ site.horsehour }}){:target="_blank"}  
 _GitHub_: [{{ site.github }}]({{ site.github }}){:target="_blank"}  
 _LinkedIn_: [{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}  
@@ -109,8 +111,8 @@ Complex Networks and Artificial Intelligence
 <div class="section" markdown="1">
 Work Experience
 ===============
-- _June - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA
-- _July 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
+_June - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA  
+_July 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
 
 <!--
 - Collect web information (commercial products, job positions)
@@ -193,19 +195,19 @@ ICML 2022, TheWebConf 2021, NetSci 2020, NetSci-X 2020, NERCCS 2019, COMPLEX NET
 <div class="section" markdown="1">
 Teaching Assistant
 ==========  
-- _Spring 2017/18_ : [CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI 
-- _Fall 2016_ : [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI 
+_Spring 2017/18_ : [CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI   
+_Fall 2016_ : [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI 
 </div>
 
 <div class="section" markdown="1">
 Skills
 ==========  
-- <b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
-Markdown, $\rm \LaTeX $
-- <b>Operating Systems</b>: Linux, OS X, Windows
-- <b>Databases</b>: MySQL, SQLite, MongoDB
-- <b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi
-- <b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
+<b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
+Markdown, $\rm \LaTeX$  
+<b>Operating Systems</b>: Linux, OS X, Windows  
+<b>Databases</b>: MySQL, SQLite, MongoDB  
+<b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
+<b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
 </div>
 
 <div class="section" markdown="1">
@@ -237,7 +239,7 @@ Search
 ==============================================
 <form name="search">
     <select name="engine" style="background-color: #F5F5F5;"></select>
-    <input type="text" name="query" onkeypress="return checkKey()"/>
+    <input type="text" name="query" size="50" onkeypress="return checkKey()"/>
     <input type="button" value="Go" onClick="return startSearch()"/>
 </form>
 </div>
@@ -245,8 +247,8 @@ Search
 <div class="section" markdown="1">
 Hobbies
 ==============================================
-- <b>Sports</b>: Mountain Biking, PingPong
-- <b>Musics & Movies</b>: Frédéric François Chopin, Michael Jackson, Charlie Chaplin, Freddie Mercury, Maksim Mrvica, 
+Mountain Biking, PingPong / 
+Frédéric François Chopin, Michael Jackson, Charlie Chaplin, Freddie Mercury, Maksim Mrvica / 
 Akira Kurosawa, Hayao Miyazaki, One Piece, The Phantom of the Opera
 </div>
 
