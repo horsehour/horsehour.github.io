@@ -64,3 +64,16 @@ Economics & Finance Track
 - International Finance
 - Securities Investment
 - Microeconomics & Macroeconomics
+
+Open Courses
+------------
+- [Coursera - Deep Learning](https://www.deeplearning.ai/){:target="_blank"}, Andrew Ng
+- [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/){:target="_blank"} [[video]](https://www.researchgate.net/project/Theories-of-Deep-Learning){:target="_blank"}
+- [UCL - Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html){:target="_blank"}, David Silver
+- [UC Berkeley CS 188 - Introduction to Artifical Intelligence](http://ai.berkeley.edu/home.html){:target="_blank"}
+- [UC Berkeley CS 294 - Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/){:target="_blank"}, Sergey Levine
+- [MIT 6.S094 - Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/){:target="_blank"}, Lex Fridman
+- [MIT 6.851 - Advanced Data Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/){:target="_blank"}, Erik Demaine
+- [MIT 6.890 - Algorithmic Lower Bounds: Fun with Hardness Proofs](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/lecture-videos/){:target="_blank"}, Erik Demaine
+
+

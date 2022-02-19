@@ -4,10 +4,6 @@ title: CHUNHENG JIANG
 section: Home
 ---
 
-<!--
-<img class='inset right' src='/images/seal.png' title='Chunheng Jiang' width='50px' />
--->
-
 I am Chunheng Jiang, a PhD candidate in Computer Science Department of PRI, 
 working with Dr. [Jianxi Gao][gao]{:target="_blank"}; 
 also an AIRC (Rensselaer-IBM Artificial Intelligence Research Collaboration) Research Extern, 
@@ -221,9 +217,6 @@ A complete [list of courses](/courses/) being taken
 <div class="section" markdown="1">
 Posts
 =====
-<!--A technical [blog](/blog) on network science or graph science, 
-deep learning, reinforcement learning, information retrieval, 
-recommendation, optimization and data visualization. -->
 {% for post in site.categories.blog limit:5 %}
 
 <ul class="compact recent">
