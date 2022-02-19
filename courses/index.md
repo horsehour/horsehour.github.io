@@ -18,7 +18,7 @@ developed a rich libraries on voting, built a reinforcement learning based votin
 learn the internal voting procedure. Catching the annoying bugs is another important aspect
 that drives me to develop the right programming habits.
 
-Mathematics
+Mathematics Track
 -----
 - Advanced Algebra
 - Numerical Analysis
@@ -36,7 +36,7 @@ Mathematics
 - Regression Analysis with SPSS
 - Equations of Mathematical Physics
 
-Computer Science
+Computer Science Track
 ------------
 - Data Mining
 - Information Retrieval
@@ -55,7 +55,7 @@ Computer Science
 - Computational Social Choice
 - Fuzzy Control and Intelligent Control
 
-Economics & Finance
+Economics & Finance Track
 ---------------------
 - Financial Engineering
 - Financial Mathematics
