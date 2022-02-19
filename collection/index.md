@@ -4,6 +4,13 @@ title: Collection
 section: Collection
 ---
 
+Complete Lists
+--------------
+- [Theoretical computer science cheat sheet](https://www.tug.org/texshowcase/cheat.pdf){:target="_blank"}
+- [A mostly complete chart of neural networks](https://www.asimovinstitute.org/wp-content/uploads/2019/04/NeuralNetworkZoo20042019.png){:target="_blank"}
+- [Who is the best at X?](http://rodrigob.github.io/are_we_there_yet/build/#classification-dataset-type){:target="_blank"}
+
+
 Teams
 -----
 - [The Center for Complex Network Research](https://www.barabasilab.com/){:target="_blank"}, Albert-László Barabási
@@ -35,7 +42,3 @@ Optimization
 - [Open Sim (Musculoskeletal Models)](https://github.com/stanfordnmbl/osim-rl){:target="_blank"}, Stanford University
 - [Brown-UMBC Reinforcement Learning and Planning (BURLAP)](http://burlap.cs.brown.edu/){:target="_blank"}, Brown University
 
-Others
--------
-- [Who is the best at X?](http://rodrigob.github.io/are_we_there_yet/build/#classification-dataset-type){:target="_blank"}
-- [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf){:target="_blank"}

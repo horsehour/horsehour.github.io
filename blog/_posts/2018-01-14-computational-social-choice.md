@@ -6,8 +6,9 @@ title:  Computational Social Choice
 ---
 
 A collection of research papers, open sources on social choice theory or voting problem.
-<a href="https://github.com/horsehour/socialchoice" target="_blank">
-<img src="/assets/images/git.png" style="width: 25px;"/></a>
+
+<img src="/assets/images/git.png" style="width: 25px;"/>
+[GitHub](https://github.com/horsehour/socialchoice){:target="_blank"}
 
 [Background]
 ----

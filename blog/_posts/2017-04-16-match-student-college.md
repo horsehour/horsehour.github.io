@@ -10,7 +10,6 @@ and jobs seeking in employment market. We introduce a simple bilinear model,
 and picture the matching problem as ranking. The model provides online recommendations based on existing 
 preference profiles of colleges and students. 
 
-Sources:
 <img src="/assets/images/git.png" style="width: 30px;"/>
 [GitHub](https://github.com/horsehour/collegematch){:target="_blank"}
 <img src="/assets/images/pdf.png" style="width: 30px;"/>

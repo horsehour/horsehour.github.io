@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Reinforcement Learning based Voting Winner Determination Procedure</title>
+   <meta name="author" content="Chunheng Jiang" />
+   <link rel="shortcut icon" href="/assets/images/horse.png"/>
+   <link rel="start" href="/" />
+
+	
+
+   <!-- Syntax highlighting CSS -->
+   <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/assets/css/screen.css" type="text/css" />  
+   
+</head>
+<body id="" onLoad="addOptions()">
+<div id="site">
+
+  <div id="header">
+	<h1>
+<a href="/" title="blog">Home</a>
+</h1>
+
+<ul class="nav">
+<li><a class="arxiv" href="/blog/arxiv.html">Archive</a></li>
+</ul>
+
+</div>
+
+<div id="page">
+
+<!--<h1 class="emphnext">Reinforcement Learning based Voting Winner Determination Procedure</h1>-->
+<h1>Reinforcement Learning based Voting Winner Determination Procedure</h1>
+
+<p>All important signals, including the current and visited states, the depth, the size of alternatives never been a winner, the number of winners, the percentage of winners and non-winners in the state, the predicted probability based on other features, are included in a new model that learned from the experience (episodes from root to leaf node). By learning such kind of model, we can get rid of the cache checking and pruning component, we choose the path according to the prediction results from this enhanced function to reduce the number of nodes to extend.</p>
+
+<p><img src="/assets/images/pdf.png" style="width: 25px;" />
+<a href="/files/reinforce.pdf" target="_blank">PDF</a>
+<img src="/assets/images/vote.png" style="width: 25px;" />
+<a href="/code/projects/vote/index.html" target="_blank">Visualization</a></p>
+
+<p>The visualization of the visited path helps to guide us to design a better heuristic algorithm. Based upon some observation, we can improve the definition of our current priority function.</p>
+
+<p>We model the multi-round STV elimination approach as a reinforcement learning problem, where the states are the node (or subset of the alternatives), the action set comes from the eliminations (legal one should follows the rule that one alternative that receives the lowest plurality score will be eliminated), and the reward should be modeled based on the minimum number of nodes to extend along the current branch, and possible early discovery of as many winners as possible, and running time and so on. If a path contains a lot of successful cache checking, it should be punished; if the path contains multiple new winners, it should be assigned more rewards. Even the path is critical, we say that it contains a single winner, and the winner is hard to search, because from all other paths we get different winners from this winner.</p>
+
+<p>When the winner set is empty, there is no need to compute the priorities for states. With a nonempty winner set, we could check whether the predicted winner(s) has/have been elected, if not, its priority will be higher than those have been elected. Once the start state has been fixed, then searching the path with its children states the high priority until a winner is found, or the predicted winner(s) is/are different from the prediction of its parent state.</p>
+
+<p>Visited state should also been fully exploited, such that those nodes with such same states, we should record their corresponding winner(s) when it’s available.
+In order to apply Reinforcement Learning (RL) or Inverse Reinforcement Learning (IRL) techniques to STV, the meanings of states, actions and rewards should be clarified.</p>
+
+
+
+<!--  <address class="signature">
+    <a class="author" href="http://www.horsehour.com">Chunheng Jiang</a> 
+    <span class="date">19 February 2022</span>
+    <span class="location"></span>
+  </address>
+-->
+
+</div>
+
+
+<!--
+<div id="disqus_thread"></div>
+<script>
+
+(function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//horsehour.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+})();
+</script>
+-->
+
+<noscript>
+Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+  
+  <div id="footer">
+	<address>
+		<span class="copyright">
+			Content by 
+			<a href="/">Chunheng Jiang</a>
+			<br/>
+			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">All rights reserved</a>)			
+		</span>
+		<span class="engine">
+			<a href="http://github.com/mreid/jekyll/">Powered by Jekyll</a><br/>
+			<a href="/">Design by Mark Reid</a>
+		</span>
+	</address>
+  </div>
+</div>
+
+<!-- MathJax configuration and loading -->
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+				"HTML-CSS": { 
+	  			preferredFont: "TeX", 
+	  			availableFonts: ["STIX","TeX"], 
+	  			linebreaks: { automatic:true }, 
+	  			EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) 
+	    	},
+				tex2jax: { 
+        	inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        	displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], 
+        	processEscapes: true, 
+        	ignoreClass: "tex2jax_ignore|dno" 
+        },
+        TeX: {  
+        	noUndefined: { attributes: {mathbackground: "#FFEEEE", mathsize: "90%" } } 
+        },
+	});
+</script>
+
+<!-- Latex goes here --> 
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- search engines -->
+<script type="text/javascript" src="/assets/js/search.js"></script>
+
+
+<!-- Google Analytics script goes here --> 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+	(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-105328724-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script id="dsq-count-scr" src="//horsehour.disqus.com/count.js" async></script>
+</body>
+</html>
+

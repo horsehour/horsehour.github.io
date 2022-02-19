@@ -5,7 +5,7 @@ section: Home
 keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research
 ---
 
-The site horsehour.com  was registered on Godaddy in March 2013, 
+The site horsehour.com  was registered on GoDaddy in March 2013, 
 but went online until May 2017.
 To record some of my random thoughts on research and programming,
 this Jekyll-powered, Github page hosted blog was setup.
@@ -24,7 +24,9 @@ Recent Posts [<a href="arxiv.html">Complete List</a>]
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
   <a class="title" href="{{ post.url }}">{{ post.title }}</a>
-  <a class="comments" href="{{ post.url }}#disqus_thread">View Comments</a>
+<!-- 
+<a class="comments" href="{{ post.url }}#disqus_thread">View Comments</a>
+-->
   </p>
   <p class="excerpt">{{ post.excerpt }}</p>
 </div>
