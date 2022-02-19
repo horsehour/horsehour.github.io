@@ -1,9 +1,17 @@
 ---
 layout: blog
 title: Search and Rank
-section: book
+section: notes 
 keywords: search, ranking, information retrieval, stats and math
 ---
+
+I am interested in developing simple yet effective algorithms for real problems. 
+I have taken a collection of notes and compiled them into a book named 
+<i>[Searching and Ranking][searchrank]{:target="_blank"}</i> 
+based on my learning experience on Artificial General Intelligence (AGI). 
+It covers some classical algorithms (detailed mathematical derivations may be included as well) in 
+information retrieval, machine learning, mathematical optimization, statistics and decision making. 
+Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
 
 这篇文档是一份个人笔记，源于我在读研和工作期间([2011 -- 2016年](/resume))阅读文献时的一些总结与思考。文档的主线是排名问题，涵盖的主题五花八门，我也曾多次删减，但是囿于水平，必然存在各种谬误。如您觉得文档有价值或有兴趣参与改进，请和我[联系](mailto:jiangchunheng@gmail.com)。我将文档分享出来就是希望它可以成为一个开源项目，使更多的人能够参与其中，丰富和完善它，帮助到处于不同学习阶段的朋友。原始文档是使用$\rm \LaTeX $编辑，为了维持原始文档的格式，现在使用[pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX){:target="_blank"}将PDF转化成HTML，感谢pdf2htmlEX的开发人员。由于pdf2htmlEX的转化过程会产生大量冗余的格式信息，不利于搜索引擎建立索引，另外对独立页面的转换会产生索引缺失，无疑增加了维护的难度。一个备选方案是使用[Pandoc](https://pandoc.org/getting-started.html){:target="_blank"}直接编译$\rm \TeX$源码生成HTML。此外，文档内容参考了网络上的一些优秀博文，如果您发现文中有内容缺少引用，请您予以指出以方便更正或修改。
 
@@ -67,3 +75,5 @@ keywords: search, ranking, information retrieval, stats and math
   - 偏好模型
 
 [参考文献](./searchrank/ref.html){:target="_blank"}
+
+[searchrank]: /files/searchrank.pdf

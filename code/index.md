@@ -4,8 +4,6 @@ section: Code
 title: Code
 ---
 
-Some projects that I involved or plan to do:
-
 - [_**Deep Traffic**_](http://selfdrivingcars.mit.edu/deeptraffic/){:target="_blank"}: A course project to train a reinforcement learning model to drive a car on high traffic roads.
 
 - [_**Learn to Run**_](https://www.crowdai.org/challenges/nips-2017-learning-to-run){:target="_blank"}: An official challenge in the NIPS 2017 Competition Track. Developing a controller to enable a physiologically-based human model to navigate a complex obstacle course as quickly as possible.

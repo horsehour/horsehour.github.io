@@ -19,25 +19,32 @@
    <link rel="stylesheet" href="/files/css/screen.css" type="text/css" />  
    
 </head>
-<body id="book" onLoad="addOptions()">
+<body id="notes" onLoad="addOptions()">
 <div id="site">
 
     <div id="header">
 	<h1>
-	<a href="/blog/" title="Data Science">Blog</a>
-	<span class="byline">&larr; <a href="/">Chunheng Jiang</a></span>
+<a href="/blog/" title="Data Science">Blog</a>
+<span class="byline">&larr; <a href="/">Chunheng Jiang</a></span>
 </h1>
 
 <ul class="nav">
-  <li><a class="home" href="/blog/">Home</a></li>
-  <li><a class="arxiv" href="/blog/arxiv.html">Archive</a></li>
-  <li><a class="book" href="/blog/book/">Book</a></li>
+<li><a class="home" href="/blog/">Home</a></li>
+<li><a class="arxiv" href="/blog/arxiv.html">Archive</a></li>
 </ul>
 
   </div>
   
   <div id="page">
-    <p>这篇文档是一份个人笔记，源于我在读研和工作期间(<a href="/resume">2011 – 2016年</a>)阅读文献时的一些总结与思考。文档的主线是排名问题，涵盖的主题五花八门，我也曾多次删减，但是囿于水平，必然存在各种谬误。如您觉得文档有价值或有兴趣参与改进，请和我<a href="mailto:jiangchunheng@gmail.com">联系</a>。我将文档分享出来就是希望它可以成为一个开源项目，使更多的人能够参与其中，丰富和完善它，帮助到处于不同学习阶段的朋友。原始文档是使用$\rm \LaTeX $编辑，为了维持原始文档的格式，现在使用<a href="https://github.com/coolwanglu/pdf2htmlEX" target="_blank">pdf2htmlEX</a>将PDF转化成HTML，感谢pdf2htmlEX的开发人员。由于pdf2htmlEX的转化过程会产生大量冗余的格式信息，不利于搜索引擎建立索引，另外对独立页面的转换会产生索引缺失，无疑增加了维护的难度。一个备选方案是使用<a href="https://pandoc.org/getting-started.html" target="_blank">Pandoc</a>直接编译$\rm \TeX$源码生成HTML。此外，文档内容参考了网络上的一些优秀博文，如果您发现文中有内容缺少引用，请您予以指出以方便更正或修改。</p>
+    <p>I am interested in developing simple yet effective algorithms for real problems. 
+I have taken a collection of notes and compiled them into a book named 
+<i><a href="/files/searchrank.pdf" target="_blank">Searching and Ranking</a></i> 
+based on my learning experience on Artificial General Intelligence (AGI). 
+It covers some classical algorithms (detailed mathematical derivations may be included as well) in 
+information retrieval, machine learning, mathematical optimization, statistics and decision making. 
+Please <a href="mailto:jiangchunheng@gmail.com">let me know</a> if you find it useful.</p>
+
+<p>这篇文档是一份个人笔记，源于我在读研和工作期间(<a href="/resume">2011 – 2016年</a>)阅读文献时的一些总结与思考。文档的主线是排名问题，涵盖的主题五花八门，我也曾多次删减，但是囿于水平，必然存在各种谬误。如您觉得文档有价值或有兴趣参与改进，请和我<a href="mailto:jiangchunheng@gmail.com">联系</a>。我将文档分享出来就是希望它可以成为一个开源项目，使更多的人能够参与其中，丰富和完善它，帮助到处于不同学习阶段的朋友。原始文档是使用$\rm \LaTeX $编辑，为了维持原始文档的格式，现在使用<a href="https://github.com/coolwanglu/pdf2htmlEX" target="_blank">pdf2htmlEX</a>将PDF转化成HTML，感谢pdf2htmlEX的开发人员。由于pdf2htmlEX的转化过程会产生大量冗余的格式信息，不利于搜索引擎建立索引，另外对独立页面的转换会产生索引缺失，无疑增加了维护的难度。一个备选方案是使用<a href="https://pandoc.org/getting-started.html" target="_blank">Pandoc</a>直接编译$\rm \TeX$源码生成HTML。此外，文档内容参考了网络上的一些优秀博文，如果您发现文中有内容缺少引用，请您予以指出以方便更正或修改。</p>
 
 <p><a href="https://github.com/horsehour/searchrank" target="_blank">Github Repository</a></p>
 
@@ -110,6 +117,7 @@
 </ul>
 
 <p><a href="./searchrank/ref.html" target="_blank">参考文献</a></p>
+
 
   </div>
   

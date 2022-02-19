@@ -6,8 +6,6 @@ section: arxiv
 keywords: Posts, Blog, Research, Comments, Machine Learning, Artificial Intelligence, Math, Stats
 ---
 
-ALL POSTS ARE SHOWN IN REVERSE CHRONOLOGICAL ORDER:
-
 {% for post in site.categories.blog %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
