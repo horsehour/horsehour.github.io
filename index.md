@@ -20,7 +20,7 @@ Our collaboration works have been published in high-quality conferences (AAAI, I
 journals (Scientific Reports, New Journal of Physics).
 
 <div class="section" markdown="1">
-PDF
+<img src="/assets/images/pdflogo.jpg" style="width: 30px;"/>
 =======
 [Curriculum Vitae](/files/cv.pdf){:target="_blank"} / [Searching and Ranking][searchrank]{:target="_blank"}  
 </div>
