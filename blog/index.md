@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: main 
 title: Blog
 section: Home
 keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research

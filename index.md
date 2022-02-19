@@ -197,6 +197,12 @@ _Fall 2016_ : [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu
 </div>
 
 <div class="section" markdown="1">
+Courses
+==========  
+A complete [list of courses](/courses/) being taken
+</div>
+
+<div class="section" markdown="1">
 Skills
 ==========  
 <b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
@@ -206,13 +212,6 @@ Markdown, $\rm \LaTeX$
 <b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
 <b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
 </div>
-
-<div class="section" markdown="1">
-Courses
-==========  
-A complete [list of courses](/courses/) being taken
-</div>
-
 
 <div class="section" markdown="1">
 Posts
