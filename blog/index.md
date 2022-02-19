@@ -5,16 +5,16 @@ section: Home
 keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research
 ---
 
-I purchased [horsehour.com][horsehour]{:target="_blank"} in March 2013, 
-but did not use it until May 2017. 
-To keep a track of my random thoughts on research and programming, 
-I set up this Jekyll-based blog and host it on GitHub. 
+The site horsehour.com  was registered on Godaddy in March 2013, 
+but went online until May 2017.
+To record some of my random thoughts on research and programming,
+this Jekyll-powered, Github page hosted blog was setup.
 I prefer taking notes with $\rm \LaTeX$,
 because of its excellent rendering quality of complex mathematical equations. 
 Therefore, the posts are written in a hybrid of Markdown (for text) and $\rm \LaTeX$ (for equations) and 
 converted to HTML using Pandoc. 
 Sometimes, [pdf2htmlEX][pdf2htmlex]{:target="_blank"} is also used to convert PDFs to 
-HTML documents with the original layouts of the PDF docuemnts are preserved.
+HTML documents with the original layouts of the PDF docuemnts well-preserved.
 
 Recent Posts [<a href="arxiv.html">Complete List</a>]
 ------------

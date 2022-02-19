@@ -24,7 +24,6 @@ Contact
 ======= 
 _Email_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
 _Phone_: +1 518-960-7682  
-_Website_: [{{ site.horsehour }}]({{ site.horsehour }}){:target="_blank"}  
 _GitHub_: [{{ site.github }}]({{ site.github }}){:target="_blank"}  
 _LinkedIn_: [{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}  
 Lally 08, 110 8th St. Troy NY, 12180, USA
@@ -220,7 +219,7 @@ Posts
 
 <ul class="compact recent">
 <li>
-	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }}</a>
+	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	<span class="date">{{ post.date | date_to_string }}</span> 
 </li>
 </ul>
