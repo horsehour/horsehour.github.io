@@ -6,7 +6,7 @@ category: Programming
 tags: [Math, LaTeX, Markdown, MathJax, Pandoc]
 ---
 
-It gives steps to render math equations in Markdown from $\rm\TeX$ source.
+Step-by-step to render math equations in Markdown from $\rm\TeX$ source.
 
 <!--# Content
 * auto-gen TOC:

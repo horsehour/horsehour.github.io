@@ -13,9 +13,9 @@ It covers some classical algorithms (detailed mathematical derivations may be in
 information retrieval, machine learning, mathematical optimization, statistics and decision making. 
 Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
  
-<img src="/assets/images/githublogo.png" style="width: 30px;"/>
+<img src="/assets/images/git.png" style="width: 30px;"/>
 [GitHub](https://github.com/horsehour/searchrank){:target="_blank"}
-<img src="/assets/images/pdflogo.jpg" style="width: 30px;"/>
+<img src="/assets/images/pdf.png" style="width: 30px;"/>
 [PDF][searchrank]{:target="_blank"}
 
 
@@ -29,7 +29,7 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
 
 目录  
 ----------
-[信息检索与排名](./ir.html){:target="_blank"}  
+[信息检索与排名](./chaps/ir.html){:target="_blank"}  
 
   - 向量空间模型  
   - 概率信息检索模型  
@@ -38,13 +38,13 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - 基于评分的排名模型
   - 搜索引擎
 
-[排名理论](./rank.html){:target="_blank"}
+[排名理论](./chaps/rank.html){:target="_blank"}
   - 社会选择
   - 位置评分与概率模型
   - 公平准则
   - 排名聚合
 
-[数据挖掘与机器学习](./dmml.html){:target="_blank"}
+[数据挖掘与机器学习](./chaps/dmml.html){:target="_blank"}
   - 分类、聚类与回归
   - 决策树(Decision Tree)、支持向量机(SVM)、神经网络(Neural Network)
   - 统计模型
@@ -53,24 +53,24 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - 信息抽取
   - 机器学习基础
 
-[排序学习](./l2r.html){:target="_blank"}  
+[排序学习](./chaps/l2r.html){:target="_blank"}  
   - 逐点型、序对型、序列型
   - RankNet, RankList, RankSVM, RankBoost, AdaRank
 
 
-[评价指标](./metric.html){:target="_blank"}
+[评价指标](./chaps/metric.html){:target="_blank"}
   - 范数
   - 距离和相似性
   - 推荐系统评价指标
   - 排名性能评价指标
   - 混杂度和信息量
 
-[数学基础](./math.html){:target="_blank"}
+[数学基础](./chaps/math.html){:target="_blank"}
   - 矩阵
   - 优化
-  - [统计](./stat.html){:target="_blank"}
+  - [统计](./chaps/stat.html){:target="_blank"}
 
-[决策分析](./mcda.html){:target="_blank"}
+[决策分析](./chaps/mcda.html){:target="_blank"}
   - 数据包络分析
   - 层次分析
   - ELECTRE
@@ -78,6 +78,6 @@ Please [let me know](mailto:{{ site.gmail }}) if you find it useful.
   - TOPSIS
   - 偏好模型
 
-[参考文献](./ref.html){:target="_blank"}
+[参考文献](./chaps/ref.html){:target="_blank"}
 
 [searchrank]: /files/searchrank.pdf

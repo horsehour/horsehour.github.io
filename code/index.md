@@ -4,13 +4,13 @@ section: Code
 title: Code
 ---
 
-<img src="/assets/images/githublogo.png" style="width: 30px;"/>
+<img src="/assets/images/git.png" style="width: 30px;"/>
 [_**Learn to Vote**_](https://github.com/horsehour/ivote){:target="_blank"}: A research project on learning of voting rules, especially on fairness criterion, and the multi-round winners determination procedure.
 
-<img src="/assets/images/githublogo.png" style="width: 30px;"/>
+<img src="/assets/images/git.png" style="width: 30px;"/>
 [_**Learning to Rank**_](https://github.com/horsehour/irank){:target="_blank"}: A library of learning to rank algorithms for information retrieval and ranking aggregation.
 
-<img src="/assets/images/githublogo.png" style="width: 30px;"/>
+<img src="/assets/images/git.png" style="width: 30px;"/>
 [ _**Meta Search Engine**_](https://github.com/horsehour/metasearch){:target="_blank"}: A simple meta search engine with a new aggregation method. It supports customization of individual search engines to query.
 
 _**Meta Recognition**_: Recognizes the meta blocks (title, authors, keywords, abstracts and references) in a research paper.

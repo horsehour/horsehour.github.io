@@ -8,12 +8,16 @@ tags: [match, student, college, admission]
 Matching has many applications in real world, e.g. online dating, student recruitment for universities, 
 and jobs seeking in employment market. We introduce a simple bilinear model, 
 and picture the matching problem as ranking. The model provides online recommendations based on existing 
-preference profiles of colleges and students. You can find the related repository on
-GitHub.
+preference profiles of colleges and students. 
 
-- [Code](https://github.com/horsehour/collegematch){:target="_blank"}
-- [PDF](https://github.com/horsehour/collegematch/blob/master/Student-College%20Match.pdf){:target="_blank"}
-- [TeX](/files/collegematch.tex){:target="_blank"}
+Sources:
+<img src="/assets/images/git.png" style="width: 30px;"/>
+[GitHub](https://github.com/horsehour/collegematch){:target="_blank"}
+<img src="/assets/images/pdf.png" style="width: 30px;"/>
+[PDF](https://github.com/horsehour/collegematch/blob/master/Student-College%20Match.pdf){:target="_blank"}
+<img src="/assets/images/tex.png" style="width: 30px;"/>
+[$\rm\TeX$](/files/collegematch.tex){:target="_blank"}
+
 
 # Problem
 

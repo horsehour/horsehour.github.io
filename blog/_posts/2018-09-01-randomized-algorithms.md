@@ -10,7 +10,7 @@ I made some efforts to take notes and understand related materials.
 To analyze and design an efficient algorithm, many valuable tools and advanced techniques are introduced, 
 e.g., _Chernoff bounds_, _Derandomization_.
 <a href="/files/randalgos.pdf" target="_blank">
-<img src="/assets/images/pdflogo.jpg" style="width: 25px;"/></a>
+<img src="/assets/images/pdf.png" style="width: 25px;"/></a>
 
 Asymptotic Analysis
 =====================

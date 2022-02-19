@@ -18,9 +18,10 @@ gmail: jiangchunheng@gmail.com
 horsehour: http://www.horsehour.com
 github: https://github.com/horsehour
 linkedin: https://www.linkedin.com/in/jiangch/
-pdflogo: /assets/images/pdflogo.jpg
-githublogo: /assets/images/githublogo.png
-pythonlogo: /assets/images/python.png
-javalogo: /assets/images/java.jpg
+
+pdf: /assets/images/pdf.png
+gt: /assets/images/git.png
+py: /assets/images/python.png
+java: /assets/images/java.png
 
 theme: jekyll-theme-time-machine
