@@ -15,6 +15,7 @@ nuclear reaction networks and boiling crisis in nuclear reactors.
 Our collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
 journals (Scientific Reports, New Journal of Physics).
 
+<img src="/assets/images/seal.png" style="width: 25px;"/>
 <img src="/assets/images/pdf.png" style="width: 30px;"/>
 [Curriculum Vitae](/files/cv.pdf){:target="_blank"} 
 
