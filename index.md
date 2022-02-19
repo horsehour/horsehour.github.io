@@ -9,7 +9,7 @@ section: Home
 -->
 
 I am Chunheng Jiang, a PhD candidate in Computer Science Department of PRI, 
-working with Dr. [Jianxi Gao](gao){:target="_blank"}; 
+working with Dr. [Jianxi Gao][gao]{:target="_blank"}; 
 also an AIRC (Rensselaer-IBM Artificial Intelligence Research Collaboration) Research Extern, 
 now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
 I have a solid background in Network Science, Graph Science, Deep Learning, Information Retrieval, Ranking, Recommendation, 
@@ -22,7 +22,7 @@ journals (Scientific Reports, New Journal of Physics).
 <div class="section" markdown="1">
 PDF
 =======
-[Curriculum Vitae](/files/cv.pdf) / [Searching and Ranking](searchrank)
+[Curriculum Vitae](/files/cv.pdf){:target="_blank"} / [Searching and Ranking][searchrank]{:target="_blank"}  
 </div>
 
 
@@ -54,19 +54,19 @@ Publications
 Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
 Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
-arXiv preprint arXiv:2201.04194, (2022).
+arXiv preprint arXiv:2201.04194, 2022.
 
 Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
 <b>[Nuclear Reaction Network Unveils Novel Reaction Patterns Based on Stellar Energies][nucnet]{:target="_blank"}</b>,
-New Journal of Physics, (2021).
+New Journal of Physics, 2021.
 
 Xiang Niu, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss, and Boleslaw Szymanski.
 <b>[From Data to Complex Network Control of Airline Flight Delays][flightnet]{:target="_blank"}</b>, 
-Scientific Reports, 11, 18715, (2021).
+Scientific Reports, 11, 18715, 2021.
 
 Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
-Scientific Reports, 11, 7645 (2021).
+Scientific Reports, 11, 7645, 2021.
 
 Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
@@ -187,7 +187,7 @@ _Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images 
 </div>
 
 <div class="section" markdown="1">
-Reviewer/PC
+Reviewer or PC Member
 =========
 ICML 2022, TheWebConf 2021, NetSci 2020, NetSci-X 2020, NERCCS 2019, COMPLEX NETWORKS 2018 ~ 2021, SciSec 2018
 </div>
@@ -258,11 +258,11 @@ Reading
 <div id="w0789d8409abbeacae8fbd27aa551582a"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=horsehour&theID=w0789d8409abbeacae8fbd27aa551582a"></script><noscript><a href="http://www.librarything.com/profile/horsehour">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
 
 
-[gao]: http://gaojianxi.com/
+[gao]:  http://gaojianxi.com/
 [rpi]:  https://www.rpi.edu/
-[swjtu]:http://www.swjtu.edu.cn/
-[tjcu]: http://www.tjcu.edu.cn/
-[searchrank]: https://github.com/horsehour/searchrank
+[swjtu]:  http://www.swjtu.edu.cn/
+[tjcu]:  http://www.tjcu.edu.cn/
+[searchrank]:  https://github.com/horsehour/searchrank/
 
 [collegeai]: https://www.collegeai.com/
 [dearank]: https://link.springer.com/article/10.1007/s10994-014-5442-3
