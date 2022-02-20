@@ -2,7 +2,7 @@
 layout: blog-post
 categories: Research
 tags: [neural network, complex network, optimization]
-title: List of sites, Teams and Packages
+title: List of Sites, Teams and Packages
 ---
 
 - [Theoretical computer science cheat sheet](https://www.tug.org/texshowcase/cheat.pdf){:target="_blank"}

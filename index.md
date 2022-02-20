@@ -6,13 +6,13 @@ section: About
 
 I am Chunheng Jiang, a PhD candidate in Computer Science Department of PRI 
 working with Dr. [Jianxi Gao][gao]{:target="_blank"}, 
-also an AIRC (Rensselaer-IBM Artificial Intelligence Research Collaboration) Research Extern. 
+also an Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern. 
 I am now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
 I have a solid background in Network Science, Graph Science and Deep Learning. 
-Also, I am interested in information retrieval, ranking, recommendation, 
+Also, I am interested in information retrieval, recommendation, 
 optimization and data visualization. 
 I have involved in diverse projects ranging from network inference, 
-voting/ranking, machine learning/deep learning, risk network control to airline/highway traffic congestion to 
+voting, machine learning, risk network control to airline/highway traffic congestion to 
 nuclear reaction networks and boiling crisis in nuclear reactors. 
 Our collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
 journals (Scientific Reports, New Journal of Physics).
@@ -208,7 +208,7 @@ A complete [list of courses](/courses/) being taken
 Skills
 ==========  
 <b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
-Markdown, $\rm \LaTeX$  
+Markdown, $\rm \LaTeX $  
 <b>Operating Systems</b>: Linux, OS X, Windows  
 <b>Databases</b>: MySQL, SQLite, MongoDB  
 <b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
