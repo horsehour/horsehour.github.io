@@ -1,7 +1,7 @@
 ---
 layout: main 
-title: Archive
-section: arxiv
+title: Posts 
+section: arxiv 
 
 keywords: Posts, Blog, Research, Comments, Machine Learning, Artificial Intelligence, Math, Stats
 ---

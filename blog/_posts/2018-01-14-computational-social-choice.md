@@ -5,7 +5,7 @@ tags: [Machine Learning, Computational Social Choice]
 title:  Computational Social Choice
 ---
 
-A collection of research papers, open sources on social choice theory or voting problem.
+A collection of research papers, open sources on social choice theory.
 
 <img src="/assets/images/git.png" style="width: 25px;"/>
 [GitHub](https://github.com/horsehour/socialchoice){:target="_blank"}

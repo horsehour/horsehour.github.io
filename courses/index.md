@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Courses
-section: Home
+section: About 
 ---
 
 This page is maintained as a complete list of courses that I have taken on campus. 

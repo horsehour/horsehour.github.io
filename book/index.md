@@ -1,7 +1,7 @@
 ---
 layout: main 
-title: Search and Rank
-section: notes 
+title: Book 
+section: book 
 keywords: search, ranking, information retrieval, stats and math
 ---
 

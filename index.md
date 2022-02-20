@@ -1,7 +1,7 @@
 ---
 layout: main
 title: CHUNHENG JIANG
-section: Home
+section: About 
 ---
 
 I am Chunheng Jiang, a PhD candidate in Computer Science Department of PRI, 

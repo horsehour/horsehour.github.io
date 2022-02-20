@@ -1,11 +1,10 @@
 ---
-layout: main
-title: Collection
-section: Collection
+layout: blog-post
+categories: Research
+tags: [neural network, complex network, optimization]
+title: List of sites, Teams and Packages
 ---
 
-Complete Lists
---------------
 - [Theoretical computer science cheat sheet](https://www.tug.org/texshowcase/cheat.pdf){:target="_blank"}
 - [A mostly complete chart of neural networks](https://www.asimovinstitute.org/wp-content/uploads/2019/04/NeuralNetworkZoo20042019.png){:target="_blank"}
 - [Who is the best at X?](http://rodrigob.github.io/are_we_there_yet/build/#classification-dataset-type){:target="_blank"}
