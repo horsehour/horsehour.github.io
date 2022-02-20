@@ -33,9 +33,9 @@ Lally 08, 110 8th St. Troy NY, 12180, USA
 <div class="section" markdown="1">
 Education
 ============
-_2016.08 - now_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_2016.08 - 2018.05_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_2011.09 - 2014.07_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
+_Aug 2016 - now_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Aug 2016 - May 2018_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Sept 2011 - July 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 2005.09 - 2009.07: ***B.Sc***, Information and Computing Science, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
 -->
@@ -192,8 +192,8 @@ ICML 2022, TheWebConf 2021, NetSci 2020, NetSci-X 2020, NERCCS 2019, COMPLEX NET
 <div class="section" markdown="1">
 Teaching Assistant
 ==========  
-_Spring 2017/18_ : [CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI   
-_Fall 2016_ : [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI 
+[CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI (S17/18)    
+[CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI (F16) 
 </div>
 
 <div class="section" markdown="1">
