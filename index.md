@@ -4,17 +4,17 @@ title: CHUNHENG JIANG
 section: About 
 ---
 
-I am Chunheng Jiang, a PhD candidate in Computer Science Department of PRI 
-working with Dr. [Jianxi Gao][gao]{:target="_blank"}, 
-also an Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern. 
-I am now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
-I have a solid background in Network Science, Graph Science and Deep Learning. 
-Also, I am interested in information retrieval, recommendation, 
+Chunheng Jiang is a Computer Science PhD candidate of RPI
+<!--working with Dr. [Jianxi Gao][gao]{:target="_blank"},--> 
+and a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern. 
+He is now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
+He has a solid background in Network/Graph Science and Deep Learning. 
+Also, he is interested in information retrieval, recommendation, 
 optimization and data visualization. 
-I have involved in diverse projects ranging from network inference, 
-voting, machine learning, risk network control to airline/highway traffic congestion to 
+He has involved in diverse projects ranging from network inference, 
+machine learning, network control to airline/highway traffic congestion to 
 nuclear reaction networks and boiling crisis in nuclear reactors. 
-Our collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
+Their collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
 journals (Scientific Reports, New Journal of Physics).
 
 <img src="/assets/images/seal.png" style="width: 25px;"/>
@@ -97,13 +97,13 @@ Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
 <div class="section" markdown="1">
 Research Interests
 ============
-Complex Networks and Artificial Intelligence
-- Topology and Dynamics Inference
-- Deep Learning / Neural Architecture Search / Reinforcement Learning
-- Learning to Rank / Rank Aggregation
+Complex Network and Artificial Intelligence
+- Network Inference (Individual Degrees, Topology and Dynamics)
+- Deep Learning / Reinforcement Learning / Neural Architecture Search 
+- Learning to Rank / Rank Aggregation / Voting
 - Information Retrieval / Recommendation
-- Optimization 
-- Visualization
+- Optimization (LP, ILP, Convex, SGD, L-BFGS) 
+- Data Visualization
 </div>
 
 
