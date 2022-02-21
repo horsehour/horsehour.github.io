@@ -35,9 +35,9 @@ Lally 08, 110 8th St. Troy NY, 12180, USA
 <div class="section" markdown="1">
 Education
 ============
-_Aug 2016 - now_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Aug 2016 - present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Aug 2016 - May 2018_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_Sept 2011 - July 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
+_Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 2005.09 - 2009.07: ***B.Sc***, Information and Computing Science, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
 -->
@@ -110,8 +110,8 @@ Complex Network and Artificial Intelligence
 <div class="section" markdown="1">
 Work Experience
 ===============
-_June - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA  
-_July 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
+_Jun - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA  
+_Jul 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
 
 <!--
 - Collect web information (commercial products, job positions)
@@ -133,7 +133,7 @@ _Aug 2020 -_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM 
 - Achieved 10-70% relative improvement over the best baseline w.r.t ranking of neural networks
 - <b>Techniques</b>: SGD, transfer learning, neural architecture search/design
 
-_June - Aug 2020_ : <b>Acoustic Environment Transfer</b>, IBM/Summer Research Intern | Python, TensorFlow
+_Jun - Aug 2020_ : <b>Acoustic Environment Transfer</b>, IBM/Summer Research Intern | Python, TensorFlow
 - Extended neural style transfer techniques to the synthesis of audio with desired environmental sounds (UrbanSound8K) 
 - Developed a new metric to evaluate acoustic environment transfer models (e.g., Ulyanov, Mital, VGGish and SoundNet) 
 - Produced augmented data with diverse environmental sound textures to increase the robustness of audio classifiers
@@ -159,7 +159,7 @@ _May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/Research Assistan
 - Reduced run time by 50-80% relative to the baseline strategies
 - <b>Techniques</b>: sampling, pruning, DFS, reinforcement learning, voting
 
-_Sept - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
+_Sep - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
 RPI/Research Assistant | Java, Python, Keras
 - Designed a bilinear model to match students and colleges' preferences
 - Trained a pairwise ranking model with synthesized dataset
