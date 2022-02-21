@@ -97,13 +97,9 @@ Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
 <div class="section" markdown="1">
 Research Interests
 ============
-Complex Network and Artificial Intelligence
+Network Science and Artificial Intelligence
 - Network Inference (Individual Degrees, Topology and Dynamics)
 - Deep Learning / Reinforcement Learning / Neural Architecture Search 
-- Learning to Rank / Rank Aggregation / Voting
-- Information Retrieval / Recommendation
-- Optimization (LP, ILP, Convex, SGD, L-BFGS) 
-- Data Visualization
 </div>
 
 
