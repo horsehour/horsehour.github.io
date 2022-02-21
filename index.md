@@ -25,10 +25,10 @@ journals (Scientific Reports, New Journal of Physics).
 <div class="section" markdown="1">
 Contact
 ======= 
-_Email_: [{{ site.gmail }}](mailto:{{ site.gmail }})  
-_Phone_: +1 518-960-7682  
-_GitHub_: [{{ site.github }}]({{ site.github }}){:target="_blank"}  
-_LinkedIn_: [{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}  
+<b>Email</b>: _[{{ site.gmail }}](mailto:{{ site.gmail }})_   
+<b>Phone</b>: _+1 518-960-7682_  
+<b>GitHub</b>: _[{{ site.github }}]({{ site.github }}){:target="_blank"}_   
+<b>LinkedIn</b>: _[{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}_  
 </div>
 
 <div class="section" markdown="1">
