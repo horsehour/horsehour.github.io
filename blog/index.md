@@ -8,7 +8,7 @@ keywords: Machine Learning, Artifical Intelligence, Statistics, Blog, Research
 The site horsehour.com  was registered on GoDaddy in March 2013, 
 but went online until May 2017.
 To record some of my random thoughts on research and programming,
-this Jekyll-powered, Github page hosted blog was setup.
+this Jekyll-powered, Github Pages hosted blog was setup.
 I prefer taking notes with $\rm \LaTeX$,
 because of its excellent rendering quality of complex mathematical equations. 
 Therefore, the posts are written in a hybrid of Markdown (for text) and $\rm \LaTeX$ (for equations) and 
