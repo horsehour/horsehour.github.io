@@ -38,7 +38,7 @@ _Aug 2016 - present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][
 _Aug 2016 - May 2018_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
-2005.09 - 2009.07: ***B.Sc***, Information and Computing Science, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
+_Sep 2005 - Jul 2009_: BS, Info & Comp Sci, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
 -->
 </div>
 
@@ -47,7 +47,7 @@ Publications
 ============
 Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
-Network Selection via Edge Dynamics_][capacitance]{:target="_blank"}</b>,
+Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
 arXiv preprint arXiv:2201.04194, 2022.
 
 Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
