@@ -23,3 +23,8 @@ title: Album
 
 [<img src="/assets/images/album/bubbles.png" height="200"/>](./sources/bubbles)
 [<img src="/assets/images/album/ewi-traffic-disruption.png" height="200"/>](./sources/traffic-breakdown)
+<!--
+[<img src="/assets/images/album/shadownetwork.png" height="200"/>](./sources/shadow-network)
+-->
+[<img src="/assets/images/album/mlp.png" height="200"/>](./sources/mlp)
+
