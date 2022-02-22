@@ -47,7 +47,7 @@ Publications
 ============
 Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
-Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
+Network Selection via Edge Dynamics_][capacitance]{:target="_blank"}</b>,
 arXiv preprint arXiv:2201.04194, 2022.
 
 Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 

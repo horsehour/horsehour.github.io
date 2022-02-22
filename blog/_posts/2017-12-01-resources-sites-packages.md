@@ -6,6 +6,7 @@ title: List of Sites, Teams and Packages
 ---
 
 - [Theoretical computer science cheat sheet](https://www.tug.org/texshowcase/cheat.pdf){:target="_blank"}
+- [The map of control theory](https://images.squarespace-cdn.com/content/v1/5b2d76525cfd790c4a218093/1618690795907-2M77FCZWYJAMM9FWES91/Control_Map_ver5.png?format=1000w){:target="_blank"}
 - [A mostly complete chart of neural networks](https://www.asimovinstitute.org/wp-content/uploads/2019/04/NeuralNetworkZoo20042019.png){:target="_blank"}
 - [Who is the best at X?](http://rodrigob.github.io/are_we_there_yet/build/#classification-dataset-type){:target="_blank"}
 
