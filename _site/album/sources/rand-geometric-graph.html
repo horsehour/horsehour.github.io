@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>NetworkX - Random Geometric Graph</title>
+   <meta name="author" content="Chunheng Jiang" />
+   <link rel="shortcut icon" href="/assets/images/horse.png"/>
+   <link rel="start" href="/" />
+
+	
+
+   <!-- Syntax highlighting CSS -->
+   <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/assets/css/screen.css" type="text/css" />  
+   
+</head>
+<body id="Album" onLoad="addOptions()">
+<div id="site">
+
+  <div id="header">
+	<h1>
+<a href="/" title="Chunheng Jiang">Chunheng Jiang</a>
+</h1>
+
+<ul class="nav">
+<li><a class="about" href="/">About</a></li>
+<li><a class="blog" href="/blog">Blog</a></li>
+<li><a class="book" href="/book/">Book</a></li>
+<li><a class="code" href="/code">Code</a></li>
+<li><a class="album" href="/album">Album</a></li>
+</ul>
+
+</div>
+
+<div id="page">
+	<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="n">nx</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.cm</span> <span class="k">as</span> <span class="n">cm</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.family'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'serif'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.serif'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Times'</span>
+<span class="c1"># plt.rcParams['font.weight'] = 'bold'
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.weight'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'normal'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="c1"># plt.rcParams['text.usetex'] = False
+</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'axes.labelsize'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="c1"># plt.rcParams['axes.labelweight'] = 'bold'
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'axes.labelweight'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'normal'</span>
+    
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'lines.linewidth'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'lines.markeredgewidth'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="c1"># plt.rcParams['xtick.top'] = True
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'xtick.direction'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'in'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'xtick.minor.visible'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'xtick.major.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'xtick.major.width'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'xtick.labelsize'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="c1"># plt.rcParams['ytick.right'] = True
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'ytick.direction'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'in'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'ytick.labelsize'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'ytick.minor.visible'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'ytick.major.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'ytick.major.width'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'savefig.dpi'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">500</span>
+
+
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="n">random_geometric_graph</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">)</span>
+<span class="c1"># position is stored as node attribute data for random_geometric_graph
+</span><span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s">'pos'</span><span class="p">)</span>
+
+<span class="c1"># find node near center (0.5,0.5)
+</span><span class="n">dmin</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">ncenter</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">pos</span><span class="p">:</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">pos</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">if</span> <span class="n">d</span> <span class="o">&lt;</span> <span class="n">dmin</span><span class="p">:</span>
+        <span class="n">ncenter</span> <span class="o">=</span> <span class="n">n</span>
+        <span class="n">dmin</span> <span class="o">=</span> <span class="n">d</span>
+
+<span class="c1"># color by path length from node near center
+</span><span class="n">p</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">nx</span><span class="p">.</span><span class="n">single_source_shortest_path_length</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">ncenter</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">nx</span><span class="p">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">nodelist</span><span class="o">=</span><span class="p">[</span><span class="n">ncenter</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
+<span class="n">nx</span><span class="p">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">nodelist</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">keys</span><span class="p">()),</span>
+                       <span class="n">node_size</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span>
+                       <span class="n">node_color</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">values</span><span class="p">()),</span>
+                       <span class="n">cmap</span><span class="o">=</span><span class="n">cm</span><span class="p">.</span><span class="n">Reds_r</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">(</span><span class="o">-</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">ylim</span><span class="p">(</span><span class="o">-</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'off'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+</div>
+
+
+  
+  <div id="footer">
+	<address>
+		<span class="copyright">
+			Content by 
+			<a href="/">Chunheng Jiang</a>
+			<br/>
+			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">All rights reserved</a>)			
+		</span>
+		<span class="engine">
+			<a href="http://github.com/mreid/jekyll/">Powered by Jekyll</a><br/>
+			<a href="/">Design by Mark Reid</a>
+		</span>
+	</address>
+  </div>
+</div>
+
+<!-- MathJax configuration and loading -->
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+				"HTML-CSS": { 
+	  			preferredFont: "TeX", 
+	  			availableFonts: ["STIX","TeX"], 
+	  			linebreaks: { automatic:true }, 
+	  			EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) 
+	    	},
+				tex2jax: { 
+        	inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        	displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], 
+        	processEscapes: true, 
+        	ignoreClass: "tex2jax_ignore|dno" 
+        },
+        TeX: {  
+        	noUndefined: { attributes: {mathbackground: "#FFEEEE", mathsize: "90%" } } 
+        },
+	});
+</script>
+
+<!-- Latex goes here --> 
+<script type="text/javascript"
+ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- search engines -->
+<script type="text/javascript" src="/assets/js/search.js"></script>
+
+
+<!-- Google Analytics script goes here --> 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+	(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-105328724-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script id="dsq-count-scr" src="//horsehour.disqus.com/count.js" async></script>
+</body>
+</html>
+
