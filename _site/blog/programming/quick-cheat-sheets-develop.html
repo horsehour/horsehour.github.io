@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Quick Cheat Sheet for a New Developer</title>
+   <title>Incomplete Cheat Sheet for New Developers</title>
    <meta name="author" content="Chunheng Jiang" />
    <link rel="shortcut icon" href="/assets/images/horse.png"/>
    <link rel="start" href="/" />
@@ -33,10 +33,10 @@
 
 <div id="page">
 
-<!--<h1 class="emphnext">Quick Cheat Sheet for a New Developer</h1>-->
-<h1>Quick Cheat Sheet for a New Developer</h1>
+<!--<h1 class="emphnext">Incomplete Cheat Sheet for New Developers</h1>-->
+<h1>Incomplete Cheat Sheet for New Developers</h1>
 
-<p>Quick cheat sheets (incomplete) of bash, Anaconda, PipPy, Git and Django.</p>
+<p>An incomplete developer’s cheat sheet, including bash, Anaconda, Pip, Git and Django.</p>
 
 <h1 id="bash">Bash</h1>
 
@@ -105,7 +105,8 @@ find <span class="nb">dir</span> <span class="nt">-type</span> f | <span class="
 
 curl <span class="nt">-O</span> http://www.horsehour.com <span class="c">#crawl page</span>
 </code></pre></div></div>
-<p><em>Note</em>: grep: <strong>g</strong>lobally search a <strong>re</strong>gular expression and <strong>p</strong>rint</p>
+<p><span style="color:#ff0000"> ★ </span>
+grep: <strong>g</strong>lobally search a <strong>re</strong>gular expression and <strong>p</strong>rint</p>
 
 <h2 id="processes">Processes</h2>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps <span class="c">#list all current processes</span>
@@ -117,7 +118,8 @@ pkill <span class="nt">-9</span> <span class="nt">-u</span> <span class="sb">`</
 <span class="nb">nohup </span>java <span class="nt">-jar</span> horse.jar &amp; <span class="c"># run processes to background</span>
 <span class="nb">echo</span> <span class="nv">$!</span> <span class="c">#recent process</span>
 </code></pre></div></div>
-<p><em>Note</em>: nohup: Close a terminal without killing a running process, or move running processes to background. If standard output is the terminal, it will be redirected to <code class="language-plaintext highlighter-rouge">nohup.out</code>.</p>
+<p><span style="color:#ff0000"> ★ </span>
+nohup: Close a terminal without killing a running process, or move running processes to background. If standard output is the terminal, it will be redirected to <code class="language-plaintext highlighter-rouge">nohup.out</code>.</p>
 
 <h2 id="vpn-ssh-and-scp">VPN, SSH and SCP</h2>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>connect vpn.net.a.edu <span class="c">#vpn connection</span>
@@ -227,9 +229,9 @@ git pull origin rep1 rep2 <span class="c">#pulls in changes from the remote `rep
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn checkout https://github.com/horsehour/reponame/trunk/foldername
 </code></pre></div></div>
 
-<h1 id="pippy">PipPy</h1>
+<h1 id="pip">Pip</h1>
 
-<p><code class="language-plaintext highlighter-rouge">PipPy</code> is a package manager used to install and manage software package in python.</p>
+<p><code class="language-plaintext highlighter-rouge">Pip</code> is a package manager used to install and manage software package in python.</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- pip <span class="nb">install </span>pkgname
 - pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt

@@ -1,11 +1,11 @@
 ---
 layout: blog-post
-title: "Quick Cheat Sheet for a New Developer"
+title: "Incomplete Cheat Sheet for New Developers"
 categories: Programming
 tags: [programming, environment]
 ---
 
-Quick cheat sheets (incomplete) of bash, Anaconda, PipPy, Git and Django. 
+An incomplete developer's cheat sheet, including bash, Anaconda, Pip, Git and Django. 
 
 # Bash
 
@@ -76,7 +76,8 @@ cat 1.txt 2.txt > 3.txt #merge files 1.txt and 2.txt and output ->  3.txt
 
 curl -O http://www.horsehour.com #crawl page
 ``` 
-*Note*: grep: **g**lobally search a **re**gular expression and **p**rint
+<span style="color:#ff0000"> ★ </span>
+grep: **g**lobally search a **re**gular expression and **p**rint
 
 ## Processes
 ```bash
@@ -89,7 +90,8 @@ pkill -9 -u `id -u username` # by username
 nohup java -jar horse.jar & # run processes to background
 echo $! #recent process
 ```
-*Note*: nohup: Close a terminal without killing a running process, or move running processes to background. If standard output is the terminal, it will be redirected to `nohup.out`.
+<span style="color:#ff0000"> ★ </span>
+nohup: Close a terminal without killing a running process, or move running processes to background. If standard output is the terminal, it will be redirected to `nohup.out`.
 
 ## VPN, SSH and SCP
 ```bash
@@ -197,9 +199,9 @@ svn checkout https://github.com/horsehour/reponame/trunk/foldername
 ```
 
 
-# PipPy
+# Pip
 
-`PipPy` is a package manager used to install and manage software package in python.
+`Pip` is a package manager used to install and manage software package in python.
 
 ```bash
 - pip install pkgname

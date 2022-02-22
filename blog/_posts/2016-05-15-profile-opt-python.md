@@ -35,5 +35,5 @@ $ python -m cProfile -o machlearn.cprof machlearn.py
 $ pyprof2calltree -k -i machlearn.cprof
 ```
 
-<img class='inset center' src="/images/kcachegrind.png" width="600"/>
+<img class='inset center' src="/assets/images/kcachegrind.png" width="750"/>
 
