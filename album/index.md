@@ -28,3 +28,10 @@ title: Album
 -->
 [<img src="/assets/images/album/mlp.png" height="200"/>](./sources/mlp)
 
+[<img src="/assets/images/album/3dsurface.png" height="200"/>](./sources/3dsurface)
+[<img src="/assets/images/album/3ddistribution.png" height="200"/>](./sources/3ddistribution)
+
+[<img src="/assets/images/album/weighted-directed-graph.png" height="180"/>](./sources/weighted-directed-graph)
+[<img src="/assets/images/album/polyhedra.png" height="180"/>](./sources/polyhedra)
+[<img src="/assets/images/album/textbox.png" height="180"/>](./sources/textbox)
+

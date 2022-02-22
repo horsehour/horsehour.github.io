@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>TikZ - Text Box</title>
+   <meta name="author" content="Chunheng Jiang" />
+   <link rel="shortcut icon" href="/assets/images/horse.png"/>
+   <link rel="start" href="/" />
+
+	
+
+   <!-- Syntax highlighting CSS -->
+   <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/assets/css/screen.css" type="text/css" />  
+   
+</head>
+<body id="Album" onLoad="addOptions()">
+<div id="site">
+
+  <div id="header">
+	<h1>
+<a href="/" title="Chunheng Jiang">Chunheng Jiang</a>
+</h1>
+
+<ul class="nav">
+<li><a class="about" href="/">About</a></li>
+<li><a class="blog" href="/blog">Blog</a></li>
+<li><a class="book" href="/book/">Book</a></li>
+<li><a class="code" href="/code">Code</a></li>
+<li><a class="album" href="/album">Album</a></li>
+</ul>
+
+</div>
+
+<div id="page">
+	<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>standalone<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>pgfplots<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>pgfplotstable<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>tikz<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>amsmath,amssymb<span class="p">}</span>
+<span class="k">\tikzset</span><span class="p">{</span>
+  tag/.style=<span class="p">{</span>
+    rectangle,
+    draw=black, very thick,
+    text width=4em,
+    minimum height=2em,
+    text centered<span class="p">}</span>,
+  commit/.style=<span class="p">{</span>
+    circle,
+    draw=black, very thick,
+    text width=1em,
+    minimum height=1em,
+    text centered<span class="p">}</span>,
+  point/.style=<span class="p">{</span>coordinate<span class="p">}</span>,
+<span class="p">}</span>
+
+<span class="c">% Define box and box title style</span>
+<span class="k">\tikzstyle</span><span class="p">{</span>mybox<span class="p">}</span> = [draw=red, fill=blue!20, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+<span class="k">\tikzstyle</span><span class="p">{</span>fancytitle<span class="p">}</span> =[fill=red, text=white]
+<span class="k">\pgfplotsset</span><span class="p">{</span>compat=1.6<span class="p">}</span> 
+
+<span class="nt">\begin{document}</span>
+<span class="nt">\begin{tikzpicture}</span>
+<span class="k">\node</span> [mybox] (box)<span class="p">{</span>
+    <span class="nt">\begin{minipage}</span><span class="p">{</span>0.50<span class="k">\textwidth</span><span class="p">}</span>
+        To calculate the horizontal position, the kinematic differential
+        equations are needed:
+        <span class="nt">\begin{align}</span>
+            <span class="k">\dot</span><span class="p">{</span>n<span class="p">}</span> <span class="p">&amp;</span>= u<span class="k">\cos\psi</span> -v<span class="k">\sin\psi</span> <span class="k">\\</span>
+            <span class="k">\dot</span><span class="p">{</span>e<span class="p">}</span> <span class="p">&amp;</span>= u<span class="k">\sin\psi</span> + v<span class="k">\cos\psi</span>
+        <span class="nt">\end{align}</span>
+        For small angles the following approximation can be used:
+        <span class="nt">\begin{align}</span>
+            <span class="k">\dot</span><span class="p">{</span>n<span class="p">}</span> <span class="p">&amp;</span>= u -v<span class="k">\delta</span><span class="p">_</span><span class="k">\psi</span> <span class="k">\\</span>
+            <span class="k">\dot</span><span class="p">{</span>e<span class="p">}</span> <span class="p">&amp;</span>= u<span class="k">\delta</span><span class="p">_</span><span class="k">\psi</span> + v 
+        <span class="nt">\end{align}</span>
+    <span class="nt">\end{minipage}</span>
+<span class="p">}</span>;
+<span class="k">\node</span><span class="na">[fancytitle, right=10pt]</span> at (box.north west) <span class="p">{</span>Approximation<span class="p">}</span>;
+<span class="k">\node</span><span class="na">[fancytitle, rounded corners]</span> at (box.east) <span class="p">{$</span><span class="nv">\clubsuit</span><span class="p">$}</span>;
+<span class="nt">\end{tikzpicture}</span>
+
+<span class="k">\tikzstyle</span><span class="p">{</span>mybox<span class="p">}</span> = [draw=blue, fill=green!20, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+<span class="k">\tikzstyle</span><span class="p">{</span>fancytitle<span class="p">}</span> =[fill=blue, text=white]
+
+<span class="nt">\begin{tikzpicture}</span>[transform shape, rotate=10, baseline=-3.5cm]
+<span class="k">\node</span> [mybox] (box) <span class="p">{</span>
+    <span class="nt">\begin{minipage}</span>[t!]<span class="p">{</span>0.5<span class="k">\textwidth</span><span class="p">}</span>
+        Fermat's Last Theorem states that
+        <span class="nt">\begin{align}</span>
+            x<span class="p">^</span>n + y<span class="p">^</span>n = z<span class="p">^</span>n
+        <span class="nt">\end{align}</span>
+        has no non-zero integer solutions for <span class="p">$</span><span class="nb">x</span><span class="p">$</span>, <span class="p">$</span><span class="nb">y</span><span class="p">$</span> and <span class="p">$</span><span class="nb">z</span><span class="p">$</span> when <span class="p">$</span><span class="nb">n &gt; </span><span class="m">2</span><span class="p">$</span>.
+    <span class="nt">\end{minipage}</span>
+    <span class="p">}</span>;
+
+<span class="k">\node</span><span class="na">[fancytitle]</span> at (box.north) <span class="p">{</span>Fermat's Last Theorem<span class="p">}</span>;
+<span class="nt">\end{tikzpicture}</span>
+<span class="nt">\end{document}</span>
+</code></pre></div></div>
+
+</div>
+
+
+  
+  <div id="footer">
+	<address>
+		<span class="copyright">
+			Content by 
+			<a href="/">Chunheng Jiang</a>
+			<br/>
+			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">All rights reserved</a>)			
+		</span>
+		<span class="engine">
+			<a href="http://github.com/mreid/jekyll/">Powered by Jekyll</a><br/>
+			<a href="/">Design by Mark Reid</a>
+		</span>
+	</address>
+  </div>
+</div>
+
+<!-- MathJax configuration and loading -->
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+				"HTML-CSS": { 
+	  			preferredFont: "TeX", 
+	  			availableFonts: ["STIX","TeX"], 
+	  			linebreaks: { automatic:true }, 
+	  			EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) 
+	    	},
+				tex2jax: { 
+        	inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        	displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], 
+        	processEscapes: true, 
+        	ignoreClass: "tex2jax_ignore|dno" 
+        },
+        TeX: {  
+        	noUndefined: { attributes: {mathbackground: "#FFEEEE", mathsize: "90%" } } 
+        },
+	});
+</script>
+
+<!-- Latex goes here --> 
+<script type="text/javascript"
+ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!-- search engines -->
+<script type="text/javascript" src="/assets/js/search.js"></script>
+
+
+<!-- Google Analytics script goes here --> 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
+	(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-105328724-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script id="dsq-count-scr" src="//horsehour.disqus.com/count.js" async></script>
+</body>
+</html>
+
