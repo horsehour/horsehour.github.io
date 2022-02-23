@@ -22,91 +22,83 @@ journals (Scientific Reports, New Journal of Physics).
 [Curriculum Vitae](/files/cv.pdf){:target="_blank"} 
 
 
-<div class="section" markdown="1">
-Contact
-======= 
-<b>Email</b>: _[{{ site.gmail }}](mailto:{{ site.gmail }})_   
+CONTACT
+-------
+<b>Email</b>: _[{{ site.gmail }}](mailto:{{ site.gmail }})_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <b>Phone</b>: _+1 518-960-7682_  
-<b>GitHub</b>: _[{{ site.github }}]({{ site.github }}){:target="_blank"}_   
+<b>GitHub</b>: _[{{ site.github }}]({{ site.github }}){:target="_blank"}_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>LinkedIn</b>: _[{{ site.linkedin }}]({{ site.linkedin }}){:target="_blank"}_  
-</div>
 
-<div class="section" markdown="1">
-Education
-============
+EDUCATION
+---------
 _Aug 2016 - present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Aug 2016 - May 2018_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 _Sep 2005 - Jul 2009_: BS, Info & Comp Sci, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
 -->
-</div>
 
-<div class="section" markdown="1">
-Publications
-============
-Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
+PUBLICATIONS
+------------
+(1) Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
 Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
 arXiv preprint arXiv:2201.04194, 2022.
 
-Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
+(2) Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
 <b>[Nuclear Reaction Network Unveils Novel Reaction Patterns Based on Stellar Energies][nucnet]{:target="_blank"}</b>,
 New Journal of Physics, 2021.
 
-Xiang Niu, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss, and Boleslaw Szymanski.
+(3) Xiang Niu, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss, and Boleslaw Szymanski.
 <b>[From Data to Complex Network Control of Airline Flight Delays][flightnet]{:target="_blank"}</b>, 
 Scientific Reports, 11, 18715, 2021.
 
-Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
+(4) Xiang Niu, Christopher Brissette, Chunheng Jiang, Jianxi Gao, Gyorgy Korniss and Boleslaw K. Szymanski.
 <b>[Heuristic Assessment of the Economic Effects of Pandemic Control][pandemic]{:target="_blank"}</b>,
 Scientific Reports, 11, 7645, 2021.
 
-Chunheng Jiang, Jae-wook Ahn and Nirmit Desai. 
+(5) Chunheng Jiang, Jae-wook Ahn and Nirmit Desai. 
 <b>[Acoustic Environment Transfer for Distributed Systems][acoustic]{:target="_blank"}</b>, In SEC-2020: The
 5th IEEE/ACM Symposium on Edge Computing, IEEE, 2020.
 
-Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
+(6) Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[Inferring Degrees from Incomplete Networks and Nonlinear Dynamics][estks]{:target="_blank"}</b>, 
 in Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020), 2020. 
 Oral. Acceptance Rate: 12.6%. (<b>[slides][ijcai20slides]{:target="_blank"})
 
-Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
+(7) Chunheng Jiang, Jianxi Gao, and Malik Magdon-Ismail. 
 <b>[True Nonlinear Dynamics from Incomplete Networks][estxs]{:target="_blank"}</b>, 
 in Proceedings of 34th AAAI Conference on Artificial Intelligence (AAAI 2020), 2020. Oral. Acceptance Rate: 20.6%.
 
-Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. 
+(8) Jun Wang, Sujoy Sikdar, Tyler Shepherd, Zhibing Zhao, Chunheng Jiang and Lirong Xia. 
 <b>[Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking][put]{:target="_blank"}</b>, 
 in Proceedings of 33rd AAAI Conference on Artificial Intelligence (AAAI 2019), 2019.
 
-Chunheng Jiang, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. 
+(9) Chunheng Jiang, Sujoy Sikdar, Jun Wang, Lirong Xia, and Zhibing Zhao. 
 <b>[Practical Algorithms for Computing STV and Other Multi-Round Voting Rules][stv]{:target="_blank"}</b>, 
 in EXPLORE-2017: The 4th Workshop on Exploring Beyond the Worst Case in Computational Social Choice, 2017.
 
-Chunheng Jiang and Wenbin Lin. 
+(10) Chunheng Jiang and Wenbin Lin. 
 <b>[DEARank: A Data-envelopment-analysis-based Ranking Method][dearank]{:target="_blank"}</b>. 
 Machine Learning, 2015, 101: 415 -- 435.  
 
-Zhongyou Pei, Chunheng Jiang, and Wenbin Lin. 
+(11) Zhongyou Pei, Chunheng Jiang, and Wenbin Lin. 
 <b>[Random Walks on the Bipartite Graph for Personalized Recommendation][randwalk]{:target="_blank"}</b>,
 in 2013 International Conference on Computer Science and Artificial Intelligence (ICCSAI 2013), 
 Yuetong Lin and Gabriel Alungbe, Eds., Chengdu, China, 2013, 97 -- 102.
-</div>
 
-<div class="section" markdown="1">
-Research Interests
-============
+RESEARCH INTERESTS
+------------------
 Network Science and Artificial Intelligence
 - Network Inference (Individual Degrees, Topology and Dynamics)
 - Deep Learning / Reinforcement Learning / Neural Architecture Search 
-</div>
 
-
-<div class="section" markdown="1">
-Work Experience
-===============
-_Jun - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA  
-_Jul 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
+WORK EXPERIENCE
+---------------
+- _Jun - Aug 2020_: *Summer Research Intern*, IBM, Yorktown Heights, NY, USA  
+- _Jul 2014 - Mar 2016_: *Software Engineer*, Antusuoji Network Technology Co., Ltd., Chengdu, China 
 
 <!--
 - Collect web information (commercial products, job positions)
@@ -116,51 +108,49 @@ _2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 - Process the raw data in well organized structure
 - Create model to analysis the financial data with statistical techniques
 -->
-</div>
 
-<div class="section" markdown="1">
-Projects 
-==========
-_Aug 2020 -_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
+PROJECTS
+--------
+(1) _Aug 2020 - present_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
 - Built a novel graph representation for various neural architectures (e.g., ResNet, DenseNet, MobileNet, VGG, etc.)
 - Studied the topological properties (e.g., resilience, shortest path length) of neural architectures for robust models
 - Derived approximated training dynamics to speed-up neural network training and neural architecture search (NAS)
 - Achieved 10-70% relative improvement over the best baseline w.r.t ranking of neural networks
 - <b>Techniques</b>: SGD, transfer learning, neural architecture search/design
 
-_Jun - Aug 2020_ : <b>Acoustic Environment Transfer</b>, IBM/Summer Research Intern | Python, TensorFlow
+(2) _Jun - Aug 2020_ : <b>Acoustic Environment Transfer</b>, IBM/Summer Research Intern | Python, TensorFlow
 - Extended neural style transfer techniques to the synthesis of audio with desired environmental sounds (UrbanSound8K) 
 - Developed a new metric to evaluate acoustic environment transfer models (e.g., Ulyanov, Mital, VGGish and SoundNet) 
 - Produced augmented data with diverse environmental sound textures to increase the robustness of audio classifiers
 - <b>Techniques</b>: AutoEncoder, audio synthesis / classification, FFT  
 
-_Aug 2018 - May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI/Research Assistant | Python, Scikit-learn, MPI
+(3) _Aug 2018 - May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI/Research Assistant | Python, Scikit-learn, MPI
 - Developed a mean-field approach to infer nodes’ characteristics from incomplete networks
 - Recovered true nonlinear dynamics with incomplete topology and equilibrium state information
 - Designed a heuristic optimization algorithm based on our topology inference approach to solve K-SUM problem
 - Solved large-scale nonlinear dynamical systems in parallel (10x speedup w/ MPI/SLURM)
 - <b>Techniques</b>: graph sampling, mean-field, ODE, parallel computing
 
-_May - Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI/Research Assistant | Python, Scikit-learn, TensorFlow
+(4) _May - Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI/Research Assistant | Python, Scikit-learn, TensorFlow
 - Preprocessed traffic time series data (denoising, smoothing)
 - Designed and computed early warning signals of traffic congestion
 - Trained a machine learning based composite early warning signal indicator
 - Issued warning for upcoming traffic congestion
 - <b>Techniques</b>: denoising, smoothing, Gaussian kernel density estimation, machine learning
 
-_May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/Research Assistant | Python, Java, TensorFlow, Keras 
+(5) _May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/Research Assistant | Python, Java, TensorFlow, Keras 
 - Devised heuristic strategies (sampling, caching, pruning) to efficiently identify all tied winners in voting
 - Developed reinforcement learning models to simulate voting procedures and improve the search efficiency
 - Reduced run time by 50-80% relative to the baseline strategies
 - <b>Techniques</b>: sampling, pruning, DFS, reinforcement learning, voting
 
-_Sep - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
+(6) _Sep - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
 RPI/Research Assistant | Java, Python, Keras
 - Designed a bilinear model to match students and colleges' preferences
 - Trained a pairwise ranking model with synthesized dataset
 - <b>Techniques</b>: machine learning, optimization
 
-_May - Aug 2016_ : <b>Learning to Vote Fairly</b>, RPI/Research Assistant | Java, Deeplearning4j 
+(7) _May - Aug 2016_ : <b>Learning to Vote Fairly</b>, RPI/Research Assistant | Java, Deeplearning4j 
 - Learned the fairness criteria in voting based on machine learning techniques
 - Generated collections of ballots that satisfy specific fairness criteria
 - Applied data augmentation to produce fair voting results with multiple fairness criteria
@@ -178,41 +168,31 @@ _Summer 2012_ : <b>Meta Extraction from PDF Papers</b> <img src="{{ site.images 
 - Recognize the meta information blocks (titles, authors, keywords, abstract, and references) with handcrafted rules and machine learning techniques
 -->
 
-</div>
 
-<div class="section" markdown="1">
-Reviewer or PC Member
-=========
+REVIEWER OR PC MEMBER
+---------------------
 ICML 2022, TheWebConf 2021, NetSci 2020, NetSci-X 2020, NERCCS 2019, COMPLEX NETWORKS 2018 ~ 2021, SciSec 2018
-</div>
 
-<div class="section" markdown="1">
-Teaching Assistant
-==========  
-[CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI (S17/18)    
-[CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI (F16) 
-</div>
+TEACHING ASSISTANT
+------------------
+- [CSCI 4150: Introduction to Artificial Intelligence](http://www.cs.rpi.edu/~xial/){:target="_blank"}, RPI (Spring 17/18)    
+- [CSCI 4100/6100: Machine Learning from Data](http://www.cs.rpi.edu/~magdon/){:target="_blank"}, RPI (Fall 16) 
 
-<div class="section" markdown="1">
-Courses
-==========  
-A complete [list of courses](/courses/) being taken
-</div>
+COURSES
+-------
+A COMPLETE [LIST OF COURSES](/courses/) BEING TAKEN
 
-<div class="section" markdown="1">
-Skills
-==========  
-<b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
+SKILLS
+------
+- <b>Language</b>: Python, Java, C/C++, Matlab, MPI, HTML,
 Markdown, $\rm \LaTeX $  
-<b>Operating Systems</b>: Linux, OS X, Windows  
-<b>Databases</b>: MySQL, SQLite, MongoDB  
-<b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
-<b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
-</div>
+- <b>Operating Systems</b>: Linux, OS X, Windows  
+- <b>Databases</b>: MySQL, SQLite, MongoDB  
+- <b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
+- <b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
 
-<div class="section" markdown="1">
-Posts
-=====
+POSTS
+-----
 {% for post in site.categories.blog limit:5 %}
 
 <ul class="compact recent">
@@ -222,29 +202,19 @@ Posts
 </li>
 </ul>
 {% endfor %}
-</div>
 
-<div class="section" markdown="1">
-Search
-==============================================
 <form name="search">
-    <select name="engine" style="background-color: #F5F5F5;"></select>
-    <input type="text" name="query" onkeypress="return checkKey()"/>
-    <input type="button" value="Go" onClick="return startSearch()"/>
+<select name="engine" style="background-color: #F5F5F5;"></select>
+<input type="text" name="query" size="50" onkeypress="return checkKey()"/>
+<input type="button" value="Go" onClick="return startSearch()"/>
 </form>
-</div>
 
-<div class="section" markdown="1">
 Hobbies
-==============================================
+-------
 Mountain Biking, PingPong / 
 Frédéric François Chopin, Michael Jackson, Charlie Chaplin, Freddie Mercury, Maksim Mrvica / 
 Akira Kurosawa, Hayao Miyazaki, One Piece, The Phantom of the Opera
-</div>
 
-<div class="section" markdown="1">
-Reading
-==============================================
 <div id="w0789d8409abbeacae8fbd27aa551582a"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=horsehour&theID=w0789d8409abbeacae8fbd27aa551582a"></script><noscript><a href="http://www.librarything.com/profile/horsehour">My Library</a> at <a href="http://www.librarything.com">LibraryThing</a></noscript>
 
 
