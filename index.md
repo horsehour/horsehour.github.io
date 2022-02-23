@@ -33,7 +33,7 @@ CONTACT
 
 EDUCATION
 ---------
-_Aug 2016 - present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Aug 2016 - Present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Aug 2016 - May 2018_: MS, Computer Science, Rensselaer Polytechnic Institute  
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
@@ -111,7 +111,7 @@ _2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 
 PROJECTS
 --------
-(1) _Aug 2020 - present_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
+(1) _Aug 2020 - Present_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
 - Built a novel graph representation for various neural architectures (e.g., ResNet, DenseNet, MobileNet, VGG, etc.)
 - Studied the topological properties (e.g., resilience, shortest path length) of neural architectures for robust models
 - Derived approximated training dynamics to speed-up neural network training and neural architecture search (NAS)
