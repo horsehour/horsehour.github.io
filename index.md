@@ -34,7 +34,7 @@ CONTACT
 EDUCATION
 ---------
 _Aug 2016 - present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_Aug 2016 - May 2018_: MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Aug 2016 - May 2018_: MS, Computer Science, Rensselaer Polytechnic Institute
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 _Sep 2005 - Jul 2009_: BS, Info & Comp Sci, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
