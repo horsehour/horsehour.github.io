@@ -111,38 +111,38 @@ _2009.11 - 2010.12_: Data Analyst, Bohai Securities Co., Ltd., Tianjin, CHINA
 
 PROJECTS
 --------
-(1) _Aug 2020 - Present_ : <b>Dynamical System View of Neural Network Training</b>, RPI-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
+(1) _Aug 2020 - Present_ : <b>Dynamical System View of Neural Network Training</b>, Rensselaer-IBM AI Research Collaboration (AIRC), Research Extern | Python, TensorFlow
 - Built a novel graph representation for various neural architectures (e.g., ResNet, DenseNet, MobileNet, VGG, etc.)
 - Studied the topological properties (e.g., resilience, shortest path length) of neural architectures for robust models
 - Derived approximated training dynamics to speed-up neural network training and neural architecture search (NAS)
-- Achieved 10-70% relative improvement over the best baseline w.r.t ranking of neural networks
-- <b>Techniques</b>: SGD, transfer learning, neural architecture search/design
+- Achieved 10 $\sim$ 70% relative improvement over the best baseline w.r.t ranking of neural networks
+- <b>Techniques</b>: SGD, transfer learning, neural architecture search/design, learning curve prediction 
 
 (2) _Jun - Aug 2020_ : <b>Acoustic Environment Transfer</b>, IBM/Summer Research Intern | Python, TensorFlow
 - Extended neural style transfer techniques to the synthesis of audio with desired environmental sounds (UrbanSound8K) 
 - Developed a new metric to evaluate acoustic environment transfer models (e.g., Ulyanov, Mital, VGGish and SoundNet) 
 - Produced augmented data with diverse environmental sound textures to increase the robustness of audio classifiers
-- <b>Techniques</b>: AutoEncoder, audio synthesis / classification, FFT  
+- <b>Techniques</b>: AutoEncoder, audio classification, FFT, Griffin-Lim algorithm, data augmentation
 
 (3) _Aug 2018 - May 2020_ : <b>Inferring True Dynamics from Incomplete Networks</b>, RPI/Research Assistant | Python, Scikit-learn, MPI
 - Developed a mean-field approach to infer nodes’ characteristics from incomplete networks
 - Recovered true nonlinear dynamics with incomplete topology and equilibrium state information
 - Designed a heuristic optimization algorithm based on our topology inference approach to solve K-SUM problem
 - Solved large-scale nonlinear dynamical systems in parallel (10x speedup w/ MPI/SLURM)
-- <b>Techniques</b>: graph sampling, mean-field, ODE, parallel computing
+- <b>Techniques</b>: graph sampling, link prediction, mean-field, optimization, parallel computing
 
 (4) _May - Aug 2018_ : <b>Online Early Warning Signals of Highway Traffic Breakdown</b>, RPI/Research Assistant | Python, Scikit-learn, TensorFlow
 - Preprocessed traffic time series data (denoising, smoothing)
 - Designed and computed early warning signals of traffic congestion
 - Trained a machine learning based composite early warning signal indicator
 - Issued warning for upcoming traffic congestion
-- <b>Techniques</b>: denoising, smoothing, Gaussian kernel density estimation, machine learning
+- <b>Techniques</b>: preprocessing, Gaussian kernel density estimation, machine learning 
 
 (5) _May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/Research Assistant | Python, Java, TensorFlow, Keras 
 - Devised heuristic strategies (sampling, caching, pruning) to efficiently identify all tied winners in voting
 - Developed reinforcement learning models to simulate voting procedures and improve the search efficiency
 - Reduced run time by 50-80% relative to the baseline strategies
-- <b>Techniques</b>: sampling, pruning, DFS, reinforcement learning, voting
+- <b>Techniques</b>: voting, DFS w/ pruning, priority queue, reinforcement learning
 
 (6) _Sep - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
 RPI/Research Assistant | Java, Python, Keras
@@ -209,7 +209,7 @@ POSTS
 <input type="button" value="Go" onClick="return startSearch()"/>
 </form>
 
-Hobbies
+HOBBIES
 -------
 Mountain Biking, PingPong / 
 Frédéric François Chopin, Michael Jackson, Charlie Chaplin, Freddie Mercury, Maksim Mrvica / 
@@ -236,3 +236,5 @@ Akira Kurosawa, Hayao Miyazaki, One Piece, The Phantom of the Opera
 [nucnet]: https://iopscience.iop.org/article/10.1088/1367-2630/ac1a3d
 [capacitance]: https://arxiv.org/abs/2201.04194v2
 [acoustic]: https://arxiv.org/abs/2101.01863
+
+
