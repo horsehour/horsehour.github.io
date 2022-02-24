@@ -141,7 +141,7 @@ PROJECTS
 (5) _May - Aug 2017_ : <b>Multiround Winner Determination</b>, RPI/Research Assistant | Python, Java, TensorFlow, Keras 
 - Devised heuristic strategies (sampling, caching, pruning) to efficiently identify all tied winners in voting
 - Developed reinforcement learning models to simulate voting procedures and improve the search efficiency
-- Reduced run time by 50-80% relative to the baseline strategies
+- Reduced run time by 50 $\sim$ 80% relative to the baseline strategies
 - <b>Techniques</b>: voting, DFS w/ pruning, priority queue, reinforcement learning
 
 (6) _Sep - Dec 2016_ : <b>Matching Algorithm for <i>OKCollege</i> (now [<i>CollegeAI</i>][collegeai]{:target="_blank"})</b>, 
@@ -188,7 +188,7 @@ SKILLS
 Markdown, $\rm \LaTeX $  
 - <b>Operating Systems</b>: Linux, OS X, Windows  
 - <b>Databases</b>: MySQL, SQLite, MongoDB  
-- <b>Softwares</b>: TensorFlow, Keras, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
+- <b>Softwares</b>: TensorFlow, Keras, PyTorch, Pandas, Scikit-Learn, XGBoost, LightGBM, AWS/EC2, SLURM, Git, bash, vi  
 - <b>Visualization</b>: Matplotlib, TikZ, NetworkX, Graph-tool, Keynote, D3.js  
 
 POSTS
