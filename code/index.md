@@ -5,7 +5,7 @@ title: Code
 ---
 
 <img src="/assets/images/git.png" style="width: 30px;"/>
-[_**Learn to Vote**_](https://github.com/horsehour/ivote){:target="_blank"}: 
+[_**Learning to Vote**_](https://github.com/horsehour/ivote){:target="_blank"}: 
 A research project on learning of voting rules, especially on fairness criterion, and the multi-round winners determination procedure.
 
 <img src="/assets/images/git.png" style="width: 30px;"/>
@@ -21,6 +21,6 @@ _**Meta Recognition**_: Recognizes the meta blocks (title, authors, keywords, ab
 [_**Deep Traffic**_](http://selfdrivingcars.mit.edu/deeptraffic/){:target="_blank"}: 
 A course project to train a reinforcement learning model to drive a car on high traffic roads.
 
-[_**Learn to Run**_](https://www.crowdai.org/challenges/nips-2017-learning-to-run){:target="_blank"}: 
+[_**Learning to Run**_](https://www.crowdai.org/challenges/nips-2017-learning-to-run){:target="_blank"}: 
 An official challenge in the NIPS 2017 Competition Track. Developing a controller to enable a physiologically-based human model to navigate a complex obstacle course as quickly as possible.
 
