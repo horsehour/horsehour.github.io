@@ -228,8 +228,8 @@ Akira Kurosawa, Hayao Miyazaki, One Piece, The Phantom of the Opera
 [randwalk]: https://www.researchgate.net/publication/278670661_Random_Walks_on_the_Bipartite-Graph_for_Personalized_Recommendation
 [stv]: http://www.explore-2017.preflib.org/wp-content/uploads/2017/04/paper_16.pdf
 [put]: https://arxiv.org/pdf/1805.06992.pdf
-[estxs]: https://arxiv.org/pdf/2001.06722.pdf 
-[estks]: https://arxiv.org/pdf/2004.10546.pdf
+[estxs]: https://ojs.aaai.org/index.php/AAAI/article/view/5343/5199 
+[estks]: https://www.ijcai.org/proceedings/2020/0457.pdf
 [ijcai20slides]: /files/ijcai20-estks-slides.pdf
 [pandemic]: https://www.nature.com/articles/s41598-021-85432-x 
 [flightnet]: https://www.nature.com/articles/s41598-021-98112-7
