@@ -10,7 +10,7 @@ and a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Resea
 He is now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
 He has a solid background in Network/Graph Science and Deep Learning. 
 Also, he is interested in information retrieval, recommendation, 
-optimization and data visualization. 
+optimization and data visualization.
 He has involved in diverse projects ranging from network inference, 
 machine learning, network control to airline/highway traffic congestion to 
 nuclear reaction networks and boiling crisis in nuclear reactors. 
@@ -33,7 +33,7 @@ CONTACT
 
 EDUCATION
 ---------
-_Aug 2016 - Present_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
+_Aug 2016 - May 2022_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Aug 2016 - May 2018_: MS, Computer Science, Rensselaer Polytechnic Institute  
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
@@ -45,7 +45,7 @@ PUBLICATIONS
 (1) Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
 Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
-arXiv preprint arXiv:2201.04194, 2022.
+Preprint at https://arxiv.org/abs/2201.04194, 2022.
 
 (2) Chunheng Jiang, Boleslaw Szymanski, Jie Lian, Shlomo Havlin, and Jianxi Gao. 
 <b>[Nuclear Reaction Network Unveils Novel Reaction Patterns Based on Stellar Energies][nucnet]{:target="_blank"}</b>,
