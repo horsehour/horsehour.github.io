@@ -191,6 +191,16 @@ git merge branch1 branch2 #merge branch1 and branch2 into CURRENT branch
 git pull origin rep1 rep2 #pulls in changes from the remote `rep1` and `rep2` branches
 ``` 
 
+## Your branch is ahead of 'origin/master' by 3 commits
+```bash
+git reset --hard origin/master
+```
+
+## update personal access tokens (PAT)
+```bash
+profile image -> settings -> developer settings -> personal access tokens -> generate new tokens
+```
+
 # SVN 
 
 ## checkout a folder of a github repo
