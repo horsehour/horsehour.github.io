@@ -4,7 +4,8 @@ title: CHUNHENG JIANG
 section: About 
 ---
 
-Chunheng Jiang is a Computer Science PhD candidate of RPI
+Chunheng Jiang will join Google as a Machine Learning Engineer. 
+He is a Computer Science PhD candidate of RPI
 <!--working with Dr. [Jianxi Gao][gao]{:target="_blank"},--> 
 and a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern. 
 He is now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022. 
