@@ -3,20 +3,16 @@ layout: main
 title: CHUNHENG JIANG
 section: About 
 ---
+Chunheng Jiang is a Machine Learning Engineer at Google, 
+where he develops AI solutions for large-scale systems. 
+Prior to Google, he earned his PhD in Computer Science from Rensselaer Polytechnic Institute (RPI) 
+and served as a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern.
 
-Chunheng Jiang is a Computer Science PhD of RPI
-<!--working with Dr. [Jianxi Gao][gao]{:target="_blank"},--> 
-and a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern. 
-He will join Google as a Machine Learning Engineer in August of 2022.
-<!--now open to work as a Research Scientist, Software Engineer or Data Scientist after May 2022.-->
-He has a solid background in Network/Graph Science and Deep Learning. 
-Also, he is interested in information retrieval, recommendation, 
-optimization and data visualization.
-He has involved in diverse projects ranging from network inference, 
-machine learning, network control to airline/highway traffic congestion to 
-nuclear reaction networks and boiling crisis in nuclear reactors. 
-Their collaboration works have been published in high-quality conferences (AAAI, IJCAI) and 
-journals (Scientific Reports, New Journal of Physics).
+His expertise spans deep learning, complex systems, social choice, and optimization, with research interests in 
+information retrieval, recommendation systems, data visualization. 
+His research has addressed diverse challenges from network inference and control 
+to transportation systems and nuclear physics applications. 
+His work has been published in leading venues including AAAI, IJCAI, and Nature Communications.
 
 <img src="/assets/images/seal.png" style="width: 25px;"/>
 <img src="/assets/images/pdf.png" style="width: 30px;"/>
@@ -43,6 +39,9 @@ _Sep 2005 - Jul 2009_: BS, Info & Comp Sci, [Tianjin University of Commerce][tjc
 
 PUBLICATIONS
 ------------
+(0) Chunheng Jiang, Zhenhan Huang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao.
+<b>[Network Properties Determine Neural Network Performance][natcomm]{:target="_blank"}</b>,
+Nature Communications, 15 (1), 5718, 2024.
 (1) Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
 Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
@@ -236,6 +235,7 @@ Akira Kurosawa, Hayao Miyazaki, One Piece, The Phantom of the Opera
 [flightnet]: https://www.nature.com/articles/s41598-021-98112-7
 [nucnet]: https://iopscience.iop.org/article/10.1088/1367-2630/ac1a3d
 [capacitance]: https://arxiv.org/abs/2201.04194v2
+[natcomm]: https://www.nature.com/articles/s41467-024-48069-8
 [acoustic]: https://arxiv.org/abs/2101.01863
 
 
