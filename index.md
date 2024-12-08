@@ -3,16 +3,16 @@ layout: main
 title: CHUNHENG JIANG
 section: About 
 ---
-Chunheng Jiang is a Machine Learning Engineer at Google, 
-where he develops AI solutions for large-scale systems. 
-Prior to Google, he earned his PhD in Computer Science from Rensselaer Polytechnic Institute (RPI) 
+I am a Machine Learning Engineer at Google, 
+where I developed AI solutions for large-scale systems. 
+Prior to Google, I earned my PhD in Computer Science from Rensselaer Polytechnic Institute (RPI) 
 and served as a Rensselaer-IBM AIRC (Artificial Intelligence Research Collaboration) Research Extern.
 
-His expertise spans deep learning, complex systems, social choice, and optimization, with research interests in 
+My expertise spans deep learning, complex systems, social choice, and optimization, with research interests in 
 information retrieval, recommendation systems, data visualization. 
-His research has addressed diverse challenges from network inference and control 
+My research has addressed diverse challenges from network inference and control 
 to transportation systems and nuclear physics applications. 
-His work has been published in leading venues including AAAI, IJCAI, and Nature Communications.
+My work has been published in leading venues including AAAI, IJCAI, and Nature Communications.
 
 <img src="/assets/images/seal.png" style="width: 25px;"/>
 <img src="/assets/images/pdf.png" style="width: 30px;"/>
@@ -30,8 +30,7 @@ CONTACT
 
 EDUCATION
 ---------
-_May 2016 - May 2022_: PhD, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
-_May 2016 - May 2018_: MS, Computer Science, Rensselaer Polytechnic Institute  
+_May 2016 - May 2022_: PhD & MS, Computer Science, [Rensselaer Polytechnic Institute][RPI]{:target="_blank"}  
 _Sep 2011 - Jul 2014_: MS, Applied Mathematics, [Southwest Jiaotong University][swjtu]{:target="_blank"}  
 <!--
 _Sep 2005 - Jul 2009_: BS, Info & Comp Sci, [Tianjin University of Commerce][tjcu]{:target="_blank"}  
@@ -42,6 +41,7 @@ PUBLICATIONS
 (0) Chunheng Jiang, Zhenhan Huang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao.
 <b>[Network Properties Determine Neural Network Performance][natcomm]{:target="_blank"}</b>,
 Nature Communications, 15 (1), 5718, 2024.
+
 (1) Chunheng Jiang, Tejaswini Pedapati, Pin-Yu Chen, Yizhou Sun, Jianxi Gao. 
 <b>[Neural Capacitance: A New Perspective of Neural
 Network Selection via Edge Dynamics][capacitance]{:target="_blank"}</b>,
