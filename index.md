@@ -15,7 +15,6 @@ to transportation systems and nuclear physics applications.
 My work has been published in leading venues including AAAI, IJCAI, and Nature Communications.
 
 <img src="/assets/images/seal.png" style="width: 25px;"/>
-<img src="/assets/images/pdf.png" style="width: 30px;"/>
 [Curriculum Vitae](/files/cv.pdf){:target="_blank"} 
 
 
